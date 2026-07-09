@@ -1,0 +1,2870 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AMK Schema Core 1.0.2\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2026-07-09 00:00+0000\\n"
+"PO-Revision-Date: 2026-07-09 00:00+0000\\n"
+"Last-Translator: AMK Schema Core\\n"
+"Language-Team: AMK Schema Core\\n"
+"Language: en_US\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"X-Domain: amk-schema-core\\n"
+
+#: app/Repository/TemplateRepository.php:366
+msgid " - Copy"
+msgstr " - Copy"
+
+#: app/Admin/TemplateEditorPage.php:1291
+msgid " is empty."
+msgstr " is empty."
+
+#: app/Admin/Assets.php:385
+msgid " is invalid. Check the JSON structure."
+msgstr " is invalid. Check the JSON structure."
+
+#: app/Admin/TemplateEditorPage.php:1298
+msgid " is invalid: "
+msgstr " is invalid: "
+
+#: app/Schema/SchemaTemplateContract.php:53
+msgid "404 page"
+msgstr "404 page"
+
+#: app/Admin/TemplateEditorPage.php:393
+msgid "A higher number means higher priority when selecting the schema."
+msgstr "A higher number means higher priority when selecting the schema."
+
+#: app/Admin/SettingsPage.php:752
+msgid "A page where users can view the return rules. Leave empty if you do not have a dedicated page yet."
+msgstr "A page where users can view the return rules. Leave empty if you do not have a dedicated page yet."
+
+#: app/Admin/SettingsPage.php:862
+msgid "A short and accurate shipping method description. Do not use long promotional text."
+msgstr "A short and accurate shipping method description. Do not use long promotional text."
+
+#: app/Admin/AdminMenu.php:54
+#: app/Admin/AdminMenu.php:55
+msgid "AMK Schema Core"
+msgstr "AMK Schema Core"
+
+#: app/Core/Activator.php:128
+#: app/Core/Activator.php:155
+#: app/Core/SchemaMaintenance.php:276
+msgid "AMK_SCHEMA_CORE_PATH is not defined."
+msgstr "AMK_SCHEMA_CORE_PATH is not defined."
+
+#: app/Admin/SettingsPage.php:156
+msgid "About page"
+msgstr "About page"
+
+#: app/Schema/SchemaTemplateContract.php:24
+msgid "AboutPage - About page"
+msgstr "AboutPage - About page"
+
+#: app/Admin/SettingsPage.php:286
+msgid "Accepted currencies"
+msgstr "Accepted currencies"
+
+#: app/Admin/Assets.php:374
+#: app/Admin/TemplateEditorPage.php:708
+msgid "Action"
+msgstr "Action"
+
+#: app/Admin/SchemaBuilderPage.php:112
+msgid "Actions"
+msgstr "Actions"
+
+#: app/Admin/Assets.php:409
+#: app/Admin/SchemaBuilderPage.php:191
+#: app/Admin/SchemaBuilderPage.php:328
+#: app/Admin/SchemaBuilderPage.php:389
+#: app/Admin/SettingsPage.php:1559
+msgid "Active"
+msgstr "Active"
+
+#: app/Admin/AdminMenu.php:74
+msgid "Add / Edit Template"
+msgstr "Add / Edit Template"
+
+#: app/Admin/TemplateEditorPage.php:475
+msgid "Add Binding"
+msgstr "Add Binding"
+
+#: app/Admin/SchemaBuilderPage.php:63
+msgid "Add New Template"
+msgstr "Add New Template"
+
+#: app/Admin/TemplateEditorPage.php:56
+msgid "Add Schema"
+msgstr "Add Schema"
+
+#: app/Admin/AdminMenu.php:75
+msgid "Add Template"
+msgstr "Add Template"
+
+#: app/Admin/TemplateEditorPage.php:657
+msgid "Add condition"
+msgstr "Add condition"
+
+#: app/Admin/SettingsPage.php:522
+msgid "Add contact point"
+msgstr "Add contact point"
+
+#: app/Admin/SchemaBuilderPage.php:128
+msgid "Add first template"
+msgstr "Add first template"
+
+#: app/Admin/SettingsPage.php:577
+msgid "Add social network"
+msgstr "Add social network"
+
+#: app/Admin/SettingsPage.php:378
+#: app/Data/ResolverVariableCatalog.php:67
+msgid "Address"
+msgstr "Address"
+
+#: app/Admin/Assets.php:411
+msgid "All countries"
+msgstr "All countries"
+
+#: app/Admin/SettingsPage.php:217
+#: app/Data/ResolverVariableCatalog.php:53
+msgid "Alternate name"
+msgstr "Alternate name"
+
+#: app/Schema/SchemaTemplateContract.php:26
+msgid "Article - Article"
+msgstr "Article - Article"
+
+#: app/Schema/SchemaTemplateContract.php:50
+msgid "Author archive"
+msgstr "Author archive"
+
+#: app/Data/ResolverVariableCatalog.php:103
+msgid "Author name"
+msgstr "Author name"
+
+#: app/Data/ResolverVariableCatalog.php:104
+msgid "Author url"
+msgstr "Author url"
+
+#: app/Admin/SettingsPage.php:1483
+msgid "Bank transfer"
+msgstr "Bank transfer"
+
+#: app/Core/GlobalSettings.php:474
+msgid "Billing support"
+msgstr "Billing support"
+
+#: app/Admin/Assets.php:355
+msgid "Binding JSON is invalid: "
+msgstr "Binding JSON is invalid: "
+
+#: app/Admin/TemplateEditorPage.php:740
+msgid "Binding:"
+msgstr "Binding:"
+
+#: app/Admin/TemplateEditorPage.php:160
+msgid "Bindings"
+msgstr "Bindings"
+
+#: app/Admin/TemplateEditorPage.php:463
+msgid "Bindings / custom variables"
+msgstr "Bindings / custom variables"
+
+#: app/Schema/SchemaTemplateContract.php:47
+msgid "Blog archive"
+msgstr "Blog archive"
+
+#: app/Admin/Assets.php:330
+msgid "Boolean"
+msgstr "Boolean"
+
+#: app/Admin/SettingsPage.php:198
+msgid "Brand / organization name"
+msgstr "Brand / organization name"
+
+#: app/Admin/SettingsPage.php:241
+msgid "Brand / store image"
+msgstr "Brand / store image"
+
+#: app/Data/ResolverVariableCatalog.php:116
+msgid "Brand name"
+msgstr "Brand name"
+
+#: app/Data/ResolverVariableCatalog.php:117
+msgid "Brand url"
+msgstr "Brand url"
+
+#: app/Data/ResolverVariableCatalog.php:39
+msgid "Breadcrumb id"
+msgstr "Breadcrumb id"
+
+#: app/Data/ResolverVariableCatalog.php:140
+msgid "Breadcrumb items"
+msgstr "Breadcrumb items"
+
+#: app/Schema/SchemaTemplateContract.php:30
+msgid "BreadcrumbList - Breadcrumb trail"
+msgstr "BreadcrumbList - Breadcrumb trail"
+
+#: app/Admin/Assets.php:396
+msgid "Building preview..."
+msgstr "Building preview..."
+
+#: app/Admin/Assets.php:331
+#: app/Admin/Assets.php:445
+msgid "CSV to array"
+msgstr "CSV to array"
+
+#: app/Admin/SettingsPage.php:1484
+msgid "Cash"
+msgstr "Cash"
+
+#: app/Admin/SettingsPage.php:1485
+msgid "Cash on delivery"
+msgstr "Cash on delivery"
+
+#: app/Admin/SettingsPage.php:1314
+msgid "Check database differences against default files"
+msgstr "Check database differences against default files"
+
+#: app/Admin/SettingsPage.php:106
+msgid "Choose the site type so only fields related to that model are displayed."
+msgstr "Choose the site type so only fields related to that model are displayed."
+
+#: app/Admin/SettingsPage.php:449
+msgid "Cities are displayed based on the selected region."
+msgstr "Cities are displayed based on the selected region."
+
+#: app/Admin/SettingsPage.php:430
+msgid "City"
+msgstr "City"
+
+#: app/Admin/TemplateEditorPage.php:773
+msgid "Click a variable to insert it into the active textarea and make the JSON dynamic."
+msgstr "Click a variable to insert it into the active textarea and make the JSON dynamic."
+
+#: app/Admin/Assets.php:389
+msgid "Close"
+msgstr "Close"
+
+#: app/Schema/SchemaTemplateContract.php:29
+msgid "CollectionPage - Archive / category"
+msgstr "CollectionPage - Archive / category"
+
+#: app/Data/ResolverVariableCatalog.php:79
+msgid "Commerce / shipping / returns"
+msgstr "Commerce / shipping / returns"
+
+#: app/Admin/SettingsPage.php:687
+msgid "Commerce and Merchant Listings Settings"
+msgstr "Commerce and Merchant Listings Settings"
+
+#: app/Admin/TemplateEditorPage.php:962
+msgid "Condition examples"
+msgstr "Condition examples"
+
+#: app/Admin/TemplateEditorPage.php:741
+msgid "Condition:"
+msgstr "Condition:"
+
+#: app/Admin/TemplateEditorPage.php:639
+msgid "Conditions"
+msgstr "Conditions"
+
+#: app/Admin/TemplateEditorPage.php:640
+msgid "Conditions are used to remove unnecessary parts from the final output, such as removing rating when a product has no rating."
+msgstr "Conditions are used to remove unnecessary parts from the final output, such as removing rating when a product has no rating."
+
+#: app/Admin/Assets.php:382
+#: app/REST/ConditionController.php:173
+msgid "Conditions saved successfully."
+msgstr "Conditions saved successfully."
+
+#: app/Admin/Assets.php:380
+msgid "Conditions were updated in the textarea. To save via REST, save the template first so template_id is created."
+msgstr "Conditions were updated in the textarea. To save via REST, save the template first so template_id is created."
+
+#: app/Admin/TemplateEditorPage.php:740
+msgid "Connects a placeholder to data."
+msgstr "Connects a placeholder to data."
+
+#: app/Admin/SettingsPage.php:499
+msgid "Contact Points / Support"
+msgstr "Contact Points / Support"
+
+#: app/Admin/SettingsPage.php:2079
+msgid "Contact URL"
+msgstr "Contact URL"
+
+#: app/Admin/SettingsPage.php:2096
+msgid "Contact options"
+msgstr "Contact options"
+
+#: app/Admin/SettingsPage.php:2091
+msgid "Contact or support page URL for this contact method."
+msgstr "Contact or support page URL for this contact method."
+
+#: app/Admin/SettingsPage.php:149
+msgid "Contact page"
+msgstr "Contact page"
+
+#: app/Admin/SettingsPage.php:1992
+#: app/Data/ResolverVariableCatalog.php:68
+msgid "Contact point"
+msgstr "Contact point"
+
+#: app/Admin/SettingsPage.php:2006
+msgid "Contact type"
+msgstr "Contact type"
+
+#: app/Schema/SchemaTemplateContract.php:25
+msgid "ContactPage - Contact page"
+msgstr "ContactPage - Contact page"
+
+#: app/Admin/Assets.php:362
+#: app/Admin/TemplateEditorPage.php:1091
+msgid "Contains"
+msgstr "Contains"
+
+#: app/Core/GlobalSettings.php:451
+msgid "Content / blog site"
+msgstr "Content / blog site"
+
+#: app/Data/ResolverVariableCatalog.php:27
+msgid "Context"
+msgstr "Context"
+
+#: app/Admin/Assets.php:324
+#: app/Admin/Assets.php:438
+msgid "Convert to string"
+msgstr "Convert to string"
+
+#: app/Admin/Assets.php:388
+msgid "Copy JSON"
+msgstr "Copy JSON"
+
+#: app/Admin/SettingsPage.php:179
+msgid "Core brand, company, site, or store information. This section is required for every site type."
+msgstr "Core brand, company, site, or store information. This section is required for every site type."
+
+#: app/Admin/SettingsPage.php:404
+msgid "Countries are loaded from the plugin global dataset."
+msgstr "Countries are loaded from the plugin global dataset."
+
+#: app/Admin/SettingsPage.php:388
+msgid "Country"
+msgstr "Country"
+
+#: app/Admin/SchemaBuilderPage.php:124
+msgid "Create a new template to get started. Without an active template, the plugin prints nothing on the frontend."
+msgstr "Create a new template to get started. Without an active template, the plugin prints nothing on the frontend."
+
+#: app/Admin/SettingsPage.php:1481
+msgid "Credit card"
+msgstr "Credit card"
+
+#: app/Data/ResolverVariableCatalog.php:61
+msgid "Currencies accepted"
+msgstr "Currencies accepted"
+
+#: app/Data/ResolverVariableCatalog.php:124
+msgid "Currency"
+msgstr "Currency"
+
+#: app/Data/ResolverVariableCatalog.php:93
+msgid "Current content ID"
+msgstr "Current content ID"
+
+#: app/Data/ResolverVariableCatalog.php:99
+msgid "Current page URL"
+msgstr "Current page URL"
+
+#: app/Data/ResolverVariableCatalog.php:24
+msgid "Current url"
+msgstr "Current url"
+
+#: app/Schema/SchemaTemplateContract.php:33
+msgid "Custom - Custom"
+msgstr "Custom - Custom"
+
+#: app/Core/GlobalSettings.php:471
+msgid "Customer support"
+msgstr "Customer support"
+
+#: app/Data/ResolverVariableCatalog.php:45
+msgid "Data built from the plugin global settings."
+msgstr "Data built from the plugin global settings."
+
+#: app/Data/ResolverVariableCatalog.php:110
+msgid "Data for the current WooCommerce product."
+msgstr "Data for the current WooCommerce product."
+
+#: app/Admin/Assets.php:371
+#: app/Admin/TemplateEditorPage.php:687
+msgid "Data key"
+msgstr "Data key"
+
+#: app/Data/ResolverVariableCatalog.php:91
+msgid "Data read from the current page, post, or archive."
+msgstr "Data read from the current page, post, or archive."
+
+#: app/Admin/Assets.php:334
+msgid "Data source"
+msgstr "Data source"
+
+#: app/Data/ResolverVariableCatalog.php:130
+msgid "Date created"
+msgstr "Date created"
+
+#: app/Data/ResolverVariableCatalog.php:102
+#: app/Data/ResolverVariableCatalog.php:131
+msgid "Date modified"
+msgstr "Date modified"
+
+#: app/Data/ResolverVariableCatalog.php:101
+msgid "Date published"
+msgstr "Date published"
+
+#: app/Admin/SettingsPage.php:1482
+msgid "Debit card"
+msgstr "Debit card"
+
+#: app/Schema/SchemaTemplateContract.php:54
+msgid "Default / fallback"
+msgstr "Default / fallback"
+
+#: app/Core/SchemaMaintenance.php:217
+msgid "Default schema template diff check was run."
+msgstr "Default schema template diff check was run."
+
+#: app/Core/SchemaMaintenance.php:215
+msgid "Default schema template synchronization was run."
+msgstr "Default schema template synchronization was run."
+
+#: app/Admin/Assets.php:336
+msgid "Default value"
+msgstr "Default value"
+
+#: app/Admin/SettingsPage.php:1288
+msgid "Defaults:"
+msgstr "Defaults:"
+
+#: app/Core/SchemaMaintenance.php:221
+msgid "Defaults: %d | Existing: %d | Missing: %d | Needs update: %d | Old placeholder: %d | Old property: %d"
+msgstr "Defaults: %d | Existing: %d | Missing: %d | Needs update: %d | Old placeholder: %d | Old property: %d"
+
+#: app/Admin/SettingsPage.php:1293
+msgid "Deprecated properties:"
+msgstr "Deprecated properties:"
+
+#: app/Data/ResolverVariableCatalog.php:55
+#: app/Data/ResolverVariableCatalog.php:96
+msgid "Description"
+msgstr "Description"
+
+#: app/Admin/SettingsPage.php:237
+msgid "Direct logo URL. A WordPress media picker can be added later."
+msgstr "Direct logo URL. A WordPress media picker can be added later."
+
+#: app/Admin/TemplateEditorPage.php:372
+msgid "Display scope"
+msgstr "Display scope"
+
+#: app/Admin/TemplateEditorPage.php:152
+msgid "Display scope is required."
+msgstr "Display scope is required."
+
+#: app/Admin/SettingsPage.php:963
+msgid "Displayed only for a local business or a store with a physical branch."
+msgstr "Displayed only for a local business or a store with a physical branch."
+
+#: app/Admin/SettingsPage.php:700
+msgid "Do not enter fake data. If shipping or return policies do not really exist on the site or are not visible to users, keep that section disabled."
+msgstr "Do not enter fake data. If shipping or return policies do not really exist on the site or are not visible to users, keep that section disabled."
+
+#: app/Admin/Assets.php:363
+#: app/Admin/TemplateEditorPage.php:1092
+msgid "Does not contain"
+msgstr "Does not contain"
+
+#: app/Admin/Assets.php:361
+#: app/Admin/TemplateEditorPage.php:1090
+msgid "Does not equal"
+msgstr "Does not equal"
+
+#: app/Admin/Assets.php:359
+msgid "Does not exist"
+msgstr "Does not exist"
+
+#: app/Core/SchemaMaintenance.php:63
+msgid "Does not exist in the database."
+msgstr "Does not exist in the database."
+
+#: app/Admin/SchemaBuilderPage.php:338
+#: app/Admin/SchemaBuilderPage.php:391
+msgid "Draft"
+msgstr "Draft"
+
+#: app/Admin/TemplateEditorPage.php:770
+msgid "Dynamic variables"
+msgstr "Dynamic variables"
+
+#: app/Admin/SchemaBuilderPage.php:202
+msgid "Edit"
+msgstr "Edit"
+
+#: app/Admin/TemplateEditorPage.php:56
+msgid "Edit Schema"
+msgstr "Edit Schema"
+
+#: app/Admin/SettingsPage.php:2045
+#: app/Data/ResolverVariableCatalog.php:59
+msgid "Email"
+msgstr "Email"
+
+#: app/Admin/SettingsPage.php:708
+msgid "Enable commerce data for Merchant listings"
+msgstr "Enable commerce data for Merchant listings"
+
+#: app/Admin/SettingsPage.php:971
+msgid "Enable local business / physical branch schema"
+msgstr "Enable local business / physical branch schema"
+
+#: app/Admin/TemplateEditorPage.php:399
+msgid "Enable override"
+msgstr "Enable override"
+
+#: app/Admin/SettingsPage.php:741
+msgid "Enable return policy"
+msgstr "Enable return policy"
+
+#: app/Admin/SettingsPage.php:840
+msgid "Enable shipping policy"
+msgstr "Enable shipping policy"
+
+#: app/Admin/SettingsPage.php:1242
+msgid "Enable the confirmation checkbox before synchronizing default templates."
+msgstr "Enable the confirmation checkbox before synchronizing default templates."
+
+#: app/Admin/SettingsPage.php:882
+msgid "Enter 0 for free shipping. Leave empty if there is no fixed cost or if shipping is calculated by city or weight."
+msgstr "Enter 0 for free shipping. Leave empty if there is no fixed cost or if shipping is calculated by city or weight."
+
+#: app/Admin/SettingsPage.php:831
+msgid "Enter shipping cost using the same unit used in WooCommerce. The plugin normalizes monetary schema output to IRR."
+msgstr "Enter shipping cost using the same unit used in WooCommerce. The plugin normalizes monetary schema output to IRR."
+
+#: app/Admin/TemplateEditorPage.php:420
+msgid "Enter the main Schema JSON-LD structure here. Placeholders using the {{data_key}} format are supported."
+msgstr "Enter the main Schema JSON-LD structure here. Placeholders using the {{data_key}} format are supported."
+
+#: app/Admin/SettingsPage.php:210
+msgid "Enter the registered or legal name if available; it is optional."
+msgstr "Enter the registered or legal name if available; it is optional."
+
+#: app/Admin/Assets.php:360
+#: app/Admin/TemplateEditorPage.php:1089
+msgid "Equals"
+msgstr "Equals"
+
+#: app/Admin/Assets.php:398
+msgid "Error building preview."
+msgstr "Error building preview."
+
+#: app/Admin/Assets.php:399
+msgid "Error fetching preview. Check the browser console for details."
+msgstr "Error fetching preview. Check the browser console for details."
+
+#: app/Admin/Assets.php:383
+msgid "Error saving conditions."
+msgstr "Error saving conditions."
+
+#: app/Admin/Assets.php:384
+msgid "Error saving conditions. Check the browser console for details."
+msgstr "Error saving conditions. Check the browser console for details."
+
+#: app/Admin/Assets.php:406
+msgid "Error saving priorities."
+msgstr "Error saving priorities."
+
+#: app/Admin/Assets.php:407
+msgid "Error saving priorities. Check the browser console for details."
+msgstr "Error saving priorities. Check the browser console for details."
+
+#: app/REST/TemplateController.php:258
+msgid "Error saving template."
+msgstr "Error saving template."
+
+#: app/REST/TemplateController.php:237
+msgid "Error updating template."
+msgstr "Error updating template."
+
+#: app/Core/SchemaMaintenance.php:232
+msgid "Error: "
+msgstr "Error: "
+
+#: app/Admin/Assets.php:393
+msgid "Errors:"
+msgstr "Errors:"
+
+#: app/Schema/SchemaValidator.php:678
+msgid "Every main schema object must have `@type`."
+msgstr "Every main schema object must have `@type`."
+
+#: app/Admin/TemplateEditorPage.php:503
+msgid "Example usage:"
+msgstr "Example usage:"
+
+#: app/Data/ResolverVariableCatalog.php:97
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: app/Core/GlobalSettings.php:533
+msgid "ExchangeRefund - Item exchange"
+msgstr "ExchangeRefund - Item exchange"
+
+#: app/Admin/SchemaBuilderPage.php:107
+msgid "Execution scope"
+msgstr "Execution scope"
+
+#: app/Admin/SettingsPage.php:1289
+msgid "Existing:"
+msgstr "Existing:"
+
+#: app/Admin/Assets.php:358
+msgid "Exists"
+msgstr "Exists"
+
+#: app/Admin/TemplateEditorPage.php:703
+msgid "Expected value"
+msgstr "Expected value"
+
+#: app/Data/ResolverVariableCatalog.php:100
+msgid "Featured image"
+msgstr "Featured image"
+
+#: app/Admin/Assets.php:332
+#: app/Admin/Assets.php:446
+msgid "First array value"
+msgstr "First array value"
+
+#: app/Admin/SettingsPage.php:878
+msgid "Fixed shipping cost"
+msgstr "Fixed shipping cost"
+
+#: app/Admin/Assets.php:329
+#: app/Admin/Assets.php:443
+msgid "Float number"
+msgstr "Float number"
+
+#: app/Admin/SettingsPage.php:141
+msgid "For Contact and About pages, detection uses the page ID instead of URL or title, so permalink changes do not break it."
+msgstr "For Contact and About pages, detection uses the page ID instead of URL or title, so permalink changes do not break it."
+
+#: app/Data/ResolverVariableCatalog.php:18
+msgid "For WebSite, WebPage, and general information on all pages."
+msgstr "For WebSite, WebPage, and general information on all pages."
+
+#: app/Admin/SettingsPage.php:118
+msgid "For WooCommerce sites, Online store or Online store + physical branch is usually more accurate."
+msgstr "For WooCommerce sites, Online store or Online store + physical branch is usually more accurate."
+
+#: app/Admin/SettingsPage.php:221
+msgid "For an English name, short name, or known brand name."
+msgstr "For an English name, short name, or known brand name."
+
+#: app/Admin/SettingsPage.php:191
+msgid "For an online store with a physical branch, select at least Organization + Store + OnlineStore. Selecting only OnlineStore may trigger warnings for physical properties such as geo, hasMap, and openingHoursSpecification."
+msgstr "For an online store with a physical branch, select at least Organization + Store + OnlineStore. Selecting only OnlineStore may trigger warnings for physical properties such as geo, hasMap, and openingHoursSpecification."
+
+#: app/Data/ResolverVariableCatalog.php:33
+msgid "For building internal references with @id."
+msgstr "For building internal references with @id."
+
+#: app/Admin/SettingsPage.php:290
+msgid "For example IRR or USD. Important for stores."
+msgstr "For example IRR or USD. Important for stores."
+
+#: app/Admin/Assets.php:346
+msgid "For example _gtin, _mpn, or any custom product meta."
+msgstr "For example _gtin, _mpn, or any custom product meta."
+
+#: app/Admin/Assets.php:340
+msgid "For example _gtin, pa_brand, or title"
+msgstr "For example _gtin, pa_brand, or title"
+
+#: app/Admin/Assets.php:345
+msgid "For example _yoast_wpseo_title or a custom field for the post/page."
+msgstr "For example _yoast_wpseo_title or a custom field for the post/page."
+
+#: app/Admin/TemplateEditorPage.php:716
+msgid "For example aggregateRating"
+msgstr "For example aggregateRating"
+
+#: app/Admin/Assets.php:377
+msgid "For example aggregateRating or offers.price"
+msgstr "For example aggregateRating or offers.price"
+
+#: app/Admin/Assets.php:351
+msgid "For example blogname or a custom option."
+msgstr "For example blogname or a custom option."
+
+#: app/Admin/Assets.php:339
+msgid "For example custom_gtin"
+msgstr "For example custom_gtin"
+
+#: app/Admin/Assets.php:352
+msgid "For example custom_logo or a custom theme mod."
+msgstr "For example custom_logo or a custom theme mod."
+
+#: app/Admin/Assets.php:354
+msgid "For example organization.name or commerce.return_policy."
+msgstr "For example organization.name or commerce.return_policy."
+
+#: app/Admin/Assets.php:347
+msgid "For example pa_brand or pa_color."
+msgstr "For example pa_brand or pa_color."
+
+#: app/Admin/Assets.php:348
+msgid "For example product_cat, product_tag, pa_brand, or category."
+msgstr "For example product_cat, product_tag, pa_brand, or category."
+
+#: app/Admin/TemplateEditorPage.php:688
+msgid "For example rating_value"
+msgstr "For example rating_value"
+
+#: app/Admin/Assets.php:376
+msgid "For example rating_value or price"
+msgstr "For example rating_value or price"
+
+#: app/Admin/Assets.php:343
+msgid "For example title, price, organization_name, or breadcrumb_items."
+msgstr "For example title, price, organization_name, or breadcrumb_items."
+
+#: app/Admin/SettingsPage.php:209
+msgid "For example: Company ..."
+msgstr "For example: Company ..."
+
+#: app/Admin/SettingsPage.php:201
+#: app/Admin/SettingsPage.php:220
+msgid "For example: Noble Power"
+msgstr "For example: Noble Power"
+
+#: app/Admin/SettingsPage.php:861
+msgid "For example: Orders are shipped by postal service, courier, or freight."
+msgstr "For example: Orders are shipped by postal service, courier, or freight."
+
+#: app/Admin/TemplateEditorPage.php:427
+#: app/Admin/TemplateEditorPage.php:479
+msgid "Format JSON"
+msgstr "Format JSON"
+
+#: app/Core/SchemaMaintenance.php:76
+msgid "Found with the old name and should be moved to the new name."
+msgstr "Found with the old name and should be moved to the new name."
+
+#: app/Admin/SettingsPage.php:308
+#: app/Data/ResolverVariableCatalog.php:63
+msgid "Founding date"
+msgstr "Founding date"
+
+#: app/Admin/SettingsPage.php:889
+msgid "Free shipping from amount"
+msgstr "Free shipping from amount"
+
+#: app/Core/GlobalSettings.php:522
+msgid "FreeReturn - Free returns"
+msgstr "FreeReturn - Free returns"
+
+#: app/Admin/SettingsPage.php:1108
+msgid "Friday"
+msgstr "Friday"
+
+#: app/Admin/SettingsPage.php:454
+msgid "Full address"
+msgstr "Full address"
+
+#: app/Admin/SettingsPage.php:805
+msgid "Full refund, store credit, or exchange. Select only what is actually offered."
+msgstr "Full refund, store credit, or exchange. Select only what is actually offered."
+
+#: app/Core/GlobalSettings.php:531
+msgid "FullRefund - Full refund"
+msgstr "FullRefund - Full refund"
+
+#: app/Core/GlobalSettings.php:450
+msgid "General / corporate site"
+msgstr "General / corporate site"
+
+#: app/Schema/SchemaTemplateContract.php:51
+msgid "Generic archive"
+msgstr "Generic archive"
+
+#: app/Data/ResolverVariableCatalog.php:70
+msgid "Geo"
+msgstr "Geo"
+
+#: app/Schema/SchemaTemplateContract.php:39
+msgid "Global / all pages"
+msgstr "Global / all pages"
+
+#: app/Admin/SettingsPage.php:31
+msgid "Global Schema Settings"
+msgstr "Global Schema Settings"
+
+#: app/Admin/SettingsPage.php:1199
+msgid "Global settings saved successfully."
+msgstr "Global settings saved successfully."
+
+#: app/Data/ResolverVariableCatalog.php:17
+msgid "Global site variables"
+msgstr "Global site variables"
+
+#: app/Data/ResolverVariableCatalog.php:80
+msgid "Global store data for OnlineStore, Store, and Product Offer."
+msgstr "Global store data for OnlineStore, Store, and Product Offer."
+
+#: app/Admin/SettingsPage.php:982
+msgid "Google Maps or another valid map URL."
+msgstr "Google Maps or another valid map URL."
+
+#: app/Admin/Assets.php:364
+#: app/Admin/TemplateEditorPage.php:1093
+msgid "Greater than"
+msgstr "Greater than"
+
+#: app/Admin/Assets.php:366
+msgid "Greater than or equal to"
+msgstr "Greater than or equal to"
+
+#: app/Data/ResolverVariableCatalog.php:73
+msgid "Has map"
+msgstr "Has map"
+
+#: app/Data/DataResolver.php:2509
+#: app/Data/DataResolver.php:2515
+#: app/Frontend/Output.php:729
+#: app/Frontend/Output.php:733
+msgid "Home"
+msgstr "Home"
+
+#: app/Schema/SchemaTemplateContract.php:40
+msgid "Home page"
+msgstr "Home page"
+
+#: app/Data/ResolverVariableCatalog.php:23
+msgid "Home url"
+msgstr "Home url"
+
+#: app/Admin/SettingsPage.php:1304
+msgid "I understand that manual changes to default templates may be overwritten."
+msgstr "I understand that manual changes to default templates may be overwritten."
+
+#: app/Admin/SchemaBuilderPage.php:103
+msgid "ID"
+msgstr "ID"
+
+#: app/Data/ResolverVariableCatalog.php:35
+msgid "Id"
+msgstr "Id"
+
+#: app/Admin/TemplateEditorPage.php:401
+msgid "If multiple similar templates match, this option can override weaker templates."
+msgstr "If multiple similar templates match, this option can override weaker templates."
+
+#: app/Admin/SettingsPage.php:772
+msgid "If returns are time-limited, enter the real number of days. If the return policy has no time limit, this model is not suitable yet and should be designed separately."
+msgstr "If returns are time-limited, enter the real number of days. If the return policy has no time limit, this model is not suitable yet and should be designed separately."
+
+#: app/Admin/TemplateEditorPage.php:973
+msgid "If the price is empty, remove offers:"
+msgstr "If the price is empty, remove offers:"
+
+#: app/Admin/TemplateEditorPage.php:964
+msgid "If the product has no rating, remove this section:"
+msgstr "If the product has no rating, remove this section:"
+
+#: app/Admin/SettingsPage.php:159
+msgid "If this page is selected, the page schema type becomes AboutPage."
+msgstr "If this page is selected, the page schema type becomes AboutPage."
+
+#: app/Admin/SettingsPage.php:152
+msgid "If this page is selected, the page schema type becomes ContactPage."
+msgstr "If this page is selected, the page schema type becomes ContactPage."
+
+#: app/Data/ResolverVariableCatalog.php:57
+msgid "Image"
+msgstr "Image"
+
+#: app/Admin/SettingsPage.php:1298
+msgid "Important:"
+msgstr "Important:"
+
+#: app/Admin/SettingsPage.php:926
+msgid "In days. Approximate transit time until the customer receives the shipment."
+msgstr "In days. Approximate transit time until the customer receives the shipment."
+
+#: app/Admin/SettingsPage.php:904
+msgid "In days. For example, 0 means same-day handling."
+msgstr "In days. For example, 0 means same-day handling."
+
+#: app/Admin/SettingsPage.php:915
+msgid "In days. Must not be less than the minimum handling time."
+msgstr "In days. Must not be less than the minimum handling time."
+
+#: app/Admin/SettingsPage.php:937
+msgid "In days. Must not be less than the minimum transit time."
+msgstr "In days. Must not be less than the minimum transit time."
+
+#: app/Admin/SchemaBuilderPage.php:191
+#: app/Admin/SchemaBuilderPage.php:333
+#: app/Admin/SchemaBuilderPage.php:390
+#: app/Admin/TemplateEditorPage.php:386
+msgid "Inactive"
+msgstr "Inactive"
+
+#: app/Admin/TemplateEditorPage.php:431
+msgid "Insert sample by type"
+msgstr "Insert sample by type"
+
+#: database/seed-defaults.php:496
+msgid "Inserting template %s failed."
+msgstr "Inserting template %s failed."
+
+#: app/Admin/SettingsPage.php:1486
+msgid "Installment payment"
+msgstr "Installment payment"
+
+#: app/Admin/SettingsPage.php:851
+msgid "Internal or descriptive shipping method name. This is mostly used for the global ShippingService."
+msgstr "Internal or descriptive shipping method name. This is mostly used for the global ShippingService."
+
+#: app/Admin/SchemaBuilderPage.php:105
+msgid "Internal type"
+msgstr "Internal type"
+
+#: app/Schema/SchemaValidator.php:586
+msgid "Invalid JSON: "
+msgstr "Invalid JSON: "
+
+#: app/Core/IranLocations.php:114
+msgid "Iran"
+msgstr "Iran"
+
+#: app/Admin/Assets.php:356
+#: app/Admin/TemplateEditorPage.php:1087
+msgid "Is empty"
+msgstr "Is empty"
+
+#: app/Admin/Assets.php:368
+msgid "Is in list"
+msgstr "Is in list"
+
+#: app/Admin/Assets.php:357
+#: app/Admin/TemplateEditorPage.php:1088
+msgid "Is not empty"
+msgstr "Is not empty"
+
+#: app/Admin/Assets.php:369
+msgid "Is not in list"
+msgstr "Is not in list"
+
+#: app/Schema/SchemaTemplateContract.php:31
+msgid "ItemList - Item list"
+msgstr "ItemList - Item list"
+
+#: app/Admin/Assets.php:400
+msgid "JSON copied."
+msgstr "JSON copied."
+
+#: app/Admin/TemplateEditorPage.php:1765
+msgid "JSON is invalid: "
+msgstr "JSON is invalid: "
+
+#: app/Admin/Assets.php:387
+msgid "JSON-LD Preview"
+msgstr "JSON-LD Preview"
+
+#: app/REST/TemplateController.php:210
+msgid "JSON-LD is not valid according to the validator."
+msgstr "JSON-LD is not valid according to the validator."
+
+#: app/Admin/Assets.php:390
+msgid "JSON-LD output"
+msgstr "JSON-LD output"
+
+#: app/REST/SchemaController.php:59
+msgid "JSON-LD output was not generated."
+msgstr "JSON-LD output was not generated."
+
+#: app/Admin/Assets.php:335
+msgid "Key / path / value"
+msgstr "Key / path / value"
+
+#: app/Data/ResolverVariableCatalog.php:25
+msgid "Language"
+msgstr "Language"
+
+#: app/Admin/SettingsPage.php:1277
+msgid "Last status:"
+msgstr "Last status:"
+
+#: app/Admin/SchemaBuilderPage.php:111
+msgid "Last updated"
+msgstr "Last updated"
+
+#: app/Admin/SettingsPage.php:2057
+msgid "Leave this empty if you do not have a separate email."
+msgstr "Leave this empty if you do not have a separate email."
+
+#: app/Admin/SettingsPage.php:206
+#: app/Data/ResolverVariableCatalog.php:52
+msgid "Legal name"
+msgstr "Legal name"
+
+#: app/Admin/Assets.php:365
+#: app/Admin/TemplateEditorPage.php:1094
+msgid "Less than"
+msgstr "Less than"
+
+#: app/Admin/Assets.php:367
+msgid "Less than or equal to"
+msgstr "Less than or equal to"
+
+#: app/Core/GlobalSettings.php:452
+msgid "Local business"
+msgstr "Local business"
+
+#: app/Data/ResolverVariableCatalog.php:36
+msgid "Local store id"
+msgstr "Local store id"
+
+#: app/Data/ResolverVariableCatalog.php:74
+msgid "Local store schema"
+msgstr "Local store schema"
+
+#: app/Core/GlobalSettings.php:464
+msgid "LocalBusiness - Local business"
+msgstr "LocalBusiness - Local business"
+
+#: app/Schema/SchemaTemplateContract.php:19
+msgid "LocalBusiness - Standalone local business"
+msgstr "LocalBusiness - Standalone local business"
+
+#: app/Admin/SettingsPage.php:233
+#: app/Data/ResolverVariableCatalog.php:56
+msgid "Logo"
+msgstr "Logo"
+
+#: app/Admin/TemplateEditorPage.php:350
+msgid "Main Schema Information"
+msgstr "Main Schema Information"
+
+#: app/Admin/SettingsPage.php:187
+msgid "Main entity types"
+msgstr "Main entity types"
+
+#: app/Admin/SettingsPage.php:229
+msgid "Main site or store URL."
+msgstr "Main site or store URL."
+
+#: app/Admin/SchemaBuilderPage.php:48
+msgid "Manage the plugin JSON-LD templates, change their execution priority, and review each schema status."
+msgstr "Manage the plugin JSON-LD templates, change their execution priority, and review each schema status."
+
+#: app/Admin/SettingsPage.php:978
+msgid "Map URL"
+msgstr "Map URL"
+
+#: app/Core/SchemaMaintenance.php:114
+msgid "Matches the current default file."
+msgstr "Matches the current default file."
+
+#: app/Data/ResolverVariableCatalog.php:122
+msgid "Max price"
+msgstr "Max price"
+
+#: app/Admin/SettingsPage.php:911
+msgid "Maximum handling time"
+msgstr "Maximum handling time"
+
+#: app/Admin/SettingsPage.php:933
+msgid "Maximum transit time"
+msgstr "Maximum transit time"
+
+#: app/Data/ResolverVariableCatalog.php:82
+msgid "Merchant return policy"
+msgstr "Merchant return policy"
+
+#: app/Admin/Assets.php:350
+msgid "Meta key for the content author."
+msgstr "Meta key for the content author."
+
+#: app/Admin/Assets.php:349
+msgid "Meta key for the current term."
+msgstr "Meta key for the current term."
+
+#: app/Data/ResolverVariableCatalog.php:121
+msgid "Min price"
+msgstr "Min price"
+
+#: app/Admin/SettingsPage.php:900
+msgid "Minimum handling time"
+msgstr "Minimum handling time"
+
+#: app/Admin/SettingsPage.php:731
+msgid "Minimum required for returns:"
+msgstr "Minimum required for returns:"
+
+#: app/Admin/SettingsPage.php:827
+msgid "Minimum required for shipping:"
+msgstr "Minimum required for shipping:"
+
+#: app/Admin/SettingsPage.php:922
+msgid "Minimum transit time"
+msgstr "Minimum transit time"
+
+#: app/Admin/SettingsPage.php:1290
+msgid "Missing:"
+msgstr "Missing:"
+
+#: app/Admin/SettingsPage.php:1104
+msgid "Monday"
+msgstr "Monday"
+
+#: app/Data/ResolverVariableCatalog.php:51
+msgid "Name"
+msgstr "Name"
+
+#: app/Data/ResolverVariableCatalog.php:94
+msgid "Name / main title"
+msgstr "Name / main title"
+
+#: app/Admin/SettingsPage.php:1291
+msgid "Needs update:"
+msgstr "Needs update:"
+
+#: app/Admin/SettingsPage.php:1282
+msgid "No check has been run yet."
+msgstr "No check has been run yet."
+
+#: app/Admin/SettingsPage.php:1904
+msgid "No city is registered for this region/state"
+msgstr "No city is registered for this region/state"
+
+#: app/REST/PriorityController.php:46
+msgid "No items were submitted for saving priorities."
+msgstr "No items were submitted for saving priorities."
+
+#: app/Admin/SettingsPage.php:1868
+msgid "No region/state is registered for this country"
+msgstr "No region/state is registered for this country"
+
+#: app/Admin/TemplateEditorPage.php:1774
+msgid "No sample is defined for this schema type."
+msgstr "No sample is defined for this schema type."
+
+#: app/Admin/SchemaBuilderPage.php:122
+msgid "No schema templates have been registered yet."
+msgstr "No schema templates have been registered yet."
+
+#: app/REST/SchemaController.php:49
+msgid "No schema templates were found."
+msgstr "No schema templates were found."
+
+#: app/Admin/Assets.php:404
+msgid "No templates were found for saving priorities."
+msgstr "No templates were found for saving priorities."
+
+#: app/Admin/Assets.php:323
+#: app/Admin/Assets.php:437
+msgid "No transform"
+msgstr "No transform"
+
+#: app/Admin/SettingsPage.php:1508
+msgid "Not selected"
+msgstr "Not selected"
+
+#: app/Admin/TemplateEditorPage.php:845
+msgid "Object/array variables such as"
+msgstr "Object/array variables such as"
+
+#: app/Data/ResolverVariableCatalog.php:112
+msgid "Offer url"
+msgstr "Offer url"
+
+#: app/Admin/SettingsPage.php:1292
+msgid "Old placeholders:"
+msgstr "Old placeholders:"
+
+#: app/Admin/SettingsPage.php:1480
+msgid "Online payment"
+msgstr "Online payment"
+
+#: app/Core/GlobalSettings.php:453
+msgid "Online store"
+msgstr "Online store"
+
+#: app/Core/GlobalSettings.php:454
+msgid "Online store + physical branch"
+msgstr "Online store + physical branch"
+
+#: app/Data/ResolverVariableCatalog.php:50
+msgid "Online store types"
+msgstr "Online store types"
+
+#: app/Core/GlobalSettings.php:462
+msgid "OnlineStore - Online store"
+msgstr "OnlineStore - Online store"
+
+#: app/Schema/SchemaTemplateContract.php:17
+msgid "OnlineStore - Standalone online store"
+msgstr "OnlineStore - Standalone online store"
+
+#: app/Admin/SchemaBuilderPage.php:83
+msgid "Only active templates output on the frontend. Draft and inactive templates should not be printed on the site."
+msgstr "Only active templates output on the frontend. Draft and inactive templates should not be printed on the site."
+
+#: app/Admin/SettingsPage.php:1018
+#: app/Data/ResolverVariableCatalog.php:71
+msgid "Opening hours"
+msgstr "Opening hours"
+
+#: app/Data/ResolverVariableCatalog.php:72
+msgid "Opening hours specification"
+msgstr "Opening hours specification"
+
+#: app/Admin/Assets.php:372
+#: app/Admin/TemplateEditorPage.php:692
+msgid "Operator"
+msgstr "Operator"
+
+#: app/Admin/Assets.php:341
+#: app/Admin/TemplateEditorPage.php:704
+msgid "Optional"
+msgstr "Optional"
+
+#: app/Admin/SettingsPage.php:334
+#: app/Admin/SettingsPage.php:990
+#: app/Admin/SettingsPage.php:998
+msgid "Optional."
+msgstr "Optional."
+
+#: app/Admin/SettingsPage.php:893
+msgid "Optional. Enter this only if the site really has a free shipping threshold."
+msgstr "Optional. Enter this only if the site really has a free shipping threshold."
+
+#: app/Admin/SettingsPage.php:245
+msgid "Optional; representative image for the brand or store."
+msgstr "Optional; representative image for the brand or store."
+
+#: app/Admin/SettingsPage.php:323
+msgid "Optional; use only if it really appears on the site or business documents."
+msgstr "Optional; use only if it really appears on the site or business documents."
+
+#: app/Core/GlobalSettings.php:475
+msgid "Order support"
+msgstr "Order support"
+
+#: app/Core/GlobalSettings.php:461
+msgid "Organization - General organization"
+msgstr "Organization - General organization"
+
+#: app/Admin/SettingsPage.php:177
+msgid "Organization / Brand Identity"
+msgstr "Organization / Brand Identity"
+
+#: app/Data/ResolverVariableCatalog.php:44
+msgid "Organization / brand / store"
+msgstr "Organization / brand / store"
+
+#: app/Schema/SchemaTemplateContract.php:16
+msgid "Organization Entity - Organization / brand / store"
+msgstr "Organization Entity - Organization / brand / store"
+
+#: app/Admin/Assets.php:392
+msgid "Output passed validation."
+msgstr "Output passed validation."
+
+#: app/Admin/Assets.php:401
+#: app/Admin/SchemaBuilderPage.php:110
+msgid "Override"
+msgstr "Override"
+
+#: app/Schema/SchemaTemplateContract.php:41
+msgid "Page / generic page"
+msgstr "Page / generic page"
+
+#: app/Data/ResolverVariableCatalog.php:90
+msgid "Page / post / archive"
+msgstr "Page / post / archive"
+
+#: app/Data/DataResolver.php:644
+#: app/Data/DataResolver.php:645
+#: app/Data/DataResolver.php:2512
+#: app/Data/DataResolver.php:2518
+msgid "Page not found"
+msgstr "Page not found"
+
+#: app/Admin/Assets.php:375
+#: app/Admin/TemplateEditorPage.php:715
+msgid "Path to remove"
+msgstr "Path to remove"
+
+#: app/Data/ResolverVariableCatalog.php:62
+msgid "Payment accepted"
+msgstr "Payment accepted"
+
+#: app/Admin/SettingsPage.php:297
+msgid "Payment methods"
+msgstr "Payment methods"
+
+#: app/Admin/AdminMenu.php:201
+msgid "Permission denied"
+msgstr "Permission denied"
+
+#: app/Admin/SettingsPage.php:2028
+msgid "Phone number"
+msgstr "Phone number"
+
+#: app/Admin/SettingsPage.php:961
+msgid "Physical Store / Local Business"
+msgstr "Physical Store / Local Business"
+
+#: app/Admin/Assets.php:322
+#: app/Admin/Assets.php:434
+msgid "Plugin global setting"
+msgstr "Plugin global setting"
+
+#: app/Admin/Assets.php:328
+#: app/Admin/Assets.php:442
+msgid "Positive integer"
+msgstr "Positive integer"
+
+#: app/Admin/Assets.php:314
+msgid "Post Meta"
+msgstr "Post Meta"
+
+#: app/Schema/SchemaTemplateContract.php:48
+msgid "Post category archive"
+msgstr "Post category archive"
+
+#: app/Schema/SchemaTemplateContract.php:49
+msgid "Post tag archive"
+msgstr "Post tag archive"
+
+#: app/Admin/SettingsPage.php:462
+msgid "Postal code"
+msgstr "Postal code"
+
+#: app/Admin/SettingsPage.php:2040
+msgid "Prefer entering the number with the country code."
+msgstr "Prefer entering the number with the country code."
+
+#: app/Admin/Assets.php:386
+#: app/Admin/TemplateEditorPage.php:435
+msgid "Preview dynamic output"
+msgstr "Preview dynamic output"
+
+#: app/REST/PreviewController.php:100
+msgid "Preview generated successfully."
+msgstr "Preview generated successfully."
+
+#: app/REST/PreviewController.php:87
+msgid "Preview output was not generated. The JSON may be empty or all fields may have been removed after cleanup."
+msgstr "Preview output was not generated. The JSON may be empty or all fields may have been removed after cleanup."
+
+#: app/Admin/Assets.php:395
+msgid "Preview output was not received."
+msgstr "Preview output was not received."
+
+#: app/Data/ResolverVariableCatalog.php:118
+msgid "Price"
+msgstr "Price"
+
+#: app/Admin/SettingsPage.php:274
+#: app/Data/ResolverVariableCatalog.php:60
+msgid "Price range"
+msgstr "Price range"
+
+#: app/Admin/SettingsPage.php:263
+msgid "Primary email"
+msgstr "Primary email"
+
+#: app/Admin/SettingsPage.php:252
+msgid "Primary phone number"
+msgstr "Primary phone number"
+
+#: app/Admin/SettingsPage.php:256
+msgid "Primary phone number for the organization or store."
+msgstr "Primary phone number for the organization or store."
+
+#: app/Admin/Assets.php:405
+#: app/REST/PriorityController.php:101
+msgid "Priorities saved successfully."
+msgstr "Priorities saved successfully."
+
+#: app/Admin/SchemaBuilderPage.php:109
+#: app/Admin/TemplateEditorPage.php:391
+msgid "Priority"
+msgstr "Priority"
+
+#: app/Schema/SchemaTemplateContract.php:27
+msgid "Product - Product"
+msgstr "Product - Product"
+
+#: app/Data/ResolverVariableCatalog.php:114
+msgid "Product GTIN"
+msgstr "Product GTIN"
+
+#: app/Data/ResolverVariableCatalog.php:115
+msgid "Product MPN"
+msgstr "Product MPN"
+
+#: app/Admin/Assets.php:315
+msgid "Product Meta"
+msgstr "Product Meta"
+
+#: app/Admin/SettingsPage.php:720
+msgid "Product Return Policy"
+msgstr "Product Return Policy"
+
+#: app/Data/ResolverVariableCatalog.php:113
+msgid "Product SKU"
+msgstr "Product SKU"
+
+#: app/Admin/SettingsPage.php:816
+msgid "Product Shipping Policy"
+msgstr "Product Shipping Policy"
+
+#: app/Schema/SchemaTemplateContract.php:44
+msgid "Product category"
+msgstr "Product category"
+
+#: app/Data/ResolverVariableCatalog.php:84
+msgid "Product return policy"
+msgstr "Product return policy"
+
+#: app/Data/ResolverVariableCatalog.php:85
+msgid "Product shipping details"
+msgstr "Product shipping details"
+
+#: app/Schema/SchemaTemplateContract.php:45
+msgid "Product tag"
+msgstr "Product tag"
+
+#: app/Data/ResolverVariableCatalog.php:129
+msgid "Product type"
+msgstr "Product type"
+
+#: app/Schema/SchemaTemplateContract.php:28
+msgid "ProductGroup - Variable product group"
+msgstr "ProductGroup - Variable product group"
+
+#: app/Admin/SettingsPage.php:267
+msgid "Public email for the organization or store."
+msgstr "Public email for the organization or store."
+
+#: app/Admin/TemplateEditorPage.php:735
+msgid "Quick guide"
+msgstr "Quick guide"
+
+#: app/Admin/Assets.php:397
+msgid "REST settings are not loaded on this page. Check Assets.php."
+msgstr "REST settings are not loaded on this page. Check Assets.php."
+
+#: app/Data/ResolverVariableCatalog.php:127
+msgid "Rating value"
+msgstr "Rating value"
+
+#: app/Schema/SchemaValidator.php:714
+msgid "Raw `openingHours` is not recommended for newer templates. Use `openingHoursSpecification`."
+msgstr "Raw `openingHours` is not recommended for newer templates. Use `openingHoursSpecification`."
+
+#: app/Admin/SettingsPage.php:801
+msgid "Refund type"
+msgstr "Refund type"
+
+#: app/Admin/SettingsPage.php:408
+msgid "Region"
+msgstr "Region"
+
+#: app/Admin/SchemaBuilderPage.php:81
+msgid "Registered Templates"
+msgstr "Registered Templates"
+
+#: app/Data/ResolverVariableCatalog.php:119
+msgid "Regular price"
+msgstr "Regular price"
+
+#: app/Admin/TemplateEditorPage.php:483
+msgid "Reload form from JSON"
+msgstr "Reload form from JSON"
+
+#: app/Admin/Assets.php:338
+#: app/Admin/SettingsPage.php:642
+#: app/Admin/SettingsPage.php:1998
+#: app/Admin/TemplateEditorPage.php:720
+msgid "Remove"
+msgstr "Remove"
+
+#: app/Admin/Assets.php:370
+#: app/Admin/TemplateEditorPage.php:710
+msgid "Remove path"
+msgstr "Remove path"
+
+#: app/Admin/TemplateEditorPage.php:741
+msgid "Removes empty or invalid sections."
+msgstr "Removes empty or invalid sections."
+
+#: app/Admin/SettingsPage.php:1323
+msgid "Repair and synchronize default templates"
+msgstr "Repair and synchronize default templates"
+
+#: app/Admin/TemplateEditorPage.php:1778
+msgid "Replace the current content with the sample JSON for the selected type?"
+msgstr "Replace the current content with the sample JSON for the selected type?"
+
+#: app/Admin/SettingsPage.php:732
+msgid "Required for returns: enable return policy, country, policy type, return window, return method, and return fee. The policy page link is optional but recommended for real stores."
+msgstr "Required for returns: enable return policy, country, policy type, return window, return method, and return fee. The policy page link is optional but recommended for real stores."
+
+#: app/Admin/SettingsPage.php:828
+msgid "Required for shipping: enable shipping policy and destination country. Shipping cost and delivery time are optional, but should be entered here if they are shown on the site."
+msgstr "Required for shipping: enable shipping policy and destination country. Shipping cost and delivery time are optional, but should be entered here if they are shown on the site."
+
+#: app/Admin/Assets.php:391
+msgid "Resolver data"
+msgstr "Resolver data"
+
+#: app/Admin/Assets.php:342
+msgid "Resolver key"
+msgstr "Resolver key"
+
+#: app/Data/ResolverVariableCatalog.php:67
+msgid "Resolver value for Address."
+msgstr "Resolver value for Address."
+
+#: app/Data/ResolverVariableCatalog.php:53
+msgid "Resolver value for Alternate name."
+msgstr "Resolver value for Alternate name."
+
+#: app/Data/ResolverVariableCatalog.php:103
+msgid "Resolver value for Author name."
+msgstr "Resolver value for Author name."
+
+#: app/Data/ResolverVariableCatalog.php:104
+msgid "Resolver value for Author url."
+msgstr "Resolver value for Author url."
+
+#: app/Data/ResolverVariableCatalog.php:116
+msgid "Resolver value for Brand name."
+msgstr "Resolver value for Brand name."
+
+#: app/Data/ResolverVariableCatalog.php:117
+msgid "Resolver value for Brand url."
+msgstr "Resolver value for Brand url."
+
+#: app/Data/ResolverVariableCatalog.php:39
+msgid "Resolver value for Breadcrumb id."
+msgstr "Resolver value for Breadcrumb id."
+
+#: app/Data/ResolverVariableCatalog.php:140
+msgid "Resolver value for Breadcrumb items."
+msgstr "Resolver value for Breadcrumb items."
+
+#: app/Data/ResolverVariableCatalog.php:68
+msgid "Resolver value for Contact point."
+msgstr "Resolver value for Contact point."
+
+#: app/Data/ResolverVariableCatalog.php:27
+msgid "Resolver value for Context."
+msgstr "Resolver value for Context."
+
+#: app/Data/ResolverVariableCatalog.php:61
+msgid "Resolver value for Currencies accepted."
+msgstr "Resolver value for Currencies accepted."
+
+#: app/Data/ResolverVariableCatalog.php:124
+msgid "Resolver value for Currency."
+msgstr "Resolver value for Currency."
+
+#: app/Data/ResolverVariableCatalog.php:93
+msgid "Resolver value for Current content ID."
+msgstr "Resolver value for Current content ID."
+
+#: app/Data/ResolverVariableCatalog.php:99
+msgid "Resolver value for Current page URL."
+msgstr "Resolver value for Current page URL."
+
+#: app/Data/ResolverVariableCatalog.php:24
+msgid "Resolver value for Current url."
+msgstr "Resolver value for Current url."
+
+#: app/Data/ResolverVariableCatalog.php:130
+msgid "Resolver value for Date created."
+msgstr "Resolver value for Date created."
+
+#: app/Data/ResolverVariableCatalog.php:102
+#: app/Data/ResolverVariableCatalog.php:131
+msgid "Resolver value for Date modified."
+msgstr "Resolver value for Date modified."
+
+#: app/Data/ResolverVariableCatalog.php:101
+msgid "Resolver value for Date published."
+msgstr "Resolver value for Date published."
+
+#: app/Data/ResolverVariableCatalog.php:55
+#: app/Data/ResolverVariableCatalog.php:96
+msgid "Resolver value for Description."
+msgstr "Resolver value for Description."
+
+#: app/Data/ResolverVariableCatalog.php:59
+msgid "Resolver value for Email."
+msgstr "Resolver value for Email."
+
+#: app/Data/ResolverVariableCatalog.php:97
+msgid "Resolver value for Excerpt."
+msgstr "Resolver value for Excerpt."
+
+#: app/Data/ResolverVariableCatalog.php:100
+msgid "Resolver value for Featured image."
+msgstr "Resolver value for Featured image."
+
+#: app/Data/ResolverVariableCatalog.php:63
+msgid "Resolver value for Founding date."
+msgstr "Resolver value for Founding date."
+
+#: app/Data/ResolverVariableCatalog.php:70
+msgid "Resolver value for Geo."
+msgstr "Resolver value for Geo."
+
+#: app/Data/ResolverVariableCatalog.php:73
+msgid "Resolver value for Has map."
+msgstr "Resolver value for Has map."
+
+#: app/Data/ResolverVariableCatalog.php:23
+msgid "Resolver value for Home url."
+msgstr "Resolver value for Home url."
+
+#: app/Data/ResolverVariableCatalog.php:35
+msgid "Resolver value for Id."
+msgstr "Resolver value for Id."
+
+#: app/Data/ResolverVariableCatalog.php:57
+msgid "Resolver value for Image."
+msgstr "Resolver value for Image."
+
+#: app/Data/ResolverVariableCatalog.php:25
+msgid "Resolver value for Language."
+msgstr "Resolver value for Language."
+
+#: app/Data/ResolverVariableCatalog.php:52
+msgid "Resolver value for Legal name."
+msgstr "Resolver value for Legal name."
+
+#: app/Data/ResolverVariableCatalog.php:36
+msgid "Resolver value for Local store id."
+msgstr "Resolver value for Local store id."
+
+#: app/Data/ResolverVariableCatalog.php:74
+msgid "Resolver value for Local store schema."
+msgstr "Resolver value for Local store schema."
+
+#: app/Data/ResolverVariableCatalog.php:56
+msgid "Resolver value for Logo."
+msgstr "Resolver value for Logo."
+
+#: app/Data/ResolverVariableCatalog.php:122
+msgid "Resolver value for Max price."
+msgstr "Resolver value for Max price."
+
+#: app/Data/ResolverVariableCatalog.php:82
+msgid "Resolver value for Merchant return policy."
+msgstr "Resolver value for Merchant return policy."
+
+#: app/Data/ResolverVariableCatalog.php:121
+msgid "Resolver value for Min price."
+msgstr "Resolver value for Min price."
+
+#: app/Data/ResolverVariableCatalog.php:94
+msgid "Resolver value for Name / main title."
+msgstr "Resolver value for Name / main title."
+
+#: app/Data/ResolverVariableCatalog.php:51
+msgid "Resolver value for Name."
+msgstr "Resolver value for Name."
+
+#: app/Data/ResolverVariableCatalog.php:112
+msgid "Resolver value for Offer url."
+msgstr "Resolver value for Offer url."
+
+#: app/Data/ResolverVariableCatalog.php:50
+msgid "Resolver value for Online store types."
+msgstr "Resolver value for Online store types."
+
+#: app/Data/ResolverVariableCatalog.php:72
+msgid "Resolver value for Opening hours specification."
+msgstr "Resolver value for Opening hours specification."
+
+#: app/Data/ResolverVariableCatalog.php:71
+msgid "Resolver value for Opening hours."
+msgstr "Resolver value for Opening hours."
+
+#: app/Data/ResolverVariableCatalog.php:62
+msgid "Resolver value for Payment accepted."
+msgstr "Resolver value for Payment accepted."
+
+#: app/Data/ResolverVariableCatalog.php:60
+msgid "Resolver value for Price range."
+msgstr "Resolver value for Price range."
+
+#: app/Data/ResolverVariableCatalog.php:118
+msgid "Resolver value for Price."
+msgstr "Resolver value for Price."
+
+#: app/Data/ResolverVariableCatalog.php:114
+msgid "Resolver value for Product GTIN."
+msgstr "Resolver value for Product GTIN."
+
+#: app/Data/ResolverVariableCatalog.php:115
+msgid "Resolver value for Product MPN."
+msgstr "Resolver value for Product MPN."
+
+#: app/Data/ResolverVariableCatalog.php:113
+msgid "Resolver value for Product SKU."
+msgstr "Resolver value for Product SKU."
+
+#: app/Data/ResolverVariableCatalog.php:84
+msgid "Resolver value for Product return policy."
+msgstr "Resolver value for Product return policy."
+
+#: app/Data/ResolverVariableCatalog.php:85
+msgid "Resolver value for Product shipping details."
+msgstr "Resolver value for Product shipping details."
+
+#: app/Data/ResolverVariableCatalog.php:129
+msgid "Resolver value for Product type."
+msgstr "Resolver value for Product type."
+
+#: app/Data/ResolverVariableCatalog.php:127
+msgid "Resolver value for Rating value."
+msgstr "Resolver value for Rating value."
+
+#: app/Data/ResolverVariableCatalog.php:119
+msgid "Resolver value for Regular price."
+msgstr "Resolver value for Regular price."
+
+#: app/Data/ResolverVariableCatalog.php:128
+msgid "Resolver value for Review count."
+msgstr "Resolver value for Review count."
+
+#: app/Data/ResolverVariableCatalog.php:120
+msgid "Resolver value for Sale price."
+msgstr "Resolver value for Sale price."
+
+#: app/Data/ResolverVariableCatalog.php:69
+msgid "Resolver value for Same as."
+msgstr "Resolver value for Same as."
+
+#: app/Data/ResolverVariableCatalog.php:125
+msgid "Resolver value for Schema.org availability."
+msgstr "Resolver value for Schema.org availability."
+
+#: app/Data/ResolverVariableCatalog.php:139
+msgid "Resolver value for Search query."
+msgstr "Resolver value for Search query."
+
+#: app/Data/ResolverVariableCatalog.php:83
+msgid "Resolver value for Shipping service."
+msgstr "Resolver value for Shipping service."
+
+#: app/Data/ResolverVariableCatalog.php:98
+msgid "Resolver value for Short description."
+msgstr "Resolver value for Short description."
+
+#: app/Data/ResolverVariableCatalog.php:21
+msgid "Resolver value for Site description."
+msgstr "Resolver value for Site description."
+
+#: app/Data/ResolverVariableCatalog.php:20
+msgid "Resolver value for Site name."
+msgstr "Resolver value for Site name."
+
+#: app/Data/ResolverVariableCatalog.php:47
+msgid "Resolver value for Site profile."
+msgstr "Resolver value for Site profile."
+
+#: app/Data/ResolverVariableCatalog.php:22
+msgid "Resolver value for Site url."
+msgstr "Resolver value for Site url."
+
+#: app/Data/ResolverVariableCatalog.php:126
+msgid "Resolver value for Stock status."
+msgstr "Resolver value for Stock status."
+
+#: app/Data/ResolverVariableCatalog.php:64
+msgid "Resolver value for Tax id."
+msgstr "Resolver value for Tax id."
+
+#: app/Data/ResolverVariableCatalog.php:58
+msgid "Resolver value for Telephone."
+msgstr "Resolver value for Telephone."
+
+#: app/Data/ResolverVariableCatalog.php:95
+msgid "Resolver value for Title."
+msgstr "Resolver value for Title."
+
+#: app/Data/ResolverVariableCatalog.php:48
+msgid "Resolver value for Type."
+msgstr "Resolver value for Type."
+
+#: app/Data/ResolverVariableCatalog.php:49
+msgid "Resolver value for Types."
+msgstr "Resolver value for Types."
+
+#: app/Data/ResolverVariableCatalog.php:54
+msgid "Resolver value for Url."
+msgstr "Resolver value for Url."
+
+#: app/Data/ResolverVariableCatalog.php:123
+msgid "Resolver value for Variation count."
+msgstr "Resolver value for Variation count."
+
+#: app/Data/ResolverVariableCatalog.php:65
+msgid "Resolver value for Vat id."
+msgstr "Resolver value for Vat id."
+
+#: app/Data/ResolverVariableCatalog.php:38
+msgid "Resolver value for Webpage id."
+msgstr "Resolver value for Webpage id."
+
+#: app/Data/ResolverVariableCatalog.php:37
+msgid "Resolver value for Website id."
+msgstr "Resolver value for Website id."
+
+#: app/Data/ResolverVariableCatalog.php:26
+msgid "Resolver value for Website search target."
+msgstr "Resolver value for Website search target."
+
+#: app/Admin/Assets.php:312
+#: app/Admin/Assets.php:424
+msgid "Resolver variable"
+msgstr "Resolver variable"
+
+#: app/Admin/SettingsPage.php:759
+msgid "Return countries"
+msgstr "Return countries"
+
+#: app/Admin/SettingsPage.php:790
+msgid "Return fee"
+msgstr "Return fee"
+
+#: app/Admin/SettingsPage.php:779
+msgid "Return method"
+msgstr "Return method"
+
+#: app/Admin/SettingsPage.php:748
+msgid "Return policy page URL"
+msgstr "Return policy page URL"
+
+#: app/Admin/SettingsPage.php:768
+msgid "Return window in days"
+msgstr "Return window in days"
+
+#: app/Core/GlobalSettings.php:515
+msgid "ReturnAtKiosk - Return at kiosk or drop-off point"
+msgstr "ReturnAtKiosk - Return at kiosk or drop-off point"
+
+#: app/Core/GlobalSettings.php:513
+msgid "ReturnByMail - Return by mail or freight"
+msgstr "ReturnByMail - Return by mail or freight"
+
+#: app/Core/GlobalSettings.php:523
+msgid "ReturnFeesCustomerResponsibility - Return cost paid by customer"
+msgstr "ReturnFeesCustomerResponsibility - Return cost paid by customer"
+
+#: app/Core/GlobalSettings.php:514
+msgid "ReturnInStore - In-store returns"
+msgstr "ReturnInStore - In-store returns"
+
+#: app/Core/GlobalSettings.php:524
+msgid "ReturnShippingFees - Return shipping fees apply"
+msgstr "ReturnShippingFees - Return shipping fees apply"
+
+#: app/Core/GlobalSettings.php:476
+msgid "Returns"
+msgstr "Returns"
+
+#: app/Data/ResolverVariableCatalog.php:128
+msgid "Review count"
+msgstr "Review count"
+
+#: app/Data/ResolverVariableCatalog.php:120
+msgid "Sale price"
+msgstr "Sale price"
+
+#: app/Core/GlobalSettings.php:472
+msgid "Sales"
+msgstr "Sales"
+
+#: app/Data/ResolverVariableCatalog.php:69
+msgid "Same as"
+msgstr "Same as"
+
+#: app/Admin/Assets.php:327
+#: app/Admin/Assets.php:441
+msgid "Sanitize URL"
+msgstr "Sanitize URL"
+
+#: app/Admin/Assets.php:326
+#: app/Admin/Assets.php:440
+msgid "Sanitize text"
+msgstr "Sanitize text"
+
+#: app/Admin/SettingsPage.php:1109
+msgid "Saturday"
+msgstr "Saturday"
+
+#: app/Admin/SettingsPage.php:77
+msgid "Save Global Settings"
+msgstr "Save Global Settings"
+
+#: app/Admin/SchemaBuilderPage.php:67
+msgid "Save Priorities"
+msgstr "Save Priorities"
+
+#: app/Admin/TemplateEditorPage.php:75
+msgid "Save Schema"
+msgstr "Save Schema"
+
+#: app/Admin/Assets.php:403
+msgid "Save priorities"
+msgstr "Save priorities"
+
+#: app/Core/SchemaMaintenance.php:443
+msgid "Saved conditions do not match the current default version."
+msgstr "Saved conditions do not match the current default version."
+
+#: app/Admin/Assets.php:402
+msgid "Saving..."
+msgstr "Saving..."
+
+#: app/Admin/TemplateEditorPage.php:159
+#: app/Admin/TemplateEditorPage.php:419
+msgid "Schema JSON"
+msgstr "Schema JSON"
+
+#: app/Admin/TemplateEditorPage.php:156
+msgid "Schema JSON cannot be empty."
+msgstr "Schema JSON cannot be empty."
+
+#: app/Schema/SchemaValidator.php:579
+msgid "Schema JSON is empty."
+msgstr "Schema JSON is empty."
+
+#: app/Admin/TemplateEditorPage.php:251
+msgid "Schema JSON is not valid according to the validator."
+msgstr "Schema JSON is not valid according to the validator."
+
+#: app/Admin/TemplateEditorPage.php:739
+msgid "Schema JSON:"
+msgstr "Schema JSON:"
+
+#: app/Admin/SettingsPage.php:1266
+msgid "Schema Maintenance Tools"
+msgstr "Schema Maintenance Tools"
+
+#: app/Admin/AdminMenu.php:83
+#: app/Admin/AdminMenu.php:109
+#: app/Admin/AdminMenu.php:110
+msgid "Schema Settings"
+msgstr "Schema Settings"
+
+#: app/Admin/SchemaBuilderPage.php:45
+msgid "Schema Template Management"
+msgstr "Schema Template Management"
+
+#: app/Admin/AdminMenu.php:65
+#: app/Admin/AdminMenu.php:66
+msgid "Schema Templates"
+msgstr "Schema Templates"
+
+#: app/Data/ResolverVariableCatalog.php:32
+msgid "Schema identifiers"
+msgstr "Schema identifiers"
+
+#: app/Admin/TemplateEditorPage.php:356
+msgid "Schema name"
+msgstr "Schema name"
+
+#: app/Admin/TemplateEditorPage.php:144
+msgid "Schema name is required."
+msgstr "Schema name is required."
+
+#: app/Admin/TemplateEditorPage.php:223
+msgid "Schema saved successfully."
+msgstr "Schema saved successfully."
+
+#: app/Schema/SchemaValidator.php:598
+msgid "Schema structure must be a JSON object or array."
+msgstr "Schema structure must be a JSON object or array."
+
+#: app/Admin/TemplateEditorPage.php:361
+msgid "Schema type"
+msgstr "Schema type"
+
+#: app/Admin/TemplateEditorPage.php:148
+msgid "Schema type is required."
+msgstr "Schema type is required."
+
+#: app/Admin/TemplateEditorPage.php:211
+msgid "Schema was not created. A database error occurred."
+msgstr "Schema was not created. A database error occurred."
+
+#: app/Admin/TemplateEditorPage.php:197
+msgid "Schema was not saved. A database error occurred."
+msgstr "Schema was not saved. A database error occurred."
+
+#: app/Data/ResolverVariableCatalog.php:125
+msgid "Schema.org availability"
+msgstr "Schema.org availability"
+
+#: app/Data/DataResolver.php:2511
+#: app/Data/DataResolver.php:2517
+msgid "Search"
+msgstr "Search"
+
+#: app/Data/ResolverVariableCatalog.php:136
+msgid "Search and breadcrumb"
+msgstr "Search and breadcrumb"
+
+#: app/Data/ResolverVariableCatalog.php:139
+msgid "Search query"
+msgstr "Search query"
+
+#: app/Schema/SchemaTemplateContract.php:52
+#: app/Schema/Builders/ArchiveItemListBuilder.php:262
+msgid "Search results"
+msgstr "Search results"
+
+#: app/Schema/Builders/ArchiveItemListBuilder.php:259
+msgid "Search results for %s"
+msgstr "Search results for %s"
+
+#: app/Data/DataResolver.php:619
+#: app/Data/DataResolver.php:620
+msgid "Search results for: "
+msgstr "Search results for: "
+
+#: app/Data/DataResolver.php:621
+msgid "Search results page for "
+msgstr "Search results page for "
+
+#: app/Admin/TemplateEditorPage.php:780
+msgid "Search: price, home_url, organization..."
+msgstr "Search: price, home_url, organization..."
+
+#: app/Admin/SettingsPage.php:696
+msgid "Section rule:"
+msgstr "Section rule:"
+
+#: app/Admin/SettingsPage.php:1862
+msgid "Select a country first"
+msgstr "Select a country first"
+
+#: app/Admin/SettingsPage.php:437
+msgid "Select a region first"
+msgstr "Select a region first"
+
+#: app/Admin/SettingsPage.php:1863
+#: app/Admin/SettingsPage.php:1869
+#: app/Admin/SettingsPage.php:1899
+msgid "Select a region/state first"
+msgstr "Select a region/state first"
+
+#: app/Admin/SettingsPage.php:1908
+msgid "Select city"
+msgstr "Select city"
+
+#: app/Admin/Assets.php:410
+#: app/Admin/SettingsPage.php:2465
+msgid "Select countries"
+msgstr "Select countries"
+
+#: app/Admin/SettingsPage.php:2475
+msgid "Select countries from the list."
+msgstr "Select countries from the list."
+
+#: app/Admin/SettingsPage.php:625
+msgid "Select network"
+msgstr "Select network"
+
+#: app/Admin/SettingsPage.php:301
+msgid "Select one or more payment methods."
+msgstr "Select one or more payment methods."
+
+#: app/Admin/SettingsPage.php:414
+msgid "Select region"
+msgstr "Select region"
+
+#: app/Admin/SettingsPage.php:1873
+msgid "Select region/state"
+msgstr "Select region/state"
+
+#: app/Admin/SettingsPage.php:380
+msgid "Select the country, region/state, and city. Lists update automatically based on the selected country."
+msgstr "Select the country, region/state, and city. Lists update automatically based on the selected country."
+
+#: app/Admin/SettingsPage.php:312
+msgid "Select the date from the calendar. The value is stored in YYYY-MM-DD format."
+msgstr "Select the date from the calendar. The value is stored in YYYY-MM-DD format."
+
+#: app/Admin/SettingsPage.php:426
+msgid "Selecting a region automatically updates the city list."
+msgstr "Selecting a region automatically updates the city list."
+
+#: app/Admin/SettingsPage.php:2125
+msgid "Separate countries or cities with commas, such as IR, Tehran."
+msgstr "Separate countries or cities with commas, such as IR, Tehran."
+
+#: app/Admin/SettingsPage.php:2074
+msgid "Separate multiple languages with commas, such as fa, en."
+msgstr "Separate multiple languages with commas, such as fa, en."
+
+#: app/Admin/SettingsPage.php:2108
+msgid "Separate multiple options with commas, such as https://schema.org/TollFree."
+msgstr "Separate multiple options with commas, such as https://schema.org/TollFree."
+
+#: app/Admin/SettingsPage.php:2113
+msgid "Service area"
+msgstr "Service area"
+
+#: app/Admin/SettingsPage.php:1055
+msgid "Set opening and closing times for each active day."
+msgstr "Set opening and closing times for each active day."
+
+#: app/Admin/TemplateEditorPage.php:351
+msgid "Set the type, display scope, and execution priority for this template."
+msgstr "Set the type, display scope, and execution priority for this template."
+
+#: app/Admin/AdminMenu.php:84
+msgid "Settings"
+msgstr "Settings"
+
+#: app/Admin/Assets.php:353
+msgid "Settings path"
+msgstr "Settings path"
+
+#: app/Core/GlobalSettings.php:477
+msgid "Shipping and delivery"
+msgstr "Shipping and delivery"
+
+#: app/Admin/SettingsPage.php:858
+msgid "Shipping description"
+msgstr "Shipping description"
+
+#: app/Admin/SettingsPage.php:869
+msgid "Shipping destination countries"
+msgstr "Shipping destination countries"
+
+#: app/Data/ResolverVariableCatalog.php:83
+msgid "Shipping service"
+msgstr "Shipping service"
+
+#: app/Admin/SettingsPage.php:847
+msgid "Shipping service name"
+msgstr "Shipping service name"
+
+#: app/Data/DataResolver.php:2510
+#: app/Data/DataResolver.php:2516
+#: app/Schema/Builders/ArchiveItemListBuilder.php:272
+msgid "Shop"
+msgstr "Shop"
+
+#: app/Schema/SchemaTemplateContract.php:46
+msgid "Shop / product archive / collection"
+msgstr "Shop / product archive / collection"
+
+#: app/Admin/SettingsPage.php:341
+msgid "Short brand description"
+msgstr "Short brand description"
+
+#: app/Data/ResolverVariableCatalog.php:98
+msgid "Short description"
+msgstr "Short description"
+
+#: app/Admin/SettingsPage.php:344
+msgid "Short description of the brand, site, or store"
+msgstr "Short description of the brand, site, or store"
+
+#: app/Schema/SchemaTemplateContract.php:42
+msgid "Single post"
+msgstr "Single post"
+
+#: app/Admin/SettingsPage.php:104
+msgid "Site Profile"
+msgstr "Site Profile"
+
+#: app/Admin/SettingsPage.php:225
+msgid "Site URL"
+msgstr "Site URL"
+
+#: app/Data/ResolverVariableCatalog.php:21
+msgid "Site description"
+msgstr "Site description"
+
+#: app/Data/ResolverVariableCatalog.php:20
+msgid "Site name"
+msgstr "Site name"
+
+#: app/Data/ResolverVariableCatalog.php:47
+msgid "Site profile"
+msgstr "Site profile"
+
+#: app/Admin/SettingsPage.php:114
+msgid "Site type"
+msgstr "Site type"
+
+#: app/Data/ResolverVariableCatalog.php:22
+msgid "Site url"
+msgstr "Site url"
+
+#: app/Schema/SchemaTemplateContract.php:32
+msgid "SiteNavigationElement - Site menu"
+msgstr "SiteNavigationElement - Site menu"
+
+#: app/Admin/SettingsPage.php:558
+msgid "Social Networks and Official Profiles"
+msgstr "Social Networks and Official Profiles"
+
+#: app/Admin/Assets.php:379
+msgid "Some conditions are incomplete. Complete the data key, operator, action, and path to remove."
+msgstr "Some conditions are incomplete. Complete the data key, operator, action, and path to remove."
+
+#: app/Admin/SettingsPage.php:139
+msgid "Special Site Pages"
+msgstr "Special Site Pages"
+
+#: app/Admin/SettingsPage.php:794
+msgid "Specify whether returns are free or paid by the customer. The value must match the policy text on the site."
+msgstr "Specify whether returns are free or paid by the customer. The value must match the policy text on the site."
+
+#: app/Admin/Assets.php:313
+#: app/Admin/Assets.php:425
+msgid "Static value"
+msgstr "Static value"
+
+#: app/Admin/SchemaBuilderPage.php:108
+#: app/Admin/TemplateEditorPage.php:383
+msgid "Status"
+msgstr "Status"
+
+#: app/Data/ResolverVariableCatalog.php:126
+msgid "Stock status"
+msgstr "Stock status"
+
+#: app/Core/GlobalSettings.php:463
+msgid "Store - Physical store"
+msgstr "Store - Physical store"
+
+#: app/Schema/SchemaTemplateContract.php:18
+msgid "Store - Standalone physical store"
+msgstr "Store - Standalone physical store"
+
+#: app/Admin/SettingsPage.php:850
+msgid "Store order shipping"
+msgstr "Store order shipping"
+
+#: app/Core/GlobalSettings.php:532
+msgid "StoreCreditRefund - Store credit refund"
+msgstr "StoreCreditRefund - Store credit refund"
+
+#: app/Admin/SettingsPage.php:457
+msgid "Street ..."
+msgstr "Street ..."
+
+#: app/Admin/Assets.php:325
+#: app/Admin/Assets.php:439
+msgid "Strip HTML"
+msgstr "Strip HTML"
+
+#: app/Admin/SettingsPage.php:1110
+msgid "Sunday"
+msgstr "Sunday"
+
+#: app/Admin/SettingsPage.php:2062
+msgid "Supported languages"
+msgstr "Supported languages"
+
+#: app/Admin/SettingsPage.php:1299
+msgid "Synchronization is designed only for plugin default templates. Manual changes to default templates may be replaced by the current plugin version. Custom templates with different names and scopes should not be deleted."
+msgstr "Synchronization is designed only for plugin default templates. Manual changes to default templates may be replaced by the current plugin version. Custom templates with different names and scopes should not be deleted."
+
+#: app/Admin/SettingsPage.php:319
+msgid "Tax ID"
+msgstr "Tax ID"
+
+#: app/Data/ResolverVariableCatalog.php:64
+msgid "Tax id"
+msgstr "Tax id"
+
+#: app/Admin/Assets.php:317
+#: app/Admin/Assets.php:429
+msgid "Taxonomy terms"
+msgstr "Taxonomy terms"
+
+#: app/Core/GlobalSettings.php:473
+msgid "Technical support"
+msgstr "Technical support"
+
+#: app/Data/ResolverVariableCatalog.php:58
+msgid "Telephone"
+msgstr "Telephone"
+
+#: app/Admin/SchemaBuilderPage.php:89
+msgid "Template"
+msgstr "Template"
+
+#: app/REST/ConditionController.php:143
+#: app/REST/ConditionController.php:188
+msgid "Template ID is required."
+msgstr "Template ID is required."
+
+#: app/REST/ConditionController.php:65
+msgid "Template ID was not sent."
+msgstr "Template ID was not sent."
+
+#: app/REST/ConditionController.php:213
+msgid "Template conditions were deleted."
+msgstr "Template conditions were deleted."
+
+#: app/REST/TemplateController.php:301
+msgid "Template deleted successfully."
+msgstr "Template deleted successfully."
+
+#: app/REST/TemplateController.php:295
+msgid "Template deletion failed."
+msgstr "Template deletion failed."
+
+#: app/Admin/SchemaBuilderPage.php:104
+msgid "Template name"
+msgstr "Template name"
+
+#: app/REST/TemplateController.php:176
+msgid "Template name is required."
+msgstr "Template name is required."
+
+#: app/REST/TemplateController.php:266
+msgid "Template saved successfully."
+msgstr "Template saved successfully."
+
+#: app/Admin/SchemaBuilderPage.php:55
+msgid "Template synchronized with the new type/scope contract."
+msgstr "Template synchronized with the new type/scope contract."
+
+#: app/REST/TemplateController.php:245
+msgid "Template updated successfully."
+msgstr "Template updated successfully."
+
+#: app/Admin/Assets.php:318
+msgid "Term Meta"
+msgstr "Term Meta"
+
+#: app/Core/SchemaMaintenance.php:171
+msgid "The Activator class is not available and synchronization was not run."
+msgstr "The Activator class is not available and synchronization was not run."
+
+#: app/Core/Activator.php:266
+msgid "The GlobalSettings class is not available."
+msgstr "The GlobalSettings class is not available."
+
+#: app/REST/TemplateController.php:187
+msgid "The JSON-LD structure is invalid."
+msgstr "The JSON-LD structure is invalid."
+
+#: app/Schema/SchemaValidator.php:707
+msgid "The `paymentAccepted` property is deprecated or less compatible. Use `acceptedPaymentMethod` in newer templates."
+msgstr "The `paymentAccepted` property is deprecated or less compatible. Use `acceptedPaymentMethod` in newer templates."
+
+#: app/Core/Activator.php:179
+msgid "The amk_schema_core_seed_defaults function is not available."
+msgstr "The amk_schema_core_seed_defaults function is not available."
+
+#: database/seed-defaults.php:386
+msgid "The amk_schema_templates table does not exist. Run the plugin migration first."
+msgstr "The amk_schema_templates table does not exist. Run the plugin migration first."
+
+#: app/REST/TemplateController.php:194
+msgid "The bindings structure is invalid."
+msgstr "The bindings structure is invalid."
+
+#: app/REST/TemplateController.php:201
+msgid "The conditions structure is invalid."
+msgstr "The conditions structure is invalid."
+
+#: app/REST/ConditionController.php:83
+msgid "The conditions table does not exist; conditions are read from the template column."
+msgstr "The conditions table does not exist; conditions are read from the template column."
+
+#: app/Core/SchemaMaintenance.php:283
+msgid "The config/default-schemas.php file was not found or is not readable."
+msgstr "The config/default-schemas.php file was not found or is not readable."
+
+#: database/seed-defaults.php:374
+msgid "The config/default-schemas.php file was not found."
+msgstr "The config/default-schemas.php file was not found."
+
+#: app/Core/Activator.php:134
+msgid "The database/migrations.php file was not found."
+msgstr "The database/migrations.php file was not found."
+
+#: app/Core/Activator.php:166
+msgid "The database/seed-defaults.php file was not found."
+msgstr "The database/seed-defaults.php file was not found."
+
+#: database/seed-defaults.php:381
+msgid "The default schemas file is empty or invalid."
+msgstr "The default schemas file is empty or invalid."
+
+#: app/Core/SchemaMaintenance.php:290
+msgid "The default-schemas.php file does not return valid output."
+msgstr "The default-schemas.php file does not return valid output."
+
+#: app/Admin/Assets.php:344
+msgid "The entered value is used exactly as the placeholder value."
+msgstr "The entered value is used exactly as the placeholder value."
+
+#: app/Admin/TemplateEditorPage.php:739
+msgid "The final Schema.org structure."
+msgstr "The final Schema.org structure."
+
+#: app/Admin/SettingsPage.php:1220
+msgid "The maintenance tool request is invalid. Refresh the page and try again."
+msgstr "The maintenance tool request is invalid. Refresh the page and try again."
+
+#: app/Core/SchemaMaintenance.php:104
+msgid "The old paymentAccepted property exists in the database schema_json."
+msgstr "The old paymentAccepted property exists in the database schema_json."
+
+#: app/Core/SchemaMaintenance.php:96
+msgid "The old {{organization_type}} placeholder still exists in the database."
+msgstr "The old {{organization_type}} placeholder still exists in the database."
+
+#: database/seed-defaults.php:365
+msgid "The plugin base path is not defined."
+msgstr "The plugin base path is not defined."
+
+#: app/Core/SchemaMaintenance.php:110
+msgid "The raw openingHours property exists in the database schema_json."
+msgstr "The raw openingHours property exists in the database schema_json."
+
+#: app/Admin/SettingsPage.php:783
+msgid "The real method for receiving returned items, such as return by mail or in-store return."
+msgstr "The real method for receiving returned items, such as return by mail or in-store return."
+
+#: app/Admin/SettingsPage.php:1187
+#: app/Admin/TemplateEditorPage.php:109
+msgid "The request is invalid. Refresh the page and try again."
+msgstr "The request is invalid. Refresh the page and try again."
+
+#: app/Data/DataResolver.php:646
+msgid "The requested page was not found."
+msgstr "The requested page was not found."
+
+#: app/Admin/TemplateEditorPage.php:45
+msgid "The requested schema was not found."
+msgstr "The requested schema was not found."
+
+#: app/REST/ConditionController.php:73
+#: app/REST/ConditionController.php:150
+#: app/REST/ConditionController.php:195
+#: app/REST/TemplateController.php:134
+msgid "The requested template was not found."
+msgstr "The requested template was not found."
+
+#: app/Admin/SettingsPage.php:1229
+msgid "The schema maintenance class is not available. Check app/Core/SchemaMaintenance.php."
+msgstr "The schema maintenance class is not available. Check app/Core/SchemaMaintenance.php."
+
+#: app/REST/PreviewController.php:74
+msgid "The schema template was not found or the submitted data is invalid."
+msgstr "The schema template was not found or the submitted data is invalid."
+
+#: app/Core/SchemaMaintenance.php:324
+msgid "The schema templates table does not exist for backup."
+msgstr "The schema templates table does not exist for backup."
+
+#: app/Admin/TemplateEditorPage.php:128
+#: app/REST/PriorityController.php:55
+msgid "The schema templates table does not exist."
+msgstr "The schema templates table does not exist."
+
+#: app/Core/SchemaMaintenance.php:35
+msgid "The schema templates table does not exist. Run the plugin migration first."
+msgstr "The schema templates table does not exist. Run the plugin migration first."
+
+#: app/Core/Activator.php:190
+msgid "The seeder output is invalid."
+msgstr "The seeder output is invalid."
+
+#: app/REST/ConditionController.php:134
+#: app/REST/PriorityController.php:37
+#: app/REST/TemplateController.php:161
+msgid "The submitted data is invalid."
+msgstr "The submitted data is invalid."
+
+#: app/REST/TemplateController.php:125
+#: app/REST/TemplateController.php:286
+msgid "The template ID is invalid."
+msgstr "The template ID is invalid."
+
+#: app/Admin/TemplateEditorPage.php:745
+msgid "The validator should not treat placeholders as errors. Before compile, {{...}} placeholders are normal."
+msgstr "The validator should not treat placeholders as errors. Before compile, {{...}} placeholders are normal."
+
+#: app/Admin/Assets.php:321
+msgid "Theme Mod"
+msgstr "Theme Mod"
+
+#: app/Admin/TemplateEditorPage.php:515
+msgid "Then use it inside the main JSON:"
+msgstr "Then use it inside the main JSON:"
+
+#: app/Admin/SettingsPage.php:560
+msgid "These links are used in sameAs and help identify the brand."
+msgstr "These links are used in sameAs and help identify the brand."
+
+#: app/Admin/SettingsPage.php:697
+msgid "These settings are the global store defaults. If a product-specific override is added later, that product value will take priority; for now this is the main source for shipping and returns across products."
+msgstr "These settings are the global store defaults. If a product-specific override is added later, that product value will take priority; for now this is the main source for shipping and returns across products."
+
+#: app/Admin/TemplateEditorPage.php:736
+msgid "This page is for building a raw schema template. Real data is later inserted into placeholders by DataResolver."
+msgstr "This page is for building a raw schema template. Real data is later inserted into placeholders by DataResolver."
+
+#: app/Admin/SettingsPage.php:722
+msgid "This section builds hasMerchantReturnPolicy inside Product > Offer. Do not enable it unless return rules are published on the site and actually apply."
+msgstr "This section builds hasMerchantReturnPolicy inside Product > Offer. Do not enable it unless return rules are published on the site and actually apply."
+
+#: app/Admin/SettingsPage.php:818
+msgid "This section builds shippingDetails inside Product > Offer. Values must reflect the real store shipping policy, not placeholder values used only to remove warnings."
+msgstr "This section builds shippingDetails inside Product > Offer. Values must reflect the real store shipping policy, not placeholder values used only to remove warnings."
+
+#: app/Admin/SettingsPage.php:34
+msgid "This section defines the central identity of the site. Changing the site type shows only the relevant fields so the panel stays focused."
+msgstr "This section defines the central identity of the site. Changing the site type shows only the relevant fields so the panel stays focused."
+
+#: app/Admin/SettingsPage.php:1268
+msgid "This section does not blindly reset the database. It only compares or synchronizes the plugin default templates with config/default-schemas.php."
+msgstr "This section does not blindly reset the database. It only compares or synchronizes the plugin default templates with config/default-schemas.php."
+
+#: app/Admin/SettingsPage.php:689
+msgid "This section sets store defaults for shipping and return information. These values are used on product offers and matter for Google Merchant listings."
+msgstr "This section sets store defaults for shipping and return information. These values are used on product offers and matter for Google Merchant listings."
+
+#: app/Admin/SettingsPage.php:345
+msgid "This text should be real, short, and consistent with the site content."
+msgstr "This text should be real, short, and consistent with the site content."
+
+#: app/Admin/SettingsPage.php:2023
+msgid "This value is used as contactType in Schema."
+msgstr "This value is used as contactType in Schema."
+
+#: app/Admin/SettingsPage.php:1107
+msgid "Thursday"
+msgstr "Thursday"
+
+#: app/Data/ResolverVariableCatalog.php:95
+msgid "Title"
+msgstr "Title"
+
+#: app/Admin/SchemaBuilderPage.php:323
+msgid "Total templates"
+msgstr "Total templates"
+
+#: app/Admin/SettingsPage.php:1105
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: app/Data/ResolverVariableCatalog.php:48
+msgid "Type"
+msgstr "Type"
+
+#: app/Data/ResolverVariableCatalog.php:49
+msgid "Types"
+msgstr "Types"
+
+#: app/Admin/SettingsPage.php:1252
+msgid "Unknown maintenance action."
+msgstr "Unknown maintenance action."
+
+#: database/seed-defaults.php:463
+msgid "Updating template %s failed."
+msgstr "Updating template %s failed."
+
+#: app/Data/ResolverVariableCatalog.php:54
+msgid "Url"
+msgstr "Url"
+
+#: app/Admin/TemplateEditorPage.php:465
+msgid "Use this section to create custom variables. For example, you can create a variable named"
+msgstr "Use this section to create custom variables. For example, you can create a variable named"
+
+#: app/Admin/SettingsPage.php:202
+msgid "Used as name in Schema output."
+msgstr "Used as name in Schema output."
+
+#: app/Admin/SettingsPage.php:278
+msgid "Useful for Store, LocalBusiness, or shop schemas."
+msgstr "Useful for Store, LocalBusiness, or shop schemas."
+
+#: app/Admin/Assets.php:319
+msgid "User Meta"
+msgstr "User Meta"
+
+#: app/Admin/SettingsPage.php:330
+msgid "VAT ID"
+msgstr "VAT ID"
+
+#: app/Admin/TemplateEditorPage.php:262
+msgid "Validator warning - "
+msgstr "Validator warning - "
+
+#: app/Admin/TemplateEditorPage.php:262
+msgid "Validator warning: "
+msgstr "Validator warning: "
+
+#: app/Admin/Assets.php:373
+msgid "Value"
+msgstr "Value"
+
+#: app/Admin/Assets.php:337
+msgid "Value transform"
+msgstr "Value transform"
+
+#: app/Admin/TemplateEditorPage.php:786
+msgid "Variable catalog was not found. Check the ResolverVariableCatalog.php file."
+msgstr "Variable catalog was not found. Check the ResolverVariableCatalog.php file."
+
+#: app/Admin/Assets.php:333
+msgid "Variable name"
+msgstr "Variable name"
+
+#: app/Data/ResolverVariableCatalog.php:137
+msgid "Variables for search results and breadcrumb trails."
+msgstr "Variables for search results and breadcrumb trails."
+
+#: app/Data/ResolverVariableCatalog.php:123
+msgid "Variation count"
+msgstr "Variation count"
+
+#: app/Data/ResolverVariableCatalog.php:65
+msgid "Vat id"
+msgstr "Vat id"
+
+#: app/Admin/TemplateEditorPage.php:490
+msgid "View / edit raw bindings JSON"
+msgstr "View / edit raw bindings JSON"
+
+#: app/Admin/Assets.php:394
+msgid "Warnings:"
+msgstr "Warnings:"
+
+#: app/Core/GlobalSettings.php:478
+msgid "Warranty and after-sales support"
+msgstr "Warranty and after-sales support"
+
+#: app/Schema/SchemaTemplateContract.php:23
+msgid "WebPage - Page"
+msgstr "WebPage - Page"
+
+#: app/Schema/SchemaTemplateContract.php:22
+msgid "WebSite - Website"
+msgstr "WebSite - Website"
+
+#: app/Data/ResolverVariableCatalog.php:38
+msgid "Webpage id"
+msgstr "Webpage id"
+
+#: app/Data/ResolverVariableCatalog.php:37
+msgid "Website id"
+msgstr "Website id"
+
+#: app/Data/ResolverVariableCatalog.php:26
+msgid "Website search target"
+msgstr "Website search target"
+
+#: app/Admin/SettingsPage.php:1106
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: app/Admin/SettingsPage.php:744
+msgid "When enabled, MerchantReturnPolicy is added to product offers. Enable it only when this policy really exists on the site."
+msgstr "When enabled, MerchantReturnPolicy is added to product offers. Enable it only when this policy really exists on the site."
+
+#: app/Admin/SettingsPage.php:974
+msgid "When enabled, address, map, geo coordinates, and opening hours are used in Schema output."
+msgstr "When enabled, address, map, geo coordinates, and opening hours are used in Schema output."
+
+#: app/Admin/SettingsPage.php:843
+msgid "When enabled, shippingDetails is added to product offers. Enable it only when the store really ships products."
+msgstr "When enabled, shippingDetails is added to product offers. Enable it only when the store really ships products."
+
+#: app/Admin/SettingsPage.php:711
+msgid "When enabled, store data such as shipping, returns, payment methods, and currencies are used in schema. The fields below are always visible for configuration, but are not added to schema output until this option is enabled."
+msgstr "When enabled, store data such as shipping, returns, payment methods, and currencies are used in schema. The fields below are always visible for configuration, but are not added to schema output until this option is enabled."
+
+#: app/Admin/Assets.php:378
+msgid "When the condition matches, the specified path is removed from the final Schema output."
+msgstr "When the condition matches, the specified path is removed from the final Schema output."
+
+#: app/Data/ResolverVariableCatalog.php:109
+#: app/Schema/SchemaTemplateContract.php:43
+msgid "WooCommerce product"
+msgstr "WooCommerce product"
+
+#: app/Admin/Assets.php:316
+#: app/Admin/Assets.php:428
+msgid "WooCommerce product attribute"
+msgstr "WooCommerce product attribute"
+
+#: app/Admin/Assets.php:320
+#: app/Admin/Assets.php:432
+msgid "WordPress option"
+msgstr "WordPress option"
+
+#: app/Admin/Assets.php:408
+msgid "Yes"
+msgstr "Yes"
+
+#: app/Admin/SettingsPage.php:501
+msgid "You can define multiple contact types, such as sales, customer support, technical support, order support, or warranty."
+msgstr "You can define multiple contact types, such as sales, customer support, technical support, order support, or warranty."
+
+#: app/Admin/AdminMenu.php:200
+msgid "You do not have permission to access AMK Schema Core pages."
+msgstr "You do not have permission to access AMK Schema Core pages."
+
+#: app/Admin/SchemaBuilderPage.php:29
+#: app/Admin/SettingsPage.php:16
+#: app/Admin/TemplateEditorPage.php:31
+msgid "You do not have permission to access this page."
+msgstr "You do not have permission to access this page."
+
+#: app/Core/SchemaMaintenance.php:142
+msgid "You do not have permission to run maintenance actions."
+msgstr "You do not have permission to run maintenance actions."
+
+#: app/Admin/SettingsPage.php:1207
+msgid "You do not have permission to run the maintenance tool."
+msgstr "You do not have permission to run the maintenance tool."
+
+#: app/Schema/SchemaValidator.php:721
+msgid "` is not in the plugin support list for the current type. If it was added intentionally, this is not critical."
+msgstr "` is not in the plugin support list for the current type. If it was added intentionally, this is not critical."
+
+#: app/Schema/SchemaValidator.php:690
+msgid "` is not suitable for `OnlineStore` alone. If the store has a physical location, set multiple types such as `Organization + Store + OnlineStore`."
+msgstr "` is not suitable for `OnlineStore` alone. If the store has a physical location, set multiple types such as `Organization + Store + OnlineStore`."
+
+#: app/Schema/SchemaValidator.php:773
+msgid "` is not supported by the plugin validator."
+msgstr "` is not supported by the plugin validator."
+
+#: app/Schema/SchemaValidator.php:1021
+msgid "` must be a string or array."
+msgstr "` must be a string or array."
+
+#: app/Schema/SchemaValidator.php:1066
+msgid "` must be an object, array, reference string, or placeholder."
+msgstr "` must be an object, array, reference string, or placeholder."
+
+#: app/Schema/SchemaValidator.php:1085
+msgid "` must contain objects or references."
+msgstr "` must contain objects or references."
+
+#: app/Schema/SchemaValidator.php:1014
+msgid "` must contain string values."
+msgstr "` must contain string values."
+
+#: app/Schema/SchemaValidator.php:1043
+msgid "` should be a number or numeric string."
+msgstr "` should be a number or numeric string."
+
+#: app/Schema/SchemaValidator.php:983
+msgid "` should be a string."
+msgstr "` should be a string."
+
+#: app/Schema/SchemaValidator.php:873
+msgid "`@context` must be a string or object."
+msgstr "`@context` must be a string or object."
+
+#: app/Schema/SchemaValidator.php:620
+#: app/Schema/SchemaValidator.php:663
+msgid "`@graph` must be an array."
+msgstr "`@graph` must be an array."
+
+#: app/Schema/SchemaValidator.php:768
+msgid "`@type` cannot be empty."
+msgstr "`@type` cannot be empty."
+
+#: app/Schema/SchemaValidator.php:762
+msgid "`@type` must be a string or an array of strings."
+msgstr "`@type` must be a string or an array of strings."
+
+#: app/Schema/SchemaValidator.php:755
+msgid "`@type` must be a string."
+msgstr "`@type` must be a string."
+
+#: app/Schema/SchemaValidator.php:699
+msgid "`itemListElement` is not a clean structure for `SiteNavigationElement`. For a site menu, create each link as a separate `SiteNavigationElement` or change the type to `ItemList`."
+msgstr "`itemListElement` is not a clean structure for `SiteNavigationElement`. For a site menu, create each link as a separate `SiteNavigationElement` or change the type to `ItemList`."
+
+#: app/Schema/SchemaValidator.php:1104
+msgid "`itemListElement` must be an array."
+msgstr "`itemListElement` must be an array."
+
+#: app/Admin/TemplateEditorPage.php:847
+msgid "and"
+msgstr "and"
+
+#: app/Admin/TemplateEditorPage.php:467
+msgid "and read its value from product meta such as"
+msgstr "and read its value from product meta such as"
+
+#: app/Core/SchemaMaintenance.php:439
+msgid "bindings do not match the current default version."
+msgstr "bindings do not match the current default version."
+
+#: app/Admin/TemplateEditorPage.php:849
+msgid "must be used as the complete value of a property."
+msgstr "must be used as the complete value of a property."
+
+#: app/Core/SchemaMaintenance.php:459
+msgid "override does not match the current default version."
+msgstr "override does not match the current default version."
+
+#: app/Core/SchemaMaintenance.php:455
+msgid "priority does not match the current default version."
+msgstr "priority does not match the current default version."
+
+#: app/Core/SchemaMaintenance.php:435
+msgid "schema_json does not match config/default-schemas.php."
+msgstr "schema_json does not match config/default-schemas.php."
+
+#: app/Core/SchemaMaintenance.php:451
+msgid "status does not match the current default version."
+msgstr "status does not match the current default version."
+
+#: app/Admin/SettingsPage.php:1043
+msgid "to"
+msgstr "to"
+
+#: app/Admin/Assets.php:381
+msgid "wpApiSettings is not available on this page. Conditions were only updated in the textarea."
+msgstr "wpApiSettings is not available on this page. Conditions were only updated in the textarea."

@@ -1,0 +1,2870 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AMK Schema Core 1.0.2\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2026-07-09 00:00+0000\\n"
+"PO-Revision-Date: 2026-07-09 00:00+0000\\n"
+"Last-Translator: AMK Schema Core\\n"
+"Language-Team: AMK Schema Core\\n"
+"Language: fa_IR\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"X-Domain: amk-schema-core\\n"
+
+#: app/Repository/TemplateRepository.php:366
+msgid " - Copy"
+msgstr "' - کپی'"
+
+#: app/Admin/TemplateEditorPage.php:1291
+msgid " is empty."
+msgstr "' خالی است.'"
+
+#: app/Admin/Assets.php:385
+msgid " is invalid. Check the JSON structure."
+msgstr " is invalid. Check the JSON structure."
+
+#: app/Admin/TemplateEditorPage.php:1298
+msgid " is invalid: "
+msgstr "' معتبر نیست: '"
+
+#: app/Schema/SchemaTemplateContract.php:53
+msgid "404 page"
+msgstr "'صفحه ۴۰۴'"
+
+#: app/Admin/TemplateEditorPage.php:393
+msgid "A higher number means higher priority when selecting the schema."
+msgstr "A higher number means higher priority when selecting the schema."
+
+#: app/Admin/SettingsPage.php:752
+msgid "A page where users can view the return rules. Leave empty if you do not have a dedicated page yet."
+msgstr "'صفحه‌ای که قوانین مرجوعی برای کاربر در آن قابل مشاهده است. اگر صفحه اختصاصی نداری، فعلاً خالی بگذار.'"
+
+#: app/Admin/SettingsPage.php:862
+msgid "A short and accurate shipping method description. Do not use long promotional text."
+msgstr "'توضیح کوتاه و واقعی درباره روش ارسال. از متن تبلیغاتی طولانی استفاده نکن.'"
+
+#: app/Admin/AdminMenu.php:54
+#: app/Admin/AdminMenu.php:55
+msgid "AMK Schema Core"
+msgstr "AMK Schema Core"
+
+#: app/Core/Activator.php:128
+#: app/Core/Activator.php:155
+#: app/Core/SchemaMaintenance.php:276
+msgid "AMK_SCHEMA_CORE_PATH is not defined."
+msgstr "'AMK_SCHEMA_CORE_PATH تعریف نشده است.'"
+
+#: app/Admin/SettingsPage.php:156
+msgid "About page"
+msgstr "'برگه درباره ما'"
+
+#: app/Schema/SchemaTemplateContract.php:24
+msgid "AboutPage - About page"
+msgstr "'AboutPage - صفحه درباره ما'"
+
+#: app/Admin/SettingsPage.php:286
+msgid "Accepted currencies"
+msgstr "'ارزهای قابل قبول'"
+
+#: app/Admin/Assets.php:374
+#: app/Admin/TemplateEditorPage.php:708
+msgid "Action"
+msgstr "عملیات"
+
+#: app/Admin/SchemaBuilderPage.php:112
+msgid "Actions"
+msgstr "Actions"
+
+#: app/Admin/Assets.php:409
+#: app/Admin/SchemaBuilderPage.php:191
+#: app/Admin/SchemaBuilderPage.php:328
+#: app/Admin/SchemaBuilderPage.php:389
+#: app/Admin/SettingsPage.php:1559
+msgid "Active"
+msgstr "فعال"
+
+#: app/Admin/AdminMenu.php:74
+msgid "Add / Edit Template"
+msgstr "Add / Edit Template"
+
+#: app/Admin/TemplateEditorPage.php:475
+msgid "Add Binding"
+msgstr "+ افزودن Binding"
+
+#: app/Admin/SchemaBuilderPage.php:63
+msgid "Add New Template"
+msgstr "افزودن الگوی جدید"
+
+#: app/Admin/TemplateEditorPage.php:56
+msgid "Add Schema"
+msgstr "esc_html__('افزودن اسکیما', 'amk-schema-core')"
+
+#: app/Admin/AdminMenu.php:75
+msgid "Add Template"
+msgstr "Add Template"
+
+#: app/Admin/TemplateEditorPage.php:657
+msgid "Add condition"
+msgstr "+ افزودن شرط"
+
+#: app/Admin/SettingsPage.php:522
+msgid "Add contact point"
+msgstr "+ افزودن نقطه تماس"
+
+#: app/Admin/SchemaBuilderPage.php:128
+msgid "Add first template"
+msgstr "افزودن اولین الگو"
+
+#: app/Admin/SettingsPage.php:577
+msgid "Add social network"
+msgstr "افزودن شبکه اجتماعی"
+
+#: app/Admin/SettingsPage.php:378
+#: app/Data/ResolverVariableCatalog.php:67
+msgid "Address"
+msgstr "آدرس"
+
+#: app/Admin/Assets.php:411
+msgid "All countries"
+msgstr "All countries"
+
+#: app/Admin/SettingsPage.php:217
+#: app/Data/ResolverVariableCatalog.php:53
+msgid "Alternate name"
+msgstr "'نام جایگزین'"
+
+#: app/Schema/SchemaTemplateContract.php:26
+msgid "Article - Article"
+msgstr "'Article - مقاله'"
+
+#: app/Schema/SchemaTemplateContract.php:50
+msgid "Author archive"
+msgstr "'آرشیو نویسنده'"
+
+#: app/Data/ResolverVariableCatalog.php:103
+msgid "Author name"
+msgstr "نام نویسنده"
+
+#: app/Data/ResolverVariableCatalog.php:104
+msgid "Author url"
+msgstr "آدرس نویسنده"
+
+#: app/Admin/SettingsPage.php:1483
+msgid "Bank transfer"
+msgstr "'انتقال بانکی'"
+
+#: app/Core/GlobalSettings.php:474
+msgid "Billing support"
+msgstr "'پشتیبانی مالی / صورتحساب'"
+
+#: app/Admin/Assets.php:355
+msgid "Binding JSON is invalid: "
+msgstr "Binding JSON is invalid: "
+
+#: app/Admin/TemplateEditorPage.php:740
+msgid "Binding:"
+msgstr "Binding: اتصال placeholder به داده."
+
+#: app/Admin/TemplateEditorPage.php:160
+msgid "Bindings"
+msgstr "'Bindingها'"
+
+#: app/Admin/TemplateEditorPage.php:463
+msgid "Bindings / custom variables"
+msgstr "Bindingها / متغیرهای سفارشی"
+
+#: app/Schema/SchemaTemplateContract.php:47
+msgid "Blog archive"
+msgstr "'آرشیو بلاگ'"
+
+#: app/Admin/Assets.php:330
+msgid "Boolean"
+msgstr "Boolean"
+
+#: app/Admin/SettingsPage.php:198
+msgid "Brand / organization name"
+msgstr "'نام برند / سازمان'"
+
+#: app/Admin/SettingsPage.php:241
+msgid "Brand / store image"
+msgstr "'تصویر برند / فروشگاه'"
+
+#: app/Data/ResolverVariableCatalog.php:116
+msgid "Brand name"
+msgstr "نام برند"
+
+#: app/Data/ResolverVariableCatalog.php:117
+msgid "Brand url"
+msgstr "آدرس برند"
+
+#: app/Data/ResolverVariableCatalog.php:39
+msgid "Breadcrumb id"
+msgstr "شناسه Breadcrumb"
+
+#: app/Data/ResolverVariableCatalog.php:140
+msgid "Breadcrumb items"
+msgstr "آیتم‌های Breadcrumb"
+
+#: app/Schema/SchemaTemplateContract.php:30
+msgid "BreadcrumbList - Breadcrumb trail"
+msgstr "'BreadcrumbList - مسیر راهنما'"
+
+#: app/Admin/Assets.php:396
+msgid "Building preview..."
+msgstr "Building preview..."
+
+#: app/Admin/Assets.php:331
+#: app/Admin/Assets.php:445
+msgid "CSV to array"
+msgstr "CSV به آرایه"
+
+#: app/Admin/SettingsPage.php:1484
+msgid "Cash"
+msgstr "'نقدی'"
+
+#: app/Admin/SettingsPage.php:1485
+msgid "Cash on delivery"
+msgstr "'پرداخت در محل'"
+
+#: app/Admin/SettingsPage.php:1314
+msgid "Check database differences against default files"
+msgstr "بررسی اختلاف دیتابیس با فایل‌های پیش‌فرض"
+
+#: app/Admin/SettingsPage.php:106
+msgid "Choose the site type so only fields related to that model are displayed."
+msgstr "نوع سایت را مشخص کن تا فقط فیلدهای مرتبط با همان مدل سایت نمایش داده شود."
+
+#: app/Admin/SettingsPage.php:449
+msgid "Cities are displayed based on the selected region."
+msgstr "شهرها بر اساس استان انتخاب‌شده نمایش داده می‌شوند."
+
+#: app/Admin/SettingsPage.php:430
+msgid "City"
+msgstr "City"
+
+#: app/Admin/TemplateEditorPage.php:773
+msgid "Click a variable to insert it into the active textarea and make the JSON dynamic."
+msgstr "برای داینامیک‌کردن JSON، روی متغیر کلیک کن تا داخل textarea فعال درج شود."
+
+#: app/Admin/Assets.php:389
+msgid "Close"
+msgstr "Close"
+
+#: app/Schema/SchemaTemplateContract.php:29
+msgid "CollectionPage - Archive / category"
+msgstr "'CollectionPage - آرشیو / دسته‌بندی'"
+
+#: app/Data/ResolverVariableCatalog.php:79
+msgid "Commerce / shipping / returns"
+msgstr "فروشگاهی / ارسال / مرجوعی"
+
+#: app/Admin/SettingsPage.php:687
+msgid "Commerce and Merchant Listings Settings"
+msgstr "تنظیمات فروشگاهی و Merchant Listings"
+
+#: app/Admin/TemplateEditorPage.php:962
+msgid "Condition examples"
+msgstr "مثال شرط‌ها"
+
+#: app/Admin/TemplateEditorPage.php:741
+msgid "Condition:"
+msgstr "Condition: حذف بخش‌های خالی یا نامعتبر."
+
+#: app/Admin/TemplateEditorPage.php:639
+msgid "Conditions"
+msgstr "شرط‌ها"
+
+#: app/Admin/TemplateEditorPage.php:640
+msgid "Conditions are used to remove unnecessary parts from the final output, such as removing rating when a product has no rating."
+msgstr "شرط‌ها برای حذف بخش‌های غیرضروری از خروجی نهایی استفاده می‌شوند؛ مثلاً حذف rating وقتی محصول امتیاز ندارد."
+
+#: app/Admin/Assets.php:382
+#: app/REST/ConditionController.php:173
+msgid "Conditions saved successfully."
+msgstr "'شرط‌ها با موفقیت ذخیره شدند.'"
+
+#: app/Admin/Assets.php:380
+msgid "Conditions were updated in the textarea. To save via REST, save the template first so template_id is created."
+msgstr "Conditions were updated in the textarea. To save via REST, save the template first so template_id is created."
+
+#: app/Admin/TemplateEditorPage.php:740
+msgid "Connects a placeholder to data."
+msgstr "Connects a placeholder to data."
+
+#: app/Admin/SettingsPage.php:499
+msgid "Contact Points / Support"
+msgstr "نقاط تماس / پشتیبانی"
+
+#: app/Admin/SettingsPage.php:2079
+msgid "Contact URL"
+msgstr "لینک تماس"
+
+#: app/Admin/SettingsPage.php:2096
+msgid "Contact options"
+msgstr "گزینه‌های تماس"
+
+#: app/Admin/SettingsPage.php:2091
+msgid "Contact or support page URL for this contact method."
+msgstr "لینک صفحه تماس یا پشتیبانی برای این راه ارتباطی."
+
+#: app/Admin/SettingsPage.php:149
+msgid "Contact page"
+msgstr "'برگه تماس با ما'"
+
+#: app/Admin/SettingsPage.php:1992
+#: app/Data/ResolverVariableCatalog.php:68
+msgid "Contact point"
+msgstr "نقطه تماس"
+
+#: app/Admin/SettingsPage.php:2006
+msgid "Contact type"
+msgstr "نوع تماس"
+
+#: app/Schema/SchemaTemplateContract.php:25
+msgid "ContactPage - Contact page"
+msgstr "'ContactPage - صفحه تماس با ما'"
+
+#: app/Admin/Assets.php:362
+#: app/Admin/TemplateEditorPage.php:1091
+msgid "Contains"
+msgstr "'شامل باشد'"
+
+#: app/Core/GlobalSettings.php:451
+msgid "Content / blog site"
+msgstr "'سایت محتوایی / بلاگ'"
+
+#: app/Data/ResolverVariableCatalog.php:27
+msgid "Context"
+msgstr "کانتکست"
+
+#: app/Admin/Assets.php:324
+#: app/Admin/Assets.php:438
+msgid "Convert to string"
+msgstr "تبدیل به string"
+
+#: app/Admin/Assets.php:388
+msgid "Copy JSON"
+msgstr "Copy JSON"
+
+#: app/Admin/SettingsPage.php:179
+msgid "Core brand, company, site, or store information. This section is required for every site type."
+msgstr "اطلاعات اصلی برند، شرکت، سایت یا فروشگاه. این بخش برای همه نوع سایت لازم است."
+
+#: app/Admin/SettingsPage.php:404
+msgid "Countries are loaded from the plugin global dataset."
+msgstr "کشورها از دیتاست جهانی افزونه بارگذاری می‌شوند."
+
+#: app/Admin/SettingsPage.php:388
+msgid "Country"
+msgstr "Country"
+
+#: app/Admin/SchemaBuilderPage.php:124
+msgid "Create a new template to get started. Without an active template, the plugin prints nothing on the frontend."
+msgstr "برای شروع، یک الگوی جدید بساز. بدون template فعال، افزونه چیزی در frontend چاپ نمی‌کند."
+
+#: app/Admin/SettingsPage.php:1481
+msgid "Credit card"
+msgstr "'کارت اعتباری'"
+
+#: app/Data/ResolverVariableCatalog.php:61
+msgid "Currencies accepted"
+msgstr "Currencies accepted"
+
+#: app/Data/ResolverVariableCatalog.php:124
+msgid "Currency"
+msgstr "واحد پول"
+
+#: app/Data/ResolverVariableCatalog.php:93
+msgid "Current content ID"
+msgstr "شناسه محتوای فعلی"
+
+#: app/Data/ResolverVariableCatalog.php:99
+msgid "Current page URL"
+msgstr "آدرس صفحه فعلی"
+
+#: app/Data/ResolverVariableCatalog.php:24
+msgid "Current url"
+msgstr "آدرس صفحه فعلی"
+
+#: app/Schema/SchemaTemplateContract.php:33
+msgid "Custom - Custom"
+msgstr "'Custom - سفارشی'"
+
+#: app/Core/GlobalSettings.php:471
+msgid "Customer support"
+msgstr "'پشتیبانی مشتری'"
+
+#: app/Data/ResolverVariableCatalog.php:45
+msgid "Data built from the plugin global settings."
+msgstr "داده‌هایی که از تنظیمات سراسری افزونه ساخته می‌شوند."
+
+#: app/Data/ResolverVariableCatalog.php:110
+msgid "Data for the current WooCommerce product."
+msgstr "داده‌های محصول فعلی ووکامرس."
+
+#: app/Admin/Assets.php:371
+#: app/Admin/TemplateEditorPage.php:687
+msgid "Data key"
+msgstr "کلید داده"
+
+#: app/Data/ResolverVariableCatalog.php:91
+msgid "Data read from the current page, post, or archive."
+msgstr "داده‌هایی که از صفحه، نوشته یا آرشیو فعلی گرفته می‌شوند."
+
+#: app/Admin/Assets.php:334
+msgid "Data source"
+msgstr "Data source"
+
+#: app/Data/ResolverVariableCatalog.php:130
+msgid "Date created"
+msgstr "تاریخ ایجاد"
+
+#: app/Data/ResolverVariableCatalog.php:102
+#: app/Data/ResolverVariableCatalog.php:131
+msgid "Date modified"
+msgstr "تاریخ ویرایش"
+
+#: app/Data/ResolverVariableCatalog.php:101
+msgid "Date published"
+msgstr "تاریخ انتشار"
+
+#: app/Admin/SettingsPage.php:1482
+msgid "Debit card"
+msgstr "'کارت بانکی'"
+
+#: app/Schema/SchemaTemplateContract.php:54
+msgid "Default / fallback"
+msgstr "'پیش‌فرض / fallback'"
+
+#: app/Core/SchemaMaintenance.php:217
+msgid "Default schema template diff check was run."
+msgstr "'بررسی اختلاف قالب‌های پیش‌فرض اسکیما انجام شد.'"
+
+#: app/Core/SchemaMaintenance.php:215
+msgid "Default schema template synchronization was run."
+msgstr "'همگام‌سازی قالب‌های پیش‌فرض اسکیما اجرا شد.'"
+
+#: app/Admin/Assets.php:336
+msgid "Default value"
+msgstr "Default value"
+
+#: app/Admin/SettingsPage.php:1288
+msgid "Defaults:"
+msgstr "پیش‌فرض‌ها:"
+
+#: app/Core/SchemaMaintenance.php:221
+msgid "Defaults: %d | Existing: %d | Missing: %d | Needs update: %d | Old placeholder: %d | Old property: %d"
+msgstr "'پیش‌فرض‌ها: %d | موجود: %d | گمشده: %d | نیازمند بروزرسانی: %d | placeholder قدیمی: %d | property قدیمی: %d'"
+
+#: app/Admin/SettingsPage.php:1293
+msgid "Deprecated properties:"
+msgstr "property قدیمی:"
+
+#: app/Data/ResolverVariableCatalog.php:55
+#: app/Data/ResolverVariableCatalog.php:96
+msgid "Description"
+msgstr "توضیح"
+
+#: app/Admin/SettingsPage.php:237
+msgid "Direct logo URL. A WordPress media picker can be added later."
+msgstr "'URL مستقیم لوگو. بعداً می‌توانیم انتخابگر رسانه وردپرس هم اضافه کنیم.'"
+
+#: app/Admin/TemplateEditorPage.php:372
+msgid "Display scope"
+msgstr "Display scope"
+
+#: app/Admin/TemplateEditorPage.php:152
+msgid "Display scope is required."
+msgstr "'محدوده نمایش الزامی است.'"
+
+#: app/Admin/SettingsPage.php:963
+msgid "Displayed only for a local business or a store with a physical branch."
+msgstr "فقط برای کسب‌وکار محلی یا فروشگاه دارای شعبه حضوری نمایش داده می‌شود."
+
+#: app/Admin/SettingsPage.php:700
+msgid "Do not enter fake data. If shipping or return policies do not really exist on the site or are not visible to users, keep that section disabled."
+msgstr "داده ساختگی وارد نکن. اگر سیاست ارسال یا مرجوعی واقعاً در سایت وجود ندارد یا برای کاربر قابل مشاهده نیست، همان بخش را غیرفعال بگذار."
+
+#: app/Admin/Assets.php:363
+#: app/Admin/TemplateEditorPage.php:1092
+msgid "Does not contain"
+msgstr "'شامل نباشد'"
+
+#: app/Admin/Assets.php:361
+#: app/Admin/TemplateEditorPage.php:1090
+msgid "Does not equal"
+msgstr "'برابر نباشد'"
+
+#: app/Admin/Assets.php:359
+msgid "Does not exist"
+msgstr "Does not exist"
+
+#: app/Core/SchemaMaintenance.php:63
+msgid "Does not exist in the database."
+msgstr "'در دیتابیس وجود ندارد.'"
+
+#: app/Admin/SchemaBuilderPage.php:338
+#: app/Admin/SchemaBuilderPage.php:391
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+#: app/Admin/TemplateEditorPage.php:770
+msgid "Dynamic variables"
+msgstr "متغیرهای داینامیک"
+
+#: app/Admin/SchemaBuilderPage.php:202
+msgid "Edit"
+msgstr "ویرایش"
+
+#: app/Admin/TemplateEditorPage.php:56
+msgid "Edit Schema"
+msgstr "esc_html__('ویرایش اسکیما', 'amk-schema-core')"
+
+#: app/Admin/SettingsPage.php:2045
+#: app/Data/ResolverVariableCatalog.php:59
+msgid "Email"
+msgstr "ایمیل"
+
+#: app/Admin/SettingsPage.php:708
+msgid "Enable commerce data for Merchant listings"
+msgstr "'فعال‌سازی داده‌های فروشگاهی برای Merchant listings'"
+
+#: app/Admin/SettingsPage.php:971
+msgid "Enable local business / physical branch schema"
+msgstr "'فعال‌سازی اسکیمای کسب‌وکار محلی / شعبه حضوری'"
+
+#: app/Admin/TemplateEditorPage.php:399
+msgid "Enable override"
+msgstr "Override فعال باشد"
+
+#: app/Admin/SettingsPage.php:741
+msgid "Enable return policy"
+msgstr "'فعال‌سازی سیاست مرجوعی'"
+
+#: app/Admin/SettingsPage.php:840
+msgid "Enable shipping policy"
+msgstr "'فعال‌سازی سیاست ارسال'"
+
+#: app/Admin/SettingsPage.php:1242
+msgid "Enable the confirmation checkbox before synchronizing default templates."
+msgstr "'برای همگام‌سازی قالب‌های پیش‌فرض، ابتدا تیک تأیید را فعال کن.'"
+
+#: app/Admin/SettingsPage.php:882
+msgid "Enter 0 for free shipping. Leave empty if there is no fixed cost or if shipping is calculated by city or weight."
+msgstr "'اگر ارسال رایگان است، 0 وارد کن. اگر هزینه ثابت نداری یا هزینه براساس شهر/وزن محاسبه می‌شود، خالی بگذار تا schema هزینه ثابت نسازد.'"
+
+#: app/Admin/SettingsPage.php:831
+msgid "Enter shipping cost using the same unit used in WooCommerce. The plugin normalizes monetary schema output to IRR."
+msgstr "هزینه ارسال را با همان واحدی وارد کن که در ووکامرس استفاده می‌کنی. افزونه در خروجی schema مقدار پولی را به IRR استاندارد می‌کند."
+
+#: app/Admin/TemplateEditorPage.php:420
+msgid "Enter the main Schema JSON-LD structure here. Placeholders using the {{data_key}} format are supported."
+msgstr "ساختار اصلی Schema JSON-LD را اینجا وارد کن. Placeholderها با قالب {{data_key}} پشتیبانی می‌شوند."
+
+#: app/Admin/SettingsPage.php:210
+msgid "Enter the registered or legal name if available; it is optional."
+msgstr "'اگر نام ثبتی یا حقوقی داری وارد کن؛ اجباری نیست.'"
+
+#: app/Admin/Assets.php:360
+#: app/Admin/TemplateEditorPage.php:1089
+msgid "Equals"
+msgstr "'برابر باشد'"
+
+#: app/Admin/Assets.php:398
+msgid "Error building preview."
+msgstr "Error building preview."
+
+#: app/Admin/Assets.php:399
+msgid "Error fetching preview. Check the browser console for details."
+msgstr "Error fetching preview. Check the browser console for details."
+
+#: app/Admin/Assets.php:383
+msgid "Error saving conditions."
+msgstr "Error saving conditions."
+
+#: app/Admin/Assets.php:384
+msgid "Error saving conditions. Check the browser console for details."
+msgstr "Error saving conditions. Check the browser console for details."
+
+#: app/Admin/Assets.php:406
+msgid "Error saving priorities."
+msgstr "Error saving priorities."
+
+#: app/Admin/Assets.php:407
+msgid "Error saving priorities. Check the browser console for details."
+msgstr "Error saving priorities. Check the browser console for details."
+
+#: app/REST/TemplateController.php:258
+msgid "Error saving template."
+msgstr "'خطا در ذخیره الگو.'"
+
+#: app/REST/TemplateController.php:237
+msgid "Error updating template."
+msgstr "'خطا در بروزرسانی الگو.'"
+
+#: app/Core/SchemaMaintenance.php:232
+msgid "Error: "
+msgstr "'خطا: '"
+
+#: app/Admin/Assets.php:393
+msgid "Errors:"
+msgstr "Errors:"
+
+#: app/Schema/SchemaValidator.php:678
+msgid "Every main schema object must have `@type`."
+msgstr "'هر schema object اصلی باید `@type` داشته باشد.'"
+
+#: app/Admin/TemplateEditorPage.php:503
+msgid "Example usage:"
+msgstr "نمونه کاربرد:"
+
+#: app/Data/ResolverVariableCatalog.php:97
+msgid "Excerpt"
+msgstr "خلاصه"
+
+#: app/Core/GlobalSettings.php:533
+msgid "ExchangeRefund - Item exchange"
+msgstr "'ExchangeRefund - تعویض کالا'"
+
+#: app/Admin/SchemaBuilderPage.php:107
+msgid "Execution scope"
+msgstr "محدوده اجرا"
+
+#: app/Admin/SettingsPage.php:1289
+msgid "Existing:"
+msgstr "موجود:"
+
+#: app/Admin/Assets.php:358
+msgid "Exists"
+msgstr "Exists"
+
+#: app/Admin/TemplateEditorPage.php:703
+msgid "Expected value"
+msgstr "مقدار مورد انتظار"
+
+#: app/Data/ResolverVariableCatalog.php:100
+msgid "Featured image"
+msgstr "تصویر شاخص"
+
+#: app/Admin/Assets.php:332
+#: app/Admin/Assets.php:446
+msgid "First array value"
+msgstr "اولین مقدار آرایه"
+
+#: app/Admin/SettingsPage.php:878
+msgid "Fixed shipping cost"
+msgstr "'هزینه ارسال ثابت'"
+
+#: app/Admin/Assets.php:329
+#: app/Admin/Assets.php:443
+msgid "Float number"
+msgstr "عدد اعشاری"
+
+#: app/Admin/SettingsPage.php:141
+msgid "For Contact and About pages, detection uses the page ID instead of URL or title, so permalink changes do not break it."
+msgstr "برای برگه‌های تماس با ما و درباره ما، تشخیص را با شناسه برگه انجام بده؛ نه با URL یا عنوان صفحه. این روش با تغییر پیوند یکتا خراب نمی‌شود."
+
+#: app/Data/ResolverVariableCatalog.php:18
+msgid "For WebSite, WebPage, and general information on all pages."
+msgstr "برای WebSite، WebPage و اطلاعات عمومی همه صفحات."
+
+#: app/Admin/SettingsPage.php:118
+msgid "For WooCommerce sites, Online store or Online store + physical branch is usually more accurate."
+msgstr "'برای سایت‌های ووکامرسی معمولاً «فروشگاه اینترنتی» یا «فروشگاه اینترنتی + شعبه حضوری» درست‌تر است.'"
+
+#: app/Admin/SettingsPage.php:221
+msgid "For an English name, short name, or known brand name."
+msgstr "'برای نام انگلیسی، نام کوتاه یا نام شناخته‌شده برند.'"
+
+#: app/Admin/SettingsPage.php:191
+msgid "For an online store with a physical branch, select at least Organization + Store + OnlineStore. Selecting only OnlineStore may trigger warnings for physical properties such as geo, hasMap, and openingHoursSpecification."
+msgstr "'برای فروشگاه اینترنتی دارای شعبه حضوری، حداقل Organization + Store + OnlineStore را انتخاب کن. انتخاب فقط OnlineStore باعث می‌شود propertyهای فیزیکی مثل geo، hasMap و openingHoursSpecification با warning مواجه شوند.'"
+
+#: app/Data/ResolverVariableCatalog.php:33
+msgid "For building internal references with @id."
+msgstr "برای ساخت referenceهای داخلی با @id."
+
+#: app/Admin/SettingsPage.php:290
+msgid "For example IRR or USD. Important for stores."
+msgstr "'مثلاً IRR یا USD. برای فروشگاه‌ها مهم است.'"
+
+#: app/Admin/Assets.php:346
+msgid "For example _gtin, _mpn, or any custom product meta."
+msgstr "For example _gtin, _mpn, or any custom product meta."
+
+#: app/Admin/Assets.php:340
+msgid "For example _gtin, pa_brand, or title"
+msgstr "For example _gtin, pa_brand, or title"
+
+#: app/Admin/Assets.php:345
+msgid "For example _yoast_wpseo_title or a custom field for the post/page."
+msgstr "For example _yoast_wpseo_title or a custom field for the post/page."
+
+#: app/Admin/TemplateEditorPage.php:716
+msgid "For example aggregateRating"
+msgstr "For example aggregateRating"
+
+#: app/Admin/Assets.php:377
+msgid "For example aggregateRating or offers.price"
+msgstr "For example aggregateRating or offers.price"
+
+#: app/Admin/Assets.php:351
+msgid "For example blogname or a custom option."
+msgstr "For example blogname or a custom option."
+
+#: app/Admin/Assets.php:339
+msgid "For example custom_gtin"
+msgstr "For example custom_gtin"
+
+#: app/Admin/Assets.php:352
+msgid "For example custom_logo or a custom theme mod."
+msgstr "For example custom_logo or a custom theme mod."
+
+#: app/Admin/Assets.php:354
+msgid "For example organization.name or commerce.return_policy."
+msgstr "For example organization.name or commerce.return_policy."
+
+#: app/Admin/Assets.php:347
+msgid "For example pa_brand or pa_color."
+msgstr "For example pa_brand or pa_color."
+
+#: app/Admin/Assets.php:348
+msgid "For example product_cat, product_tag, pa_brand, or category."
+msgstr "For example product_cat, product_tag, pa_brand, or category."
+
+#: app/Admin/TemplateEditorPage.php:688
+msgid "For example rating_value"
+msgstr "For example rating_value"
+
+#: app/Admin/Assets.php:376
+msgid "For example rating_value or price"
+msgstr "For example rating_value or price"
+
+#: app/Admin/Assets.php:343
+msgid "For example title, price, organization_name, or breadcrumb_items."
+msgstr "For example title, price, organization_name, or breadcrumb_items."
+
+#: app/Admin/SettingsPage.php:209
+msgid "For example: Company ..."
+msgstr "'مثلاً: شرکت ...'"
+
+#: app/Admin/SettingsPage.php:201
+#: app/Admin/SettingsPage.php:220
+msgid "For example: Noble Power"
+msgstr "'مثلاً: نوبل پاور'"
+
+#: app/Admin/SettingsPage.php:861
+msgid "For example: Orders are shipped by postal service, courier, or freight."
+msgstr "'مثلاً: ارسال سفارش‌ها از طریق پست، تیپاکس یا باربری انجام می‌شود.'"
+
+#: app/Admin/TemplateEditorPage.php:427
+#: app/Admin/TemplateEditorPage.php:479
+msgid "Format JSON"
+msgstr "فرمت JSON"
+
+#: app/Core/SchemaMaintenance.php:76
+msgid "Found with the old name and should be moved to the new name."
+msgstr "'با نام قدیمی پیدا شد و باید به نام جدید منتقل شود.'"
+
+#: app/Admin/SettingsPage.php:308
+#: app/Data/ResolverVariableCatalog.php:63
+msgid "Founding date"
+msgstr "'تاریخ تأسیس'"
+
+#: app/Admin/SettingsPage.php:889
+msgid "Free shipping from amount"
+msgstr "'ارسال رایگان از مبلغ'"
+
+#: app/Core/GlobalSettings.php:522
+msgid "FreeReturn - Free returns"
+msgstr "'FreeReturn - مرجوعی رایگان'"
+
+#: app/Admin/SettingsPage.php:1108
+msgid "Friday"
+msgstr "جمعه"
+
+#: app/Admin/SettingsPage.php:454
+msgid "Full address"
+msgstr "'آدرس کامل'"
+
+#: app/Admin/SettingsPage.php:805
+msgid "Full refund, store credit, or exchange. Select only what is actually offered."
+msgstr "'بازپرداخت کامل، اعتبار فروشگاه یا تعویض کالا. فقط موردی را انتخاب کن که واقعاً اجرا می‌شود.'"
+
+#: app/Core/GlobalSettings.php:531
+msgid "FullRefund - Full refund"
+msgstr "'FullRefund - بازپرداخت کامل'"
+
+#: app/Core/GlobalSettings.php:450
+msgid "General / corporate site"
+msgstr "'سایت عمومی / شرکتی'"
+
+#: app/Schema/SchemaTemplateContract.php:51
+msgid "Generic archive"
+msgstr "'آرشیو عمومی'"
+
+#: app/Data/ResolverVariableCatalog.php:70
+msgid "Geo"
+msgstr "Geo"
+
+#: app/Schema/SchemaTemplateContract.php:39
+msgid "Global / all pages"
+msgstr "'سراسری / همه صفحات'"
+
+#: app/Admin/SettingsPage.php:31
+msgid "Global Schema Settings"
+msgstr "تنظیمات سراسری اسکیما"
+
+#: app/Admin/SettingsPage.php:1199
+msgid "Global settings saved successfully."
+msgstr "'تنظیمات سراسری با موفقیت ذخیره شد.'"
+
+#: app/Data/ResolverVariableCatalog.php:17
+msgid "Global site variables"
+msgstr "متغیرهای سراسری سایت"
+
+#: app/Data/ResolverVariableCatalog.php:80
+msgid "Global store data for OnlineStore, Store, and Product Offer."
+msgstr "داده‌های سراسری فروشگاه برای OnlineStore، Store و Product Offer."
+
+#: app/Admin/SettingsPage.php:982
+msgid "Google Maps or another valid map URL."
+msgstr "'لینک Google Maps یا نقشه معتبر.'"
+
+#: app/Admin/Assets.php:364
+#: app/Admin/TemplateEditorPage.php:1093
+msgid "Greater than"
+msgstr "'بزرگ‌تر باشد'"
+
+#: app/Admin/Assets.php:366
+msgid "Greater than or equal to"
+msgstr "Greater than or equal to"
+
+#: app/Data/ResolverVariableCatalog.php:73
+msgid "Has map"
+msgstr "Has map"
+
+#: app/Data/DataResolver.php:2509
+#: app/Data/DataResolver.php:2515
+#: app/Frontend/Output.php:729
+#: app/Frontend/Output.php:733
+msgid "Home"
+msgstr "خانه"
+
+#: app/Schema/SchemaTemplateContract.php:40
+msgid "Home page"
+msgstr "'صفحه اصلی'"
+
+#: app/Data/ResolverVariableCatalog.php:23
+msgid "Home url"
+msgstr "آدرس خانه"
+
+#: app/Admin/SettingsPage.php:1304
+msgid "I understand that manual changes to default templates may be overwritten."
+msgstr "متوجه هستم که تغییرات دستی روی قالب‌های پیش‌فرض ممکن است بازنویسی شود."
+
+#: app/Admin/SchemaBuilderPage.php:103
+msgid "ID"
+msgstr "ID"
+
+#: app/Data/ResolverVariableCatalog.php:35
+msgid "Id"
+msgstr "Id"
+
+#: app/Admin/TemplateEditorPage.php:401
+msgid "If multiple similar templates match, this option can override weaker templates."
+msgstr "If multiple similar templates match, this option can override weaker templates."
+
+#: app/Admin/SettingsPage.php:772
+msgid "If returns are time-limited, enter the real number of days. If the return policy has no time limit, this model is not suitable yet and should be designed separately."
+msgstr "'اگر مرجوعی زمان‌دار است، عدد واقعی را بر حسب روز وارد کن. اگر سیاست مرجوعی محدودیت زمانی ندارد، این مدل فعلاً مناسب نیست و باید جدا طراحی شود.'"
+
+#: app/Admin/TemplateEditorPage.php:973
+msgid "If the price is empty, remove offers:"
+msgstr "اگر قیمت خالی بود، offers حذف شود:"
+
+#: app/Admin/TemplateEditorPage.php:964
+msgid "If the product has no rating, remove this section:"
+msgstr "اگر محصول امتیاز ندارد، این بخش را حذف کن:"
+
+#: app/Admin/SettingsPage.php:159
+msgid "If this page is selected, the page schema type becomes AboutPage."
+msgstr "'اگر این برگه انتخاب شود، نوع اسکیمای صفحه به AboutPage تبدیل می‌شود.'"
+
+#: app/Admin/SettingsPage.php:152
+msgid "If this page is selected, the page schema type becomes ContactPage."
+msgstr "'اگر این برگه انتخاب شود، نوع اسکیمای صفحه به ContactPage تبدیل می‌شود.'"
+
+#: app/Data/ResolverVariableCatalog.php:57
+msgid "Image"
+msgstr "Image"
+
+#: app/Admin/SettingsPage.php:1298
+msgid "Important:"
+msgstr "مهم:"
+
+#: app/Admin/SettingsPage.php:926
+msgid "In days. Approximate transit time until the customer receives the shipment."
+msgstr "'بر حسب روز. زمان تقریبی حرکت/ارسال تا رسیدن به مشتری.'"
+
+#: app/Admin/SettingsPage.php:904
+msgid "In days. For example, 0 means same-day handling."
+msgstr "'بر حسب روز. مثلاً 0 یعنی همان روز قابل آماده‌سازی است.'"
+
+#: app/Admin/SettingsPage.php:915
+msgid "In days. Must not be less than the minimum handling time."
+msgstr "'بر حسب روز. نباید از حداقل زمان آماده‌سازی کمتر باشد.'"
+
+#: app/Admin/SettingsPage.php:937
+msgid "In days. Must not be less than the minimum transit time."
+msgstr "'بر حسب روز. نباید از حداقل زمان تحویل کمتر باشد.'"
+
+#: app/Admin/SchemaBuilderPage.php:191
+#: app/Admin/SchemaBuilderPage.php:333
+#: app/Admin/SchemaBuilderPage.php:390
+#: app/Admin/TemplateEditorPage.php:386
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: app/Admin/TemplateEditorPage.php:431
+msgid "Insert sample by type"
+msgstr "درج نمونه براساس نوع"
+
+#: database/seed-defaults.php:496
+msgid "Inserting template %s failed."
+msgstr "sprintf('درج الگوی «%s» ناموفق بود.', $name)"
+
+#: app/Admin/SettingsPage.php:1486
+msgid "Installment payment"
+msgstr "'پرداخت اقساطی'"
+
+#: app/Admin/SettingsPage.php:851
+msgid "Internal or descriptive shipping method name. This is mostly used for the global ShippingService."
+msgstr "'نام داخلی/توصیفی روش ارسال. این مقدار بیشتر برای ShippingService سراسری استفاده می‌شود.'"
+
+#: app/Admin/SchemaBuilderPage.php:105
+msgid "Internal type"
+msgstr "نوع داخلی"
+
+#: app/Schema/SchemaValidator.php:586
+msgid "Invalid JSON: "
+msgstr "'JSON نامعتبر است: '"
+
+#: app/Core/IranLocations.php:114
+msgid "Iran"
+msgstr "'ایران (Iran)'"
+
+#: app/Admin/Assets.php:356
+#: app/Admin/TemplateEditorPage.php:1087
+msgid "Is empty"
+msgstr "'خالی باشد'"
+
+#: app/Admin/Assets.php:368
+msgid "Is in list"
+msgstr "Is in list"
+
+#: app/Admin/Assets.php:357
+#: app/Admin/TemplateEditorPage.php:1088
+msgid "Is not empty"
+msgstr "'خالی نباشد'"
+
+#: app/Admin/Assets.php:369
+msgid "Is not in list"
+msgstr "Is not in list"
+
+#: app/Schema/SchemaTemplateContract.php:31
+msgid "ItemList - Item list"
+msgstr "'ItemList - لیست آیتم‌ها'"
+
+#: app/Admin/Assets.php:400
+msgid "JSON copied."
+msgstr "JSON copied."
+
+#: app/Admin/TemplateEditorPage.php:1765
+msgid "JSON is invalid: "
+msgstr "'JSON معتبر نیست: '"
+
+#: app/Admin/Assets.php:387
+msgid "JSON-LD Preview"
+msgstr "JSON-LD Preview"
+
+#: app/REST/TemplateController.php:210
+msgid "JSON-LD is not valid according to the validator."
+msgstr "'JSON-LD از نظر Validator معتبر نیست.'"
+
+#: app/Admin/Assets.php:390
+msgid "JSON-LD output"
+msgstr "JSON-LD output"
+
+#: app/REST/SchemaController.php:59
+msgid "JSON-LD output was not generated."
+msgstr "'خروجی JSON-LD ساخته نشد.'"
+
+#: app/Admin/Assets.php:335
+msgid "Key / path / value"
+msgstr "Key / path / value"
+
+#: app/Data/ResolverVariableCatalog.php:25
+msgid "Language"
+msgstr "زبان"
+
+#: app/Admin/SettingsPage.php:1277
+msgid "Last status:"
+msgstr "آخرین وضعیت:"
+
+#: app/Admin/SchemaBuilderPage.php:111
+msgid "Last updated"
+msgstr "آخرین بروزرسانی"
+
+#: app/Admin/SettingsPage.php:2057
+msgid "Leave this empty if you do not have a separate email."
+msgstr "اگر ایمیل جداگانه نداری، می‌تواند خالی بماند."
+
+#: app/Admin/SettingsPage.php:206
+#: app/Data/ResolverVariableCatalog.php:52
+msgid "Legal name"
+msgstr "'نام قانونی'"
+
+#: app/Admin/Assets.php:365
+#: app/Admin/TemplateEditorPage.php:1094
+msgid "Less than"
+msgstr "'کوچک‌تر باشد'"
+
+#: app/Admin/Assets.php:367
+msgid "Less than or equal to"
+msgstr "Less than or equal to"
+
+#: app/Core/GlobalSettings.php:452
+msgid "Local business"
+msgstr "'کسب‌وکار محلی'"
+
+#: app/Data/ResolverVariableCatalog.php:36
+msgid "Local store id"
+msgstr "شناسه فروشگاه فیزیکی"
+
+#: app/Data/ResolverVariableCatalog.php:74
+msgid "Local store schema"
+msgstr "اسکیمای فروشگاه فیزیکی"
+
+#: app/Core/GlobalSettings.php:464
+msgid "LocalBusiness - Local business"
+msgstr "'LocalBusiness - کسب‌وکار محلی'"
+
+#: app/Schema/SchemaTemplateContract.php:19
+msgid "LocalBusiness - Standalone local business"
+msgstr "'LocalBusiness - کسب‌وکار محلی مستقل'"
+
+#: app/Admin/SettingsPage.php:233
+#: app/Data/ResolverVariableCatalog.php:56
+msgid "Logo"
+msgstr "'لوگو'"
+
+#: app/Admin/TemplateEditorPage.php:350
+msgid "Main Schema Information"
+msgstr "اطلاعات اصلی اسکیما"
+
+#: app/Admin/SettingsPage.php:187
+msgid "Main entity types"
+msgstr "'نوع‌های Entity اصلی'"
+
+#: app/Admin/SettingsPage.php:229
+msgid "Main site or store URL."
+msgstr "'آدرس اصلی سایت یا فروشگاه.'"
+
+#: app/Admin/SchemaBuilderPage.php:48
+msgid "Manage the plugin JSON-LD templates, change their execution priority, and review each schema status."
+msgstr "در این بخش می‌توانی الگوهای JSON-LD افزونه را مدیریت کنی، اولویت اجرای آن‌ها را تغییر دهی و وضعیت هر schema را بررسی کنی."
+
+#: app/Admin/SettingsPage.php:978
+msgid "Map URL"
+msgstr "'لینک نقشه'"
+
+#: app/Core/SchemaMaintenance.php:114
+msgid "Matches the current default file."
+msgstr "'با فایل پیش‌فرض فعلی همخوان است.'"
+
+#: app/Data/ResolverVariableCatalog.php:122
+msgid "Max price"
+msgstr "بیشترین قیمت"
+
+#: app/Admin/SettingsPage.php:911
+msgid "Maximum handling time"
+msgstr "'حداکثر زمان آماده‌سازی'"
+
+#: app/Admin/SettingsPage.php:933
+msgid "Maximum transit time"
+msgstr "'حداکثر زمان تحویل'"
+
+#: app/Data/ResolverVariableCatalog.php:82
+msgid "Merchant return policy"
+msgstr "سیاست مرجوعی فروشگاه"
+
+#: app/Admin/Assets.php:350
+msgid "Meta key for the content author."
+msgstr "Meta key for the content author."
+
+#: app/Admin/Assets.php:349
+msgid "Meta key for the current term."
+msgstr "Meta key for the current term."
+
+#: app/Data/ResolverVariableCatalog.php:121
+msgid "Min price"
+msgstr "کمترین قیمت"
+
+#: app/Admin/SettingsPage.php:900
+msgid "Minimum handling time"
+msgstr "'حداقل زمان آماده‌سازی'"
+
+#: app/Admin/SettingsPage.php:731
+msgid "Minimum required for returns:"
+msgstr "حداقل لازم برای مرجوعی:"
+
+#: app/Admin/SettingsPage.php:827
+msgid "Minimum required for shipping:"
+msgstr "حداقل لازم برای ارسال:"
+
+#: app/Admin/SettingsPage.php:922
+msgid "Minimum transit time"
+msgstr "'حداقل زمان تحویل'"
+
+#: app/Admin/SettingsPage.php:1290
+msgid "Missing:"
+msgstr "گمشده:"
+
+#: app/Admin/SettingsPage.php:1104
+msgid "Monday"
+msgstr "دوشنبه"
+
+#: app/Data/ResolverVariableCatalog.php:51
+msgid "Name"
+msgstr "Name"
+
+#: app/Data/ResolverVariableCatalog.php:94
+msgid "Name / main title"
+msgstr "نام / عنوان اصلی"
+
+#: app/Admin/SettingsPage.php:1291
+msgid "Needs update:"
+msgstr "نیازمند بروزرسانی:"
+
+#: app/Admin/SettingsPage.php:1282
+msgid "No check has been run yet."
+msgstr "هنوز بررسی انجام نشده است."
+
+#: app/Admin/SettingsPage.php:1904
+msgid "No city is registered for this region/state"
+msgstr "'شهری برای این استان/ایالت ثبت نشده است'"
+
+#: app/REST/PriorityController.php:46
+msgid "No items were submitted for saving priorities."
+msgstr "'هیچ آیتمی برای ذخیره اولویت ارسال نشده است.'"
+
+#: app/Admin/SettingsPage.php:1868
+msgid "No region/state is registered for this country"
+msgstr "'استان/ایالتی برای این کشور ثبت نشده است'"
+
+#: app/Admin/TemplateEditorPage.php:1774
+msgid "No sample is defined for this schema type."
+msgstr "'برای این نوع اسکیما نمونه‌ای تعریف نشده است.'"
+
+#: app/Admin/SchemaBuilderPage.php:122
+msgid "No schema templates have been registered yet."
+msgstr "هنوز هیچ الگوی اسکیمایی ثبت نشده است."
+
+#: app/REST/SchemaController.php:49
+msgid "No schema templates were found."
+msgstr "'هیچ الگوی اسکیمایی پیدا نشد.'"
+
+#: app/Admin/Assets.php:404
+msgid "No templates were found for saving priorities."
+msgstr "No templates were found for saving priorities."
+
+#: app/Admin/Assets.php:323
+#: app/Admin/Assets.php:437
+msgid "No transform"
+msgstr "بدون تبدیل"
+
+#: app/Admin/SettingsPage.php:1508
+msgid "Not selected"
+msgstr "Not selected"
+
+#: app/Admin/TemplateEditorPage.php:845
+msgid "Object/array variables such as"
+msgstr "Object/array variables such as"
+
+#: app/Data/ResolverVariableCatalog.php:112
+msgid "Offer url"
+msgstr "آدرس Offer"
+
+#: app/Admin/SettingsPage.php:1292
+msgid "Old placeholders:"
+msgstr "placeholder قدیمی:"
+
+#: app/Admin/SettingsPage.php:1480
+msgid "Online payment"
+msgstr "'پرداخت آنلاین'"
+
+#: app/Core/GlobalSettings.php:453
+msgid "Online store"
+msgstr "'فروشگاه اینترنتی'"
+
+#: app/Core/GlobalSettings.php:454
+msgid "Online store + physical branch"
+msgstr "'فروشگاه اینترنتی + شعبه حضوری'"
+
+#: app/Data/ResolverVariableCatalog.php:50
+msgid "Online store types"
+msgstr "نوع‌های فروشگاه آنلاین"
+
+#: app/Core/GlobalSettings.php:462
+msgid "OnlineStore - Online store"
+msgstr "'OnlineStore - فروشگاه اینترنتی'"
+
+#: app/Schema/SchemaTemplateContract.php:17
+msgid "OnlineStore - Standalone online store"
+msgstr "'OnlineStore - فروشگاه اینترنتی مستقل'"
+
+#: app/Admin/SchemaBuilderPage.php:83
+msgid "Only active templates output on the frontend. Draft and inactive templates should not be printed on the site."
+msgstr "فقط الگوهای فعال در مسیر frontend خروجی می‌دهند. Draft و inactive نباید در خروجی سایت چاپ شوند."
+
+#: app/Admin/SettingsPage.php:1018
+#: app/Data/ResolverVariableCatalog.php:71
+msgid "Opening hours"
+msgstr "ساعات کاری"
+
+#: app/Data/ResolverVariableCatalog.php:72
+msgid "Opening hours specification"
+msgstr "Opening hours specification"
+
+#: app/Admin/Assets.php:372
+#: app/Admin/TemplateEditorPage.php:692
+msgid "Operator"
+msgstr "عملگر"
+
+#: app/Admin/Assets.php:341
+#: app/Admin/TemplateEditorPage.php:704
+msgid "Optional"
+msgstr "اختیاری"
+
+#: app/Admin/SettingsPage.php:334
+#: app/Admin/SettingsPage.php:990
+#: app/Admin/SettingsPage.php:998
+msgid "Optional."
+msgstr "'اختیاری.'"
+
+#: app/Admin/SettingsPage.php:893
+msgid "Optional. Enter this only if the site really has a free shipping threshold."
+msgstr "'اختیاری. فقط اگر واقعاً در سایت قانون ارسال رایگان از مبلغ مشخص داری وارد کن.'"
+
+#: app/Admin/SettingsPage.php:245
+msgid "Optional; representative image for the brand or store."
+msgstr "'اختیاری؛ برای تصویر نماینده برند یا فروشگاه.'"
+
+#: app/Admin/SettingsPage.php:323
+msgid "Optional; use only if it really appears on the site or business documents."
+msgstr "'اختیاری؛ فقط اگر واقعاً در سایت یا مدارک کسب‌وکار استفاده می‌شود.'"
+
+#: app/Core/GlobalSettings.php:475
+msgid "Order support"
+msgstr "'پیگیری سفارش'"
+
+#: app/Core/GlobalSettings.php:461
+msgid "Organization - General organization"
+msgstr "'Organization - سازمان عمومی'"
+
+#: app/Admin/SettingsPage.php:177
+msgid "Organization / Brand Identity"
+msgstr "هویت سازمان / برند"
+
+#: app/Data/ResolverVariableCatalog.php:44
+msgid "Organization / brand / store"
+msgstr "سازمان / برند / فروشگاه"
+
+#: app/Schema/SchemaTemplateContract.php:16
+msgid "Organization Entity - Organization / brand / store"
+msgstr "'Organization Entity - سازمان / برند / فروشگاه'"
+
+#: app/Admin/Assets.php:392
+msgid "Output passed validation."
+msgstr "Output passed validation."
+
+#: app/Admin/Assets.php:401
+#: app/Admin/SchemaBuilderPage.php:110
+msgid "Override"
+msgstr "Override"
+
+#: app/Schema/SchemaTemplateContract.php:41
+msgid "Page / generic page"
+msgstr "'برگه / صفحه عمومی'"
+
+#: app/Data/ResolverVariableCatalog.php:90
+msgid "Page / post / archive"
+msgstr "صفحه / نوشته / آرشیو"
+
+#: app/Data/DataResolver.php:644
+#: app/Data/DataResolver.php:645
+#: app/Data/DataResolver.php:2512
+#: app/Data/DataResolver.php:2518
+msgid "Page not found"
+msgstr "صفحه پیدا نشد"
+
+#: app/Admin/Assets.php:375
+#: app/Admin/TemplateEditorPage.php:715
+msgid "Path to remove"
+msgstr "مسیر حذف"
+
+#: app/Data/ResolverVariableCatalog.php:62
+msgid "Payment accepted"
+msgstr "Payment accepted"
+
+#: app/Admin/SettingsPage.php:297
+msgid "Payment methods"
+msgstr "'روش‌های پرداخت'"
+
+#: app/Admin/AdminMenu.php:201
+msgid "Permission denied"
+msgstr "Permission denied"
+
+#: app/Admin/SettingsPage.php:2028
+msgid "Phone number"
+msgstr "شماره تماس"
+
+#: app/Admin/SettingsPage.php:961
+msgid "Physical Store / Local Business"
+msgstr "فروشگاه حضوری / کسب‌وکار محلی"
+
+#: app/Admin/Assets.php:322
+#: app/Admin/Assets.php:434
+msgid "Plugin global setting"
+msgstr "تنظیمات سراسری افزونه"
+
+#: app/Admin/Assets.php:328
+#: app/Admin/Assets.php:442
+msgid "Positive integer"
+msgstr "عدد صحیح مثبت"
+
+#: app/Admin/Assets.php:314
+msgid "Post Meta"
+msgstr "Post Meta"
+
+#: app/Schema/SchemaTemplateContract.php:48
+msgid "Post category archive"
+msgstr "'دسته‌بندی نوشته'"
+
+#: app/Schema/SchemaTemplateContract.php:49
+msgid "Post tag archive"
+msgstr "'برچسب نوشته'"
+
+#: app/Admin/SettingsPage.php:462
+msgid "Postal code"
+msgstr "'کد پستی'"
+
+#: app/Admin/SettingsPage.php:2040
+msgid "Prefer entering the number with the country code."
+msgstr "شماره را ترجیحاً با کد کشور وارد کن."
+
+#: app/Admin/Assets.php:386
+#: app/Admin/TemplateEditorPage.php:435
+msgid "Preview dynamic output"
+msgstr "پیش‌نمایش خروجی داینامیک"
+
+#: app/REST/PreviewController.php:100
+msgid "Preview generated successfully."
+msgstr "'پیش‌نمایش با موفقیت ساخته شد.'"
+
+#: app/REST/PreviewController.php:87
+msgid "Preview output was not generated. The JSON may be empty or all fields may have been removed after cleanup."
+msgstr "'خروجی پیش‌نمایش ساخته نشد. احتمالاً JSON خالی است یا همه فیلدها بعد از cleanup حذف شده‌اند.'"
+
+#: app/Admin/Assets.php:395
+msgid "Preview output was not received."
+msgstr "Preview output was not received."
+
+#: app/Data/ResolverVariableCatalog.php:118
+msgid "Price"
+msgstr "قیمت"
+
+#: app/Admin/SettingsPage.php:274
+#: app/Data/ResolverVariableCatalog.php:60
+msgid "Price range"
+msgstr "'بازه قیمت'"
+
+#: app/Admin/SettingsPage.php:263
+msgid "Primary email"
+msgstr "'ایمیل اصلی'"
+
+#: app/Admin/SettingsPage.php:252
+msgid "Primary phone number"
+msgstr "'شماره تماس اصلی'"
+
+#: app/Admin/SettingsPage.php:256
+msgid "Primary phone number for the organization or store."
+msgstr "'شماره اصلی سازمان یا فروشگاه.'"
+
+#: app/Admin/Assets.php:405
+#: app/REST/PriorityController.php:101
+msgid "Priorities saved successfully."
+msgstr "'اولویت‌ها با موفقیت ذخیره شدند.'"
+
+#: app/Admin/SchemaBuilderPage.php:109
+#: app/Admin/TemplateEditorPage.php:391
+msgid "Priority"
+msgstr "Priority"
+
+#: app/Schema/SchemaTemplateContract.php:27
+msgid "Product - Product"
+msgstr "'Product - محصول'"
+
+#: app/Data/ResolverVariableCatalog.php:114
+msgid "Product GTIN"
+msgstr "GTIN محصول"
+
+#: app/Data/ResolverVariableCatalog.php:115
+msgid "Product MPN"
+msgstr "MPN محصول"
+
+#: app/Admin/Assets.php:315
+msgid "Product Meta"
+msgstr "Product Meta"
+
+#: app/Admin/SettingsPage.php:720
+msgid "Product Return Policy"
+msgstr "سیاست مرجوعی محصولات"
+
+#: app/Data/ResolverVariableCatalog.php:113
+msgid "Product SKU"
+msgstr "SKU محصول"
+
+#: app/Admin/SettingsPage.php:816
+msgid "Product Shipping Policy"
+msgstr "سیاست ارسال محصولات"
+
+#: app/Schema/SchemaTemplateContract.php:44
+msgid "Product category"
+msgstr "'دسته محصول'"
+
+#: app/Data/ResolverVariableCatalog.php:84
+msgid "Product return policy"
+msgstr "سیاست مرجوعی محصول"
+
+#: app/Data/ResolverVariableCatalog.php:85
+msgid "Product shipping details"
+msgstr "جزئیات ارسال محصول"
+
+#: app/Schema/SchemaTemplateContract.php:45
+msgid "Product tag"
+msgstr "'برچسب محصول'"
+
+#: app/Data/ResolverVariableCatalog.php:129
+msgid "Product type"
+msgstr "نوع محصول"
+
+#: app/Schema/SchemaTemplateContract.php:28
+msgid "ProductGroup - Variable product group"
+msgstr "'ProductGroup - گروه محصول متغیر'"
+
+#: app/Admin/SettingsPage.php:267
+msgid "Public email for the organization or store."
+msgstr "'ایمیل عمومی سازمان یا فروشگاه.'"
+
+#: app/Admin/TemplateEditorPage.php:735
+msgid "Quick guide"
+msgstr "راهنمای سریع"
+
+#: app/Admin/Assets.php:397
+msgid "REST settings are not loaded on this page. Check Assets.php."
+msgstr "REST settings are not loaded on this page. Check Assets.php."
+
+#: app/Data/ResolverVariableCatalog.php:127
+msgid "Rating value"
+msgstr "میانگین امتیاز"
+
+#: app/Schema/SchemaValidator.php:714
+msgid "Raw `openingHours` is not recommended for newer templates. Use `openingHoursSpecification`."
+msgstr "'property `openingHours` خام برای قالب‌های جدید توصیه نمی‌شود. از `openingHoursSpecification` استفاده کن.'"
+
+#: app/Admin/SettingsPage.php:801
+msgid "Refund type"
+msgstr "'نوع بازپرداخت'"
+
+#: app/Admin/SettingsPage.php:408
+msgid "Region"
+msgstr "Region"
+
+#: app/Admin/SchemaBuilderPage.php:81
+msgid "Registered Templates"
+msgstr "لیست الگوهای ثبت‌شده"
+
+#: app/Data/ResolverVariableCatalog.php:119
+msgid "Regular price"
+msgstr "قیمت عادی"
+
+#: app/Admin/TemplateEditorPage.php:483
+msgid "Reload form from JSON"
+msgstr "بازخوانی فرم از JSON"
+
+#: app/Admin/Assets.php:338
+#: app/Admin/SettingsPage.php:642
+#: app/Admin/SettingsPage.php:1998
+#: app/Admin/TemplateEditorPage.php:720
+msgid "Remove"
+msgstr "حذف"
+
+#: app/Admin/Assets.php:370
+#: app/Admin/TemplateEditorPage.php:710
+msgid "Remove path"
+msgstr ">حذف path"
+
+#: app/Admin/TemplateEditorPage.php:741
+msgid "Removes empty or invalid sections."
+msgstr "Removes empty or invalid sections."
+
+#: app/Admin/SettingsPage.php:1323
+msgid "Repair and synchronize default templates"
+msgstr "ترمیم و همگام‌سازی قالب‌های پیش‌فرض"
+
+#: app/Admin/TemplateEditorPage.php:1778
+msgid "Replace the current content with the sample JSON for the selected type?"
+msgstr "'نمونه JSON براساس نوع انتخاب‌شده جایگزین محتوای فعلی شود؟'"
+
+#: app/Admin/SettingsPage.php:732
+msgid "Required for returns: enable return policy, country, policy type, return window, return method, and return fee. The policy page link is optional but recommended for real stores."
+msgstr "فعال‌سازی سیاست مرجوعی، کشور، نوع سیاست، تعداد روز، روش مرجوعی و هزینه مرجوعی. لینک صفحه قوانین اختیاری است، اما برای فروشگاه واقعی بهتر است وارد شود."
+
+#: app/Admin/SettingsPage.php:828
+msgid "Required for shipping: enable shipping policy and destination country. Shipping cost and delivery time are optional, but should be entered here if they are shown on the site."
+msgstr "فعال‌سازی سیاست ارسال و کشور مقصد. هزینه ارسال و زمان تحویل اختیاری‌اند، اما اگر روی سایت نمایش داده می‌شوند بهتر است اینجا هم وارد شوند."
+
+#: app/Admin/Assets.php:391
+msgid "Resolver data"
+msgstr "Resolver data"
+
+#: app/Admin/Assets.php:342
+msgid "Resolver key"
+msgstr "Resolver key"
+
+#: app/Data/ResolverVariableCatalog.php:67
+msgid "Resolver value for Address."
+msgstr "مقدار Resolver برای Address."
+
+#: app/Data/ResolverVariableCatalog.php:53
+msgid "Resolver value for Alternate name."
+msgstr "مقدار Resolver برای Alternate name."
+
+#: app/Data/ResolverVariableCatalog.php:103
+msgid "Resolver value for Author name."
+msgstr "مقدار Resolver برای نام نویسنده."
+
+#: app/Data/ResolverVariableCatalog.php:104
+msgid "Resolver value for Author url."
+msgstr "مقدار Resolver برای آدرس نویسنده."
+
+#: app/Data/ResolverVariableCatalog.php:116
+msgid "Resolver value for Brand name."
+msgstr "مقدار Resolver برای نام برند."
+
+#: app/Data/ResolverVariableCatalog.php:117
+msgid "Resolver value for Brand url."
+msgstr "مقدار Resolver برای آدرس برند."
+
+#: app/Data/ResolverVariableCatalog.php:39
+msgid "Resolver value for Breadcrumb id."
+msgstr "مقدار Resolver برای شناسه Breadcrumb."
+
+#: app/Data/ResolverVariableCatalog.php:140
+msgid "Resolver value for Breadcrumb items."
+msgstr "مقدار Resolver برای آیتم‌های Breadcrumb."
+
+#: app/Data/ResolverVariableCatalog.php:68
+msgid "Resolver value for Contact point."
+msgstr "مقدار Resolver برای Contact point."
+
+#: app/Data/ResolverVariableCatalog.php:27
+msgid "Resolver value for Context."
+msgstr "مقدار Resolver برای کانتکست."
+
+#: app/Data/ResolverVariableCatalog.php:61
+msgid "Resolver value for Currencies accepted."
+msgstr "مقدار Resolver برای Currencies accepted."
+
+#: app/Data/ResolverVariableCatalog.php:124
+msgid "Resolver value for Currency."
+msgstr "مقدار Resolver برای واحد پول."
+
+#: app/Data/ResolverVariableCatalog.php:93
+msgid "Resolver value for Current content ID."
+msgstr "مقدار Resolver برای شناسه محتوای فعلی."
+
+#: app/Data/ResolverVariableCatalog.php:99
+msgid "Resolver value for Current page URL."
+msgstr "مقدار Resolver برای آدرس صفحه فعلی."
+
+#: app/Data/ResolverVariableCatalog.php:24
+msgid "Resolver value for Current url."
+msgstr "مقدار Resolver برای آدرس صفحه فعلی."
+
+#: app/Data/ResolverVariableCatalog.php:130
+msgid "Resolver value for Date created."
+msgstr "مقدار Resolver برای تاریخ ایجاد."
+
+#: app/Data/ResolverVariableCatalog.php:102
+#: app/Data/ResolverVariableCatalog.php:131
+msgid "Resolver value for Date modified."
+msgstr "مقدار Resolver برای تاریخ ویرایش."
+
+#: app/Data/ResolverVariableCatalog.php:101
+msgid "Resolver value for Date published."
+msgstr "مقدار Resolver برای تاریخ انتشار."
+
+#: app/Data/ResolverVariableCatalog.php:55
+#: app/Data/ResolverVariableCatalog.php:96
+msgid "Resolver value for Description."
+msgstr "مقدار Resolver برای توضیح."
+
+#: app/Data/ResolverVariableCatalog.php:59
+msgid "Resolver value for Email."
+msgstr "مقدار Resolver برای Email."
+
+#: app/Data/ResolverVariableCatalog.php:97
+msgid "Resolver value for Excerpt."
+msgstr "مقدار Resolver برای خلاصه."
+
+#: app/Data/ResolverVariableCatalog.php:100
+msgid "Resolver value for Featured image."
+msgstr "مقدار Resolver برای تصویر شاخص."
+
+#: app/Data/ResolverVariableCatalog.php:63
+msgid "Resolver value for Founding date."
+msgstr "مقدار Resolver برای Founding date."
+
+#: app/Data/ResolverVariableCatalog.php:70
+msgid "Resolver value for Geo."
+msgstr "مقدار Resolver برای Geo."
+
+#: app/Data/ResolverVariableCatalog.php:73
+msgid "Resolver value for Has map."
+msgstr "مقدار Resolver برای Has map."
+
+#: app/Data/ResolverVariableCatalog.php:23
+msgid "Resolver value for Home url."
+msgstr "مقدار Resolver برای آدرس خانه."
+
+#: app/Data/ResolverVariableCatalog.php:35
+msgid "Resolver value for Id."
+msgstr "مقدار Resolver برای Id."
+
+#: app/Data/ResolverVariableCatalog.php:57
+msgid "Resolver value for Image."
+msgstr "مقدار Resolver برای Image."
+
+#: app/Data/ResolverVariableCatalog.php:25
+msgid "Resolver value for Language."
+msgstr "مقدار Resolver برای زبان."
+
+#: app/Data/ResolverVariableCatalog.php:52
+msgid "Resolver value for Legal name."
+msgstr "مقدار Resolver برای Legal name."
+
+#: app/Data/ResolverVariableCatalog.php:36
+msgid "Resolver value for Local store id."
+msgstr "مقدار Resolver برای شناسه فروشگاه فیزیکی."
+
+#: app/Data/ResolverVariableCatalog.php:74
+msgid "Resolver value for Local store schema."
+msgstr "مقدار Resolver برای اسکیمای فروشگاه فیزیکی."
+
+#: app/Data/ResolverVariableCatalog.php:56
+msgid "Resolver value for Logo."
+msgstr "مقدار Resolver برای Logo."
+
+#: app/Data/ResolverVariableCatalog.php:122
+msgid "Resolver value for Max price."
+msgstr "مقدار Resolver برای بیشترین قیمت."
+
+#: app/Data/ResolverVariableCatalog.php:82
+msgid "Resolver value for Merchant return policy."
+msgstr "مقدار Resolver برای سیاست مرجوعی فروشگاه."
+
+#: app/Data/ResolverVariableCatalog.php:121
+msgid "Resolver value for Min price."
+msgstr "مقدار Resolver برای کمترین قیمت."
+
+#: app/Data/ResolverVariableCatalog.php:94
+msgid "Resolver value for Name / main title."
+msgstr "مقدار Resolver برای نام / عنوان اصلی."
+
+#: app/Data/ResolverVariableCatalog.php:51
+msgid "Resolver value for Name."
+msgstr "مقدار Resolver برای Name."
+
+#: app/Data/ResolverVariableCatalog.php:112
+msgid "Resolver value for Offer url."
+msgstr "مقدار Resolver برای آدرس Offer."
+
+#: app/Data/ResolverVariableCatalog.php:50
+msgid "Resolver value for Online store types."
+msgstr "مقدار Resolver برای نوع‌های فروشگاه آنلاین."
+
+#: app/Data/ResolverVariableCatalog.php:72
+msgid "Resolver value for Opening hours specification."
+msgstr "مقدار Resolver برای Opening hours specification."
+
+#: app/Data/ResolverVariableCatalog.php:71
+msgid "Resolver value for Opening hours."
+msgstr "مقدار Resolver برای Opening hours."
+
+#: app/Data/ResolverVariableCatalog.php:62
+msgid "Resolver value for Payment accepted."
+msgstr "مقدار Resolver برای Payment accepted."
+
+#: app/Data/ResolverVariableCatalog.php:60
+msgid "Resolver value for Price range."
+msgstr "مقدار Resolver برای Price range."
+
+#: app/Data/ResolverVariableCatalog.php:118
+msgid "Resolver value for Price."
+msgstr "مقدار Resolver برای قیمت."
+
+#: app/Data/ResolverVariableCatalog.php:114
+msgid "Resolver value for Product GTIN."
+msgstr "مقدار Resolver برای GTIN محصول."
+
+#: app/Data/ResolverVariableCatalog.php:115
+msgid "Resolver value for Product MPN."
+msgstr "مقدار Resolver برای MPN محصول."
+
+#: app/Data/ResolverVariableCatalog.php:113
+msgid "Resolver value for Product SKU."
+msgstr "مقدار Resolver برای SKU محصول."
+
+#: app/Data/ResolverVariableCatalog.php:84
+msgid "Resolver value for Product return policy."
+msgstr "مقدار Resolver برای سیاست مرجوعی محصول."
+
+#: app/Data/ResolverVariableCatalog.php:85
+msgid "Resolver value for Product shipping details."
+msgstr "مقدار Resolver برای جزئیات ارسال محصول."
+
+#: app/Data/ResolverVariableCatalog.php:129
+msgid "Resolver value for Product type."
+msgstr "مقدار Resolver برای نوع محصول."
+
+#: app/Data/ResolverVariableCatalog.php:127
+msgid "Resolver value for Rating value."
+msgstr "مقدار Resolver برای میانگین امتیاز."
+
+#: app/Data/ResolverVariableCatalog.php:119
+msgid "Resolver value for Regular price."
+msgstr "مقدار Resolver برای قیمت عادی."
+
+#: app/Data/ResolverVariableCatalog.php:128
+msgid "Resolver value for Review count."
+msgstr "مقدار Resolver برای تعداد نظرها."
+
+#: app/Data/ResolverVariableCatalog.php:120
+msgid "Resolver value for Sale price."
+msgstr "مقدار Resolver برای قیمت فروش ویژه."
+
+#: app/Data/ResolverVariableCatalog.php:69
+msgid "Resolver value for Same as."
+msgstr "مقدار Resolver برای Same as."
+
+#: app/Data/ResolverVariableCatalog.php:125
+msgid "Resolver value for Schema.org availability."
+msgstr "مقدار Resolver برای وضعیت موجودی Schema.org."
+
+#: app/Data/ResolverVariableCatalog.php:139
+msgid "Resolver value for Search query."
+msgstr "مقدار Resolver برای عبارت جستجو."
+
+#: app/Data/ResolverVariableCatalog.php:83
+msgid "Resolver value for Shipping service."
+msgstr "مقدار Resolver برای سرویس ارسال."
+
+#: app/Data/ResolverVariableCatalog.php:98
+msgid "Resolver value for Short description."
+msgstr "مقدار Resolver برای توضیح کوتاه."
+
+#: app/Data/ResolverVariableCatalog.php:21
+msgid "Resolver value for Site description."
+msgstr "مقدار Resolver برای توضیح سایت."
+
+#: app/Data/ResolverVariableCatalog.php:20
+msgid "Resolver value for Site name."
+msgstr "مقدار Resolver برای نام سایت."
+
+#: app/Data/ResolverVariableCatalog.php:47
+msgid "Resolver value for Site profile."
+msgstr "مقدار Resolver برای پروفایل سایت."
+
+#: app/Data/ResolverVariableCatalog.php:22
+msgid "Resolver value for Site url."
+msgstr "مقدار Resolver برای آدرس سایت."
+
+#: app/Data/ResolverVariableCatalog.php:126
+msgid "Resolver value for Stock status."
+msgstr "مقدار Resolver برای وضعیت موجودی."
+
+#: app/Data/ResolverVariableCatalog.php:64
+msgid "Resolver value for Tax id."
+msgstr "مقدار Resolver برای Tax id."
+
+#: app/Data/ResolverVariableCatalog.php:58
+msgid "Resolver value for Telephone."
+msgstr "مقدار Resolver برای Telephone."
+
+#: app/Data/ResolverVariableCatalog.php:95
+msgid "Resolver value for Title."
+msgstr "مقدار Resolver برای عنوان."
+
+#: app/Data/ResolverVariableCatalog.php:48
+msgid "Resolver value for Type."
+msgstr "مقدار Resolver برای Type."
+
+#: app/Data/ResolverVariableCatalog.php:49
+msgid "Resolver value for Types."
+msgstr "مقدار Resolver برای Types."
+
+#: app/Data/ResolverVariableCatalog.php:54
+msgid "Resolver value for Url."
+msgstr "مقدار Resolver برای Url."
+
+#: app/Data/ResolverVariableCatalog.php:123
+msgid "Resolver value for Variation count."
+msgstr "مقدار Resolver برای تعداد variation."
+
+#: app/Data/ResolverVariableCatalog.php:65
+msgid "Resolver value for Vat id."
+msgstr "مقدار Resolver برای Vat id."
+
+#: app/Data/ResolverVariableCatalog.php:38
+msgid "Resolver value for Webpage id."
+msgstr "مقدار Resolver برای شناسه صفحه."
+
+#: app/Data/ResolverVariableCatalog.php:37
+msgid "Resolver value for Website id."
+msgstr "مقدار Resolver برای شناسه وب‌سایت."
+
+#: app/Data/ResolverVariableCatalog.php:26
+msgid "Resolver value for Website search target."
+msgstr "مقدار Resolver برای آدرس جستجوی سایت."
+
+#: app/Admin/Assets.php:312
+#: app/Admin/Assets.php:424
+msgid "Resolver variable"
+msgstr "متغیر آماده Resolver"
+
+#: app/Admin/SettingsPage.php:759
+msgid "Return countries"
+msgstr "'کشورهای مرجوعی'"
+
+#: app/Admin/SettingsPage.php:790
+msgid "Return fee"
+msgstr "'هزینه مرجوعی'"
+
+#: app/Admin/SettingsPage.php:779
+msgid "Return method"
+msgstr "'روش مرجوعی'"
+
+#: app/Admin/SettingsPage.php:748
+msgid "Return policy page URL"
+msgstr "'لینک صفحه قوانین مرجوعی'"
+
+#: app/Admin/SettingsPage.php:768
+msgid "Return window in days"
+msgstr "'تعداد روزهای امکان مرجوعی'"
+
+#: app/Core/GlobalSettings.php:515
+msgid "ReturnAtKiosk - Return at kiosk or drop-off point"
+msgstr "'ReturnAtKiosk - مرجوعی از طریق کیوسک / مرکز تحویل'"
+
+#: app/Core/GlobalSettings.php:513
+msgid "ReturnByMail - Return by mail or freight"
+msgstr "'ReturnByMail - مرجوعی از طریق ارسال پستی / باربری'"
+
+#: app/Core/GlobalSettings.php:523
+msgid "ReturnFeesCustomerResponsibility - Return cost paid by customer"
+msgstr "'ReturnFeesCustomerResponsibility - هزینه مرجوعی با مشتری'"
+
+#: app/Core/GlobalSettings.php:514
+msgid "ReturnInStore - In-store returns"
+msgstr "'ReturnInStore - مرجوعی حضوری در فروشگاه'"
+
+#: app/Core/GlobalSettings.php:524
+msgid "ReturnShippingFees - Return shipping fees apply"
+msgstr "'ReturnShippingFees - هزینه ارسال مرجوعی دریافت می‌شود'"
+
+#: app/Core/GlobalSettings.php:476
+msgid "Returns"
+msgstr "'مرجوعی کالا'"
+
+#: app/Data/ResolverVariableCatalog.php:128
+msgid "Review count"
+msgstr "تعداد نظرها"
+
+#: app/Data/ResolverVariableCatalog.php:120
+msgid "Sale price"
+msgstr "قیمت فروش ویژه"
+
+#: app/Core/GlobalSettings.php:472
+msgid "Sales"
+msgstr "'فروش'"
+
+#: app/Data/ResolverVariableCatalog.php:69
+msgid "Same as"
+msgstr "Same as"
+
+#: app/Admin/Assets.php:327
+#: app/Admin/Assets.php:441
+msgid "Sanitize URL"
+msgstr "پاکسازی URL"
+
+#: app/Admin/Assets.php:326
+#: app/Admin/Assets.php:440
+msgid "Sanitize text"
+msgstr "پاکسازی متن"
+
+#: app/Admin/SettingsPage.php:1109
+msgid "Saturday"
+msgstr "شنبه"
+
+#: app/Admin/SettingsPage.php:77
+msgid "Save Global Settings"
+msgstr "ذخیره تنظیمات سراسری"
+
+#: app/Admin/SchemaBuilderPage.php:67
+msgid "Save Priorities"
+msgstr "ذخیره اولویت‌ها"
+
+#: app/Admin/TemplateEditorPage.php:75
+msgid "Save Schema"
+msgstr "esc_html_e('ذخیره اسکیما', 'amk-schema-core')"
+
+#: app/Admin/Assets.php:403
+msgid "Save priorities"
+msgstr "ذخیره اولویت‌ها"
+
+#: app/Core/SchemaMaintenance.php:443
+msgid "Saved conditions do not match the current default version."
+msgstr "'conditions ذخیره‌شده با نسخه پیش‌فرض فعلی همخوان نیست.'"
+
+#: app/Admin/Assets.php:402
+msgid "Saving..."
+msgstr "در حال ذخیره..."
+
+#: app/Admin/TemplateEditorPage.php:159
+#: app/Admin/TemplateEditorPage.php:419
+msgid "Schema JSON"
+msgstr "'JSON اسکیما'"
+
+#: app/Admin/TemplateEditorPage.php:156
+msgid "Schema JSON cannot be empty."
+msgstr "'JSON اسکیما نمی‌تواند خالی باشد.'"
+
+#: app/Schema/SchemaValidator.php:579
+msgid "Schema JSON is empty."
+msgstr "'JSON اسکیما خالی است.'"
+
+#: app/Admin/TemplateEditorPage.php:251
+msgid "Schema JSON is not valid according to the validator."
+msgstr "'JSON اسکیما از نظر Validator معتبر نیست.'"
+
+#: app/Admin/TemplateEditorPage.php:739
+msgid "Schema JSON:"
+msgstr "JSON اسکیما: ساختار نهایی Schema.org."
+
+#: app/Admin/SettingsPage.php:1266
+msgid "Schema Maintenance Tools"
+msgstr "ابزار نگهداری اسکیما"
+
+#: app/Admin/AdminMenu.php:83
+#: app/Admin/AdminMenu.php:109
+#: app/Admin/AdminMenu.php:110
+msgid "Schema Settings"
+msgstr "Schema Settings"
+
+#: app/Admin/SchemaBuilderPage.php:45
+msgid "Schema Template Management"
+msgstr "مدیریت الگوهای اسکیما"
+
+#: app/Admin/AdminMenu.php:65
+#: app/Admin/AdminMenu.php:66
+msgid "Schema Templates"
+msgstr "Schema Templates"
+
+#: app/Data/ResolverVariableCatalog.php:32
+msgid "Schema identifiers"
+msgstr "شناسه‌های Schema"
+
+#: app/Admin/TemplateEditorPage.php:356
+msgid "Schema name"
+msgstr "Schema name"
+
+#: app/Admin/TemplateEditorPage.php:144
+msgid "Schema name is required."
+msgstr "'نام اسکیما الزامی است.'"
+
+#: app/Admin/TemplateEditorPage.php:223
+msgid "Schema saved successfully."
+msgstr "'اسکیما با موفقیت ذخیره شد.'"
+
+#: app/Schema/SchemaValidator.php:598
+msgid "Schema structure must be a JSON object or array."
+msgstr "'ساختار اسکیما باید JSON object یا array باشد.'"
+
+#: app/Admin/TemplateEditorPage.php:361
+msgid "Schema type"
+msgstr "Schema type"
+
+#: app/Admin/TemplateEditorPage.php:148
+msgid "Schema type is required."
+msgstr "'نوع اسکیما الزامی است.'"
+
+#: app/Admin/TemplateEditorPage.php:211
+msgid "Schema was not created. A database error occurred."
+msgstr "'ایجاد اسکیما انجام نشد. خطای دیتابیس رخ داد.'"
+
+#: app/Admin/TemplateEditorPage.php:197
+msgid "Schema was not saved. A database error occurred."
+msgstr "'ذخیره اسکیما انجام نشد. خطای دیتابیس رخ داد.'"
+
+#: app/Data/ResolverVariableCatalog.php:125
+msgid "Schema.org availability"
+msgstr "وضعیت موجودی Schema.org"
+
+#: app/Data/DataResolver.php:2511
+#: app/Data/DataResolver.php:2517
+msgid "Search"
+msgstr "جستجو"
+
+#: app/Data/ResolverVariableCatalog.php:136
+msgid "Search and breadcrumb"
+msgstr "جستجو و Breadcrumb"
+
+#: app/Data/ResolverVariableCatalog.php:139
+msgid "Search query"
+msgstr "عبارت جستجو"
+
+#: app/Schema/SchemaTemplateContract.php:52
+#: app/Schema/Builders/ArchiveItemListBuilder.php:262
+msgid "Search results"
+msgstr "'نتایج جستجو'"
+
+#: app/Schema/Builders/ArchiveItemListBuilder.php:259
+msgid "Search results for %s"
+msgstr "'نتایج جستجو برای %s'"
+
+#: app/Data/DataResolver.php:619
+#: app/Data/DataResolver.php:620
+msgid "Search results for: "
+msgstr "'نتایج جستجو برای: '"
+
+#: app/Data/DataResolver.php:621
+msgid "Search results page for "
+msgstr "'صفحه نتایج جستجو برای عبارت '"
+
+#: app/Admin/TemplateEditorPage.php:780
+msgid "Search: price, home_url, organization..."
+msgstr "Search: price, home_url, organization..."
+
+#: app/Admin/SettingsPage.php:696
+msgid "Section rule:"
+msgstr "قانون این بخش:"
+
+#: app/Admin/SettingsPage.php:1862
+msgid "Select a country first"
+msgstr "'ابتدا کشور را انتخاب کن'"
+
+#: app/Admin/SettingsPage.php:437
+msgid "Select a region first"
+msgstr "Select a region first"
+
+#: app/Admin/SettingsPage.php:1863
+#: app/Admin/SettingsPage.php:1869
+#: app/Admin/SettingsPage.php:1899
+msgid "Select a region/state first"
+msgstr "'ابتدا استان/ایالت را انتخاب کن'"
+
+#: app/Admin/SettingsPage.php:1908
+msgid "Select city"
+msgstr "'انتخاب شهر'"
+
+#: app/Admin/Assets.php:410
+#: app/Admin/SettingsPage.php:2465
+msgid "Select countries"
+msgstr "Select countries"
+
+#: app/Admin/SettingsPage.php:2475
+msgid "Select countries from the list."
+msgstr "کشورها را از لیست انتخاب کنید."
+
+#: app/Admin/SettingsPage.php:625
+msgid "Select network"
+msgstr "Select network"
+
+#: app/Admin/SettingsPage.php:301
+msgid "Select one or more payment methods."
+msgstr "'یک یا چند روش پرداخت را انتخاب کن.'"
+
+#: app/Admin/SettingsPage.php:414
+msgid "Select region"
+msgstr "Select region"
+
+#: app/Admin/SettingsPage.php:1873
+msgid "Select region/state"
+msgstr "'انتخاب استان/ایالت'"
+
+#: app/Admin/SettingsPage.php:380
+msgid "Select the country, region/state, and city. Lists update automatically based on the selected country."
+msgstr "کشور، استان/ایالت و شهر را انتخاب کن. فهرست‌ها بر اساس کشور انتخاب‌شده به‌صورت خودکار تغییر می‌کنند."
+
+#: app/Admin/SettingsPage.php:312
+msgid "Select the date from the calendar. The value is stored in YYYY-MM-DD format."
+msgstr "'تاریخ را از تقویم انتخاب کن. مقدار با فرمت YYYY-MM-DD ذخیره می‌شود.'"
+
+#: app/Admin/SettingsPage.php:426
+msgid "Selecting a region automatically updates the city list."
+msgstr "با انتخاب استان، لیست شهرها به‌صورت خودکار تغییر می‌کند."
+
+#: app/Admin/SettingsPage.php:2125
+msgid "Separate countries or cities with commas, such as IR, Tehran."
+msgstr "کشورها یا شهرها را با کاما جدا کن؛ مثل IR, Tehran."
+
+#: app/Admin/SettingsPage.php:2074
+msgid "Separate multiple languages with commas, such as fa, en."
+msgstr "چند زبان را با کاما جدا کن؛ مثل fa, en."
+
+#: app/Admin/SettingsPage.php:2108
+msgid "Separate multiple options with commas, such as https://schema.org/TollFree."
+msgstr "چند گزینه را با کاما جدا کن؛ مثل https://schema.org/TollFree."
+
+#: app/Admin/SettingsPage.php:2113
+msgid "Service area"
+msgstr "محدوده خدمات"
+
+#: app/Admin/SettingsPage.php:1055
+msgid "Set opening and closing times for each active day."
+msgstr "برای هر روزی که فعال است ساعت شروع و پایان را مشخص کن."
+
+#: app/Admin/TemplateEditorPage.php:351
+msgid "Set the type, display scope, and execution priority for this template."
+msgstr "نوع، محدوده نمایش و اولویت اجرای این template را مشخص کن."
+
+#: app/Admin/AdminMenu.php:84
+msgid "Settings"
+msgstr "Settings"
+
+#: app/Admin/Assets.php:353
+msgid "Settings path"
+msgstr "Settings path"
+
+#: app/Core/GlobalSettings.php:477
+msgid "Shipping and delivery"
+msgstr "'ارسال و تحویل'"
+
+#: app/Admin/SettingsPage.php:858
+msgid "Shipping description"
+msgstr "'توضیح ارسال'"
+
+#: app/Admin/SettingsPage.php:869
+msgid "Shipping destination countries"
+msgstr "'کشورهای مقصد ارسال'"
+
+#: app/Data/ResolverVariableCatalog.php:83
+msgid "Shipping service"
+msgstr "سرویس ارسال"
+
+#: app/Admin/SettingsPage.php:847
+msgid "Shipping service name"
+msgstr "'نام سرویس ارسال'"
+
+#: app/Data/DataResolver.php:2510
+#: app/Data/DataResolver.php:2516
+#: app/Schema/Builders/ArchiveItemListBuilder.php:272
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: app/Schema/SchemaTemplateContract.php:46
+msgid "Shop / product archive / collection"
+msgstr "'فروشگاه / آرشیو محصول / کالکشن'"
+
+#: app/Admin/SettingsPage.php:341
+msgid "Short brand description"
+msgstr "'توضیح کوتاه برند'"
+
+#: app/Data/ResolverVariableCatalog.php:98
+msgid "Short description"
+msgstr "توضیح کوتاه"
+
+#: app/Admin/SettingsPage.php:344
+msgid "Short description of the brand, site, or store"
+msgstr "'توضیح کوتاه درباره برند، سایت یا فروشگاه'"
+
+#: app/Schema/SchemaTemplateContract.php:42
+msgid "Single post"
+msgstr "'نوشته تکی'"
+
+#: app/Admin/SettingsPage.php:104
+msgid "Site Profile"
+msgstr "پروفایل سایت"
+
+#: app/Admin/SettingsPage.php:225
+msgid "Site URL"
+msgstr "'آدرس سایت'"
+
+#: app/Data/ResolverVariableCatalog.php:21
+msgid "Site description"
+msgstr "توضیح سایت"
+
+#: app/Data/ResolverVariableCatalog.php:20
+msgid "Site name"
+msgstr "نام سایت"
+
+#: app/Data/ResolverVariableCatalog.php:47
+msgid "Site profile"
+msgstr "پروفایل سایت"
+
+#: app/Admin/SettingsPage.php:114
+msgid "Site type"
+msgstr "'نوع سایت'"
+
+#: app/Data/ResolverVariableCatalog.php:22
+msgid "Site url"
+msgstr "آدرس سایت"
+
+#: app/Schema/SchemaTemplateContract.php:32
+msgid "SiteNavigationElement - Site menu"
+msgstr "'SiteNavigationElement - منوی سایت'"
+
+#: app/Admin/SettingsPage.php:558
+msgid "Social Networks and Official Profiles"
+msgstr "شبکه‌های اجتماعی و پروفایل‌های رسمی"
+
+#: app/Admin/Assets.php:379
+msgid "Some conditions are incomplete. Complete the data key, operator, action, and path to remove."
+msgstr "Some conditions are incomplete. Complete the data key, operator, action, and path to remove."
+
+#: app/Admin/SettingsPage.php:139
+msgid "Special Site Pages"
+msgstr "صفحات ویژه سایت"
+
+#: app/Admin/SettingsPage.php:794
+msgid "Specify whether returns are free or paid by the customer. The value must match the policy text on the site."
+msgstr "'مشخص کن هزینه مرجوعی رایگان است یا به عهده مشتری. مقدار باید با متن قوانین سایت هماهنگ باشد.'"
+
+#: app/Admin/Assets.php:313
+#: app/Admin/Assets.php:425
+msgid "Static value"
+msgstr "مقدار ثابت"
+
+#: app/Admin/SchemaBuilderPage.php:108
+#: app/Admin/TemplateEditorPage.php:383
+msgid "Status"
+msgstr "وضعیت"
+
+#: app/Data/ResolverVariableCatalog.php:126
+msgid "Stock status"
+msgstr "وضعیت موجودی"
+
+#: app/Core/GlobalSettings.php:463
+msgid "Store - Physical store"
+msgstr "'Store - فروشگاه فیزیکی'"
+
+#: app/Schema/SchemaTemplateContract.php:18
+msgid "Store - Standalone physical store"
+msgstr "'Store - فروشگاه حضوری مستقل'"
+
+#: app/Admin/SettingsPage.php:850
+msgid "Store order shipping"
+msgstr "'ارسال سفارش‌های فروشگاه'"
+
+#: app/Core/GlobalSettings.php:532
+msgid "StoreCreditRefund - Store credit refund"
+msgstr "'StoreCreditRefund - اعتبار خرید از فروشگاه'"
+
+#: app/Admin/SettingsPage.php:457
+msgid "Street ..."
+msgstr "'خیابان ...'"
+
+#: app/Admin/Assets.php:325
+#: app/Admin/Assets.php:439
+msgid "Strip HTML"
+msgstr "حذف HTML"
+
+#: app/Admin/SettingsPage.php:1110
+msgid "Sunday"
+msgstr "یکشنبه"
+
+#: app/Admin/SettingsPage.php:2062
+msgid "Supported languages"
+msgstr "زبان‌های پشتیبانی"
+
+#: app/Admin/SettingsPage.php:1299
+msgid "Synchronization is designed only for plugin default templates. Manual changes to default templates may be replaced by the current plugin version. Custom templates with different names and scopes should not be deleted."
+msgstr "همگام‌سازی فقط برای قالب‌های پیش‌فرض افزونه طراحی شده است. اگر روی قالب‌های پیش‌فرض تغییر دستی داده باشی، این تغییرات با نسخه فعلی افزونه جایگزین می‌شوند. قالب‌های اختصاصی با نام و scope متفاوت نباید حذف شوند."
+
+#: app/Admin/SettingsPage.php:319
+msgid "Tax ID"
+msgstr "'شناسه مالیاتی'"
+
+#: app/Data/ResolverVariableCatalog.php:64
+msgid "Tax id"
+msgstr "Tax id"
+
+#: app/Admin/Assets.php:317
+#: app/Admin/Assets.php:429
+msgid "Taxonomy terms"
+msgstr "Terms یک Taxonomy"
+
+#: app/Core/GlobalSettings.php:473
+msgid "Technical support"
+msgstr "'پشتیبانی فنی'"
+
+#: app/Data/ResolverVariableCatalog.php:58
+msgid "Telephone"
+msgstr "Telephone"
+
+#: app/Admin/SchemaBuilderPage.php:89
+msgid "Template"
+msgstr "الگو"
+
+#: app/REST/ConditionController.php:143
+#: app/REST/ConditionController.php:188
+msgid "Template ID is required."
+msgstr "'شناسه الگو الزامی است.'"
+
+#: app/REST/ConditionController.php:65
+msgid "Template ID was not sent."
+msgstr "'شناسه الگو ارسال نشده است.'"
+
+#: app/REST/ConditionController.php:213
+msgid "Template conditions were deleted."
+msgstr "'شرط‌های الگو حذف شدند.'"
+
+#: app/REST/TemplateController.php:301
+msgid "Template deleted successfully."
+msgstr "'template با موفقیت حذف شد.'"
+
+#: app/REST/TemplateController.php:295
+msgid "Template deletion failed."
+msgstr "'حذف template انجام نشد.'"
+
+#: app/Admin/SchemaBuilderPage.php:104
+msgid "Template name"
+msgstr "نام الگو"
+
+#: app/REST/TemplateController.php:176
+msgid "Template name is required."
+msgstr "'نام الگو الزامی است.'"
+
+#: app/REST/TemplateController.php:266
+msgid "Template saved successfully."
+msgstr "'الگو با موفقیت ذخیره شد.'"
+
+#: app/Admin/SchemaBuilderPage.php:55
+msgid "Template synchronized with the new type/scope contract."
+msgstr "الگو با قرارداد جدید type/scope هماهنگ‌سازی شد."
+
+#: app/REST/TemplateController.php:245
+msgid "Template updated successfully."
+msgstr "'الگو با موفقیت بروزرسانی شد.'"
+
+#: app/Admin/Assets.php:318
+msgid "Term Meta"
+msgstr "Term Meta"
+
+#: app/Core/SchemaMaintenance.php:171
+msgid "The Activator class is not available and synchronization was not run."
+msgstr "'کلاس Activator در دسترس نیست و عملیات همگام‌سازی اجرا نشد.'"
+
+#: app/Core/Activator.php:266
+msgid "The GlobalSettings class is not available."
+msgstr "'کلاس GlobalSettings در دسترس نیست.'"
+
+#: app/REST/TemplateController.php:187
+msgid "The JSON-LD structure is invalid."
+msgstr "'ساختار JSON-LD معتبر نیست.'"
+
+#: app/Schema/SchemaValidator.php:707
+msgid "The `paymentAccepted` property is deprecated or less compatible. Use `acceptedPaymentMethod` in newer templates."
+msgstr "'property `paymentAccepted` قدیمی/کم‌سازگار است. در قالب‌های جدید از `acceptedPaymentMethod` استفاده کن.'"
+
+#: app/Core/Activator.php:179
+msgid "The amk_schema_core_seed_defaults function is not available."
+msgstr "'تابع amk_schema_core_seed_defaults در دسترس نیست.'"
+
+#: database/seed-defaults.php:386
+msgid "The amk_schema_templates table does not exist. Run the plugin migration first."
+msgstr "'جدول amk_schema_templates وجود ندارد. اول migration افزونه باید اجرا شود.'"
+
+#: app/REST/TemplateController.php:194
+msgid "The bindings structure is invalid."
+msgstr "'ساختار Bindings معتبر نیست.'"
+
+#: app/REST/TemplateController.php:201
+msgid "The conditions structure is invalid."
+msgstr "'ساختار Conditions معتبر نیست.'"
+
+#: app/REST/ConditionController.php:83
+msgid "The conditions table does not exist; conditions are read from the template column."
+msgstr "'جدول شرط‌ها وجود ندارد؛ شرط‌ها از ستون template خوانده می‌شوند.'"
+
+#: app/Core/SchemaMaintenance.php:283
+msgid "The config/default-schemas.php file was not found or is not readable."
+msgstr "'فایل config/default-schemas.php پیدا نشد یا قابل خواندن نیست.'"
+
+#: database/seed-defaults.php:374
+msgid "The config/default-schemas.php file was not found."
+msgstr "'فایل config/default-schemas.php پیدا نشد.'"
+
+#: app/Core/Activator.php:134
+msgid "The database/migrations.php file was not found."
+msgstr "'فایل database/migrations.php پیدا نشد.'"
+
+#: app/Core/Activator.php:166
+msgid "The database/seed-defaults.php file was not found."
+msgstr "'فایل database/seed-defaults.php پیدا نشد.'"
+
+#: database/seed-defaults.php:381
+msgid "The default schemas file is empty or invalid."
+msgstr "'فایل اسکیماهای پیش‌فرض خالی یا نامعتبر است.'"
+
+#: app/Core/SchemaMaintenance.php:290
+msgid "The default-schemas.php file does not return valid output."
+msgstr "'فایل default-schemas.php خروجی معتبر ندارد.'"
+
+#: app/Admin/Assets.php:344
+msgid "The entered value is used exactly as the placeholder value."
+msgstr "The entered value is used exactly as the placeholder value."
+
+#: app/Admin/TemplateEditorPage.php:739
+msgid "The final Schema.org structure."
+msgstr "The final Schema.org structure."
+
+#: app/Admin/SettingsPage.php:1220
+msgid "The maintenance tool request is invalid. Refresh the page and try again."
+msgstr "'درخواست ابزار نگهداری نامعتبر است. صفحه را رفرش کن و دوباره تلاش کن.'"
+
+#: app/Core/SchemaMaintenance.php:104
+msgid "The old paymentAccepted property exists in the database schema_json."
+msgstr "'property قدیمی paymentAccepted در schema_json دیتابیس وجود دارد.'"
+
+#: app/Core/SchemaMaintenance.php:96
+msgid "The old {{organization_type}} placeholder still exists in the database."
+msgstr "'placeholder قدیمی {{organization_type}} هنوز در دیتابیس وجود دارد.'"
+
+#: database/seed-defaults.php:365
+msgid "The plugin base path is not defined."
+msgstr "'مسیر اصلی افزونه تعریف نشده است.'"
+
+#: app/Core/SchemaMaintenance.php:110
+msgid "The raw openingHours property exists in the database schema_json."
+msgstr "'property خام openingHours در schema_json دیتابیس وجود دارد.'"
+
+#: app/Admin/SettingsPage.php:783
+msgid "The real method for receiving returned items, such as return by mail or in-store return."
+msgstr "'روش واقعی دریافت کالای مرجوعی؛ مثلاً ارسال پستی یا تحویل حضوری.'"
+
+#: app/Admin/SettingsPage.php:1187
+#: app/Admin/TemplateEditorPage.php:109
+msgid "The request is invalid. Refresh the page and try again."
+msgstr "'درخواست نامعتبر است. صفحه را رفرش کن و دوباره تلاش کن.'"
+
+#: app/Data/DataResolver.php:646
+msgid "The requested page was not found."
+msgstr "'صفحه مورد نظر پیدا نشد.'"
+
+#: app/Admin/TemplateEditorPage.php:45
+msgid "The requested schema was not found."
+msgstr "'اسکیمای موردنظر پیدا نشد.'"
+
+#: app/REST/ConditionController.php:73
+#: app/REST/ConditionController.php:150
+#: app/REST/ConditionController.php:195
+#: app/REST/TemplateController.php:134
+msgid "The requested template was not found."
+msgstr "'الگوی موردنظر پیدا نشد.'"
+
+#: app/Admin/SettingsPage.php:1229
+msgid "The schema maintenance class is not available. Check app/Core/SchemaMaintenance.php."
+msgstr "'کلاس ابزار نگهداری اسکیما در دسترس نیست. فایل app/Core/SchemaMaintenance.php را بررسی کن.'"
+
+#: app/REST/PreviewController.php:74
+msgid "The schema template was not found or the submitted data is invalid."
+msgstr "'الگوی اسکیما پیدا نشد یا داده ارسالی نامعتبر است.'"
+
+#: app/Core/SchemaMaintenance.php:324
+msgid "The schema templates table does not exist for backup."
+msgstr "'جدول قالب‌های اسکیما برای گرفتن backup وجود ندارد.'"
+
+#: app/Admin/TemplateEditorPage.php:128
+#: app/REST/PriorityController.php:55
+msgid "The schema templates table does not exist."
+msgstr "'جدول الگوهای اسکیما وجود ندارد.'"
+
+#: app/Core/SchemaMaintenance.php:35
+msgid "The schema templates table does not exist. Run the plugin migration first."
+msgstr "'جدول قالب‌های اسکیما وجود ندارد. ابتدا migration افزونه باید اجرا شود.'"
+
+#: app/Core/Activator.php:190
+msgid "The seeder output is invalid."
+msgstr "'خروجی seeder نامعتبر است.'"
+
+#: app/REST/ConditionController.php:134
+#: app/REST/PriorityController.php:37
+#: app/REST/TemplateController.php:161
+msgid "The submitted data is invalid."
+msgstr "'داده ارسالی نامعتبر است.'"
+
+#: app/REST/TemplateController.php:125
+#: app/REST/TemplateController.php:286
+msgid "The template ID is invalid."
+msgstr "'شناسه template نامعتبر است.'"
+
+#: app/Admin/TemplateEditorPage.php:745
+msgid "The validator should not treat placeholders as errors. Before compile, {{...}} placeholders are normal."
+msgstr "Validator نباید placeholderها را خطا بگیرد. پس قبل از compile، وجود {{...}} طبیعی است."
+
+#: app/Admin/Assets.php:321
+msgid "Theme Mod"
+msgstr "Theme Mod"
+
+#: app/Admin/TemplateEditorPage.php:515
+msgid "Then use it inside the main JSON:"
+msgstr "سپس داخل JSON اصلی استفاده کن:"
+
+#: app/Admin/SettingsPage.php:560
+msgid "These links are used in sameAs and help identify the brand."
+msgstr "این لینک‌ها در sameAs استفاده می‌شوند و به تشخیص هویت برند کمک می‌کنند."
+
+#: app/Admin/SettingsPage.php:697
+msgid "These settings are the global store defaults. If a product-specific override is added later, that product value will take priority; for now this is the main source for shipping and returns across products."
+msgstr "تنظیمات اینجا پیش‌فرض سراسری فروشگاه است. اگر بعداً برای محصول خاص override ساخته شود، مقدار اختصاصی محصول اولویت خواهد داشت؛ اما فعلاً این بخش منبع اصلی ارسال و مرجوعی تمام محصولات است."
+
+#: app/Admin/TemplateEditorPage.php:736
+msgid "This page is for building a raw schema template. Real data is later inserted into placeholders by DataResolver."
+msgstr "این صفحه برای ساخت template خام اسکیماست. داده‌های واقعی بعداً توسط DataResolver وارد placeholderها می‌شوند."
+
+#: app/Admin/SettingsPage.php:722
+msgid "This section builds hasMerchantReturnPolicy inside Product > Offer. Do not enable it unless return rules are published on the site and actually apply."
+msgstr "این بخش برای ساخت hasMerchantReturnPolicy داخل Product &gt; Offer استفاده می‌شود. اگر قوانین مرجوعی در سایت نوشته نشده یا همه محصولات غیرقابل مرجوعی هستند، این بخش را بی‌دلیل فعال نکن."
+
+#: app/Admin/SettingsPage.php:818
+msgid "This section builds shippingDetails inside Product > Offer. Values must reflect the real store shipping policy, not placeholder values used only to remove warnings."
+msgstr "این بخش برای ساخت shippingDetails داخل Product &gt; Offer استفاده می‌شود. مقدارها باید سیاست ارسال واقعی فروشگاه را نشان دهند، نه یک مقدار نمایشی برای حذف warning."
+
+#: app/Admin/SettingsPage.php:34
+msgid "This section defines the central identity of the site. Changing the site type shows only the relevant fields so the panel stays focused."
+msgstr "این بخش هویت مرکزی سایت را مشخص می‌کند. با تغییر نوع سایت، فقط فیلدهای مرتبط نمایش داده می‌شوند تا پنل شلوغ و گیج‌کننده نشود."
+
+#: app/Admin/SettingsPage.php:1268
+msgid "This section does not blindly reset the database. It only compares or synchronizes the plugin default templates with config/default-schemas.php."
+msgstr "این بخش دیتابیس را کورکورانه reset نمی‌کند. فقط قالب‌های پیش‌فرض افزونه را با فایل\\n                        config/default-schemas.php\\n                        مقایسه یا همگام‌سازی می‌کند."
+
+#: app/Admin/SettingsPage.php:689
+msgid "This section sets store defaults for shipping and return information. These values are used on product offers and matter for Google Merchant listings."
+msgstr "این بخش مقدار پیش‌فرض فروشگاه را برای اطلاعات ارسال و مرجوعی مشخص می‌کند. این داده‌ها روی Offer محصولات استفاده می‌شوند و برای Merchant listings گوگل اهمیت دارند."
+
+#: app/Admin/SettingsPage.php:345
+msgid "This text should be real, short, and consistent with the site content."
+msgstr "'این متن باید واقعی، کوتاه و مطابق محتوای سایت باشد.'"
+
+#: app/Admin/SettingsPage.php:2023
+msgid "This value is used as contactType in Schema."
+msgstr "این مقدار در Schema به عنوان contactType استفاده می‌شود."
+
+#: app/Admin/SettingsPage.php:1107
+msgid "Thursday"
+msgstr "پنجشنبه"
+
+#: app/Data/ResolverVariableCatalog.php:95
+msgid "Title"
+msgstr "عنوان"
+
+#: app/Admin/SchemaBuilderPage.php:323
+msgid "Total templates"
+msgstr "کل الگوها"
+
+#: app/Admin/SettingsPage.php:1105
+msgid "Tuesday"
+msgstr "سه‌شنبه"
+
+#: app/Data/ResolverVariableCatalog.php:48
+msgid "Type"
+msgstr "Type"
+
+#: app/Data/ResolverVariableCatalog.php:49
+msgid "Types"
+msgstr "Types"
+
+#: app/Admin/SettingsPage.php:1252
+msgid "Unknown maintenance action."
+msgstr "'عملیات نگهداری شناخته نشد.'"
+
+#: database/seed-defaults.php:463
+msgid "Updating template %s failed."
+msgstr "sprintf('بروزرسانی الگوی «%s» ناموفق بود.', $name)"
+
+#: app/Data/ResolverVariableCatalog.php:54
+msgid "Url"
+msgstr "Url"
+
+#: app/Admin/TemplateEditorPage.php:465
+msgid "Use this section to create custom variables. For example, you can create a variable named"
+msgstr "Use this section to create custom variables. For example, you can create a variable named"
+
+#: app/Admin/SettingsPage.php:202
+msgid "Used as name in Schema output."
+msgstr "'در خروجی Schema به عنوان name استفاده می‌شود.'"
+
+#: app/Admin/SettingsPage.php:278
+msgid "Useful for Store, LocalBusiness, or shop schemas."
+msgstr "'برای Store، LocalBusiness یا فروشگاه کاربرد دارد.'"
+
+#: app/Admin/Assets.php:319
+msgid "User Meta"
+msgstr "User Meta"
+
+#: app/Admin/SettingsPage.php:330
+msgid "VAT ID"
+msgstr "'شناسه ارزش افزوده'"
+
+#: app/Admin/TemplateEditorPage.php:262
+msgid "Validator warning - "
+msgstr "'هشدار Validator - '"
+
+#: app/Admin/TemplateEditorPage.php:262
+msgid "Validator warning: "
+msgstr "'هشدار Validator: '"
+
+#: app/Admin/Assets.php:373
+msgid "Value"
+msgstr "Value"
+
+#: app/Admin/Assets.php:337
+msgid "Value transform"
+msgstr "Value transform"
+
+#: app/Admin/TemplateEditorPage.php:786
+msgid "Variable catalog was not found. Check the ResolverVariableCatalog.php file."
+msgstr "کاتالوگ متغیرها پیدا نشد. فایل ResolverVariableCatalog.php را بررسی کن."
+
+#: app/Admin/Assets.php:333
+msgid "Variable name"
+msgstr "Variable name"
+
+#: app/Data/ResolverVariableCatalog.php:137
+msgid "Variables for search results and breadcrumb trails."
+msgstr "متغیرهای مخصوص نتایج جستجو و مسیر راهنما."
+
+#: app/Data/ResolverVariableCatalog.php:123
+msgid "Variation count"
+msgstr "تعداد variation"
+
+#: app/Data/ResolverVariableCatalog.php:65
+msgid "Vat id"
+msgstr "Vat id"
+
+#: app/Admin/TemplateEditorPage.php:490
+msgid "View / edit raw bindings JSON"
+msgstr "مشاهده / ویرایش JSON خام Bindingها"
+
+#: app/Admin/Assets.php:394
+msgid "Warnings:"
+msgstr "Warnings:"
+
+#: app/Core/GlobalSettings.php:478
+msgid "Warranty and after-sales support"
+msgstr "'گارانتی و خدمات پس از فروش'"
+
+#: app/Schema/SchemaTemplateContract.php:23
+msgid "WebPage - Page"
+msgstr "'WebPage - صفحه'"
+
+#: app/Schema/SchemaTemplateContract.php:22
+msgid "WebSite - Website"
+msgstr "'WebSite - وب‌سایت'"
+
+#: app/Data/ResolverVariableCatalog.php:38
+msgid "Webpage id"
+msgstr "شناسه صفحه"
+
+#: app/Data/ResolverVariableCatalog.php:37
+msgid "Website id"
+msgstr "شناسه وب‌سایت"
+
+#: app/Data/ResolverVariableCatalog.php:26
+msgid "Website search target"
+msgstr "آدرس جستجوی سایت"
+
+#: app/Admin/SettingsPage.php:1106
+msgid "Wednesday"
+msgstr "چهارشنبه"
+
+#: app/Admin/SettingsPage.php:744
+msgid "When enabled, MerchantReturnPolicy is added to product offers. Enable it only when this policy really exists on the site."
+msgstr "'اگر روشن باشد، MerchantReturnPolicy داخل Offer محصولات اضافه می‌شود. فقط وقتی روشن کن که این سیاست واقعاً در سایت وجود دارد.'"
+
+#: app/Admin/SettingsPage.php:974
+msgid "When enabled, address, map, geo coordinates, and opening hours are used in Schema output."
+msgstr "'با فعال‌سازی این گزینه، آدرس، نقشه، مختصات جغرافیایی و ساعات کاری در خروجی Schema استفاده می‌شود.'"
+
+#: app/Admin/SettingsPage.php:843
+msgid "When enabled, shippingDetails is added to product offers. Enable it only when the store really ships products."
+msgstr "'اگر روشن باشد، shippingDetails داخل Offer محصولات اضافه می‌شود. فقط وقتی روشن کن که فروشگاه واقعاً ارسال کالا دارد.'"
+
+#: app/Admin/SettingsPage.php:711
+msgid "When enabled, store data such as shipping, returns, payment methods, and currencies are used in schema. The fields below are always visible for configuration, but are not added to schema output until this option is enabled."
+msgstr "'با فعال‌سازی این گزینه، داده‌های فروشگاهی مثل ارسال، مرجوعی، روش پرداخت و ارز فروشگاه در schema استفاده می‌شود. فیلدهای پایین همیشه برای تنظیم‌کردن دیده می‌شوند، اما تا این گزینه فعال نباشد وارد خروجی schema نمی‌شوند.'"
+
+#: app/Admin/Assets.php:378
+msgid "When the condition matches, the specified path is removed from the final Schema output."
+msgstr "When the condition matches, the specified path is removed from the final Schema output."
+
+#: app/Data/ResolverVariableCatalog.php:109
+#: app/Schema/SchemaTemplateContract.php:43
+msgid "WooCommerce product"
+msgstr "محصول ووکامرس"
+
+#: app/Admin/Assets.php:316
+#: app/Admin/Assets.php:428
+msgid "WooCommerce product attribute"
+msgstr "ویژگی محصول ووکامرس"
+
+#: app/Admin/Assets.php:320
+#: app/Admin/Assets.php:432
+msgid "WordPress option"
+msgstr "Option وردپرس"
+
+#: app/Admin/Assets.php:408
+msgid "Yes"
+msgstr "بله"
+
+#: app/Admin/SettingsPage.php:501
+msgid "You can define multiple contact types, such as sales, customer support, technical support, order support, or warranty."
+msgstr "می‌توانی چند نوع تماس تعریف کنی؛ مثل فروش، پشتیبانی مشتری، پشتیبانی فنی، پیگیری سفارش یا گارانتی."
+
+#: app/Admin/AdminMenu.php:200
+msgid "You do not have permission to access AMK Schema Core pages."
+msgstr "You do not have permission to access AMK Schema Core pages."
+
+#: app/Admin/SchemaBuilderPage.php:29
+#: app/Admin/SettingsPage.php:16
+#: app/Admin/TemplateEditorPage.php:31
+msgid "You do not have permission to access this page."
+msgstr "esc_html__('شما دسترسی لازم برای مشاهده این صفحه را ندارید.', 'amk-schema-core')"
+
+#: app/Core/SchemaMaintenance.php:142
+msgid "You do not have permission to run maintenance actions."
+msgstr "'دسترسی کافی برای اجرای عملیات نگهداری وجود ندارد.'"
+
+#: app/Admin/SettingsPage.php:1207
+msgid "You do not have permission to run the maintenance tool."
+msgstr "'دسترسی کافی برای اجرای ابزار نگهداری وجود ندارد.'"
+
+#: app/Schema/SchemaValidator.php:721
+msgid "` is not in the plugin support list for the current type. If it was added intentionally, this is not critical."
+msgstr "'` برای type فعلی در لیست پشتیبانی افزونه نیست. اگر عمداً اضافه شده، مشکل بحرانی نیست.'"
+
+#: app/Schema/SchemaValidator.php:690
+msgid "` is not suitable for `OnlineStore` alone. If the store has a physical location, set multiple types such as `Organization + Store + OnlineStore`."
+msgstr "'` برای `OnlineStore` تنها مناسب نیست. اگر فروشگاه موقعیت فیزیکی دارد، type را به صورت چندگانه مثل `Organization + Store + OnlineStore` تنظیم کن.'"
+
+#: app/Schema/SchemaValidator.php:773
+msgid "` is not supported by the plugin validator."
+msgstr "'` توسط Validator افزونه پشتیبانی نمی‌شود.'"
+
+#: app/Schema/SchemaValidator.php:1021
+msgid "` must be a string or array."
+msgstr "'` باید string یا array باشد.'"
+
+#: app/Schema/SchemaValidator.php:1066
+msgid "` must be an object, array, reference string, or placeholder."
+msgstr "'` باید object، array، reference string یا placeholder باشد.'"
+
+#: app/Schema/SchemaValidator.php:1085
+msgid "` must contain objects or references."
+msgstr "'` باید شامل object یا reference باشد.'"
+
+#: app/Schema/SchemaValidator.php:1014
+msgid "` must contain string values."
+msgstr "'` باید شامل مقدارهای string باشد.'"
+
+#: app/Schema/SchemaValidator.php:1043
+msgid "` should be a number or numeric string."
+msgstr "'` بهتر است عدد یا string عددی باشد.'"
+
+#: app/Schema/SchemaValidator.php:983
+msgid "` should be a string."
+msgstr "'` بهتر است string باشد.'"
+
+#: app/Schema/SchemaValidator.php:873
+msgid "`@context` must be a string or object."
+msgstr "'`@context` باید string یا object باشد.'"
+
+#: app/Schema/SchemaValidator.php:620
+#: app/Schema/SchemaValidator.php:663
+msgid "`@graph` must be an array."
+msgstr "'`@graph` باید array باشد.'"
+
+#: app/Schema/SchemaValidator.php:768
+msgid "`@type` cannot be empty."
+msgstr "'`@type` نمی‌تواند خالی باشد.'"
+
+#: app/Schema/SchemaValidator.php:762
+msgid "`@type` must be a string or an array of strings."
+msgstr "'`@type` باید string یا array از stringها باشد.'"
+
+#: app/Schema/SchemaValidator.php:755
+msgid "`@type` must be a string."
+msgstr "'`@type` باید string باشد.'"
+
+#: app/Schema/SchemaValidator.php:699
+msgid "`itemListElement` is not a clean structure for `SiteNavigationElement`. For a site menu, create each link as a separate `SiteNavigationElement` or change the type to `ItemList`."
+msgstr "'`itemListElement` برای `SiteNavigationElement` ساختار تمیزی نیست. برای منوی سایت، هر لینک را به صورت یک `SiteNavigationElement` جدا بساز یا type را به `ItemList` تغییر بده.'"
+
+#: app/Schema/SchemaValidator.php:1104
+msgid "`itemListElement` must be an array."
+msgstr "'`itemListElement` باید array باشد.'"
+
+#: app/Admin/TemplateEditorPage.php:847
+msgid "and"
+msgstr "and"
+
+#: app/Admin/TemplateEditorPage.php:467
+msgid "and read its value from product meta such as"
+msgstr "and read its value from product meta such as"
+
+#: app/Core/SchemaMaintenance.php:439
+msgid "bindings do not match the current default version."
+msgstr "'bindings با نسخه پیش‌فرض فعلی همخوان نیست.'"
+
+#: app/Admin/TemplateEditorPage.php:849
+msgid "must be used as the complete value of a property."
+msgstr "must be used as the complete value of a property."
+
+#: app/Core/SchemaMaintenance.php:459
+msgid "override does not match the current default version."
+msgstr "'override با نسخه پیش‌فرض فعلی همخوان نیست.'"
+
+#: app/Core/SchemaMaintenance.php:455
+msgid "priority does not match the current default version."
+msgstr "'priority با نسخه پیش‌فرض فعلی همخوان نیست.'"
+
+#: app/Core/SchemaMaintenance.php:435
+msgid "schema_json does not match config/default-schemas.php."
+msgstr "'schema_json با config/default-schemas.php همخوان نیست.'"
+
+#: app/Core/SchemaMaintenance.php:451
+msgid "status does not match the current default version."
+msgstr "'status با نسخه پیش‌فرض فعلی همخوان نیست.'"
+
+#: app/Admin/SettingsPage.php:1043
+msgid "to"
+msgstr "to"
+
+#: app/Admin/Assets.php:381
+msgid "wpApiSettings is not available on this page. Conditions were only updated in the textarea."
+msgstr "wpApiSettings is not available on this page. Conditions were only updated in the textarea."

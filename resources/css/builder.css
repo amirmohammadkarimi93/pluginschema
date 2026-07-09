@@ -1,0 +1,61 @@
+/* Container */
+.amk-schema-builder {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* Table */
+.amk-schema-builder table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.amk-schema-builder table th,
+.amk-schema-builder table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.amk-schema-builder table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+/* Buttons */
+.amk-schema-builder button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.amk-schema-builder button:hover {
+    background-color: #006799;
+}
+
+/* Inputs */
+.amk-schema-builder input[type="number"],
+.amk-schema-builder input[type="text"],
+.amk-schema-builder select {
+    width: 80px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Condition rows */
+.condition-row {
+    margin-bottom: 8px;
+    padding: 6px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
