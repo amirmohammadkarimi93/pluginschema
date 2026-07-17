@@ -196,10 +196,10 @@ class Activator {
 
 
     /**
-     * Migrate old single-country commerce settings.
+     * Migrate legacy commerce country settings to the newer mode + list structure.
      *
-     * Converts legacy values like "Worldwide" into the new explicit mode
-     * structure without changing real user country codes.
+     * Supports old single-country values, legacy comma/pipe-separated values,
+     * and previously-saved arrays while avoiding destructive guesses for empty data.
      *
      * @return void
      */
@@ -216,29 +216,54 @@ class Activator {
         $commerce = $settings['commerce'];
 
         foreach ([
-            'shipping_country' => 'shipping',
+            'shipping_country'      => 'shipping',
             'return_policy_country' => 'return_policy',
-        ] as $field => $prefix) {
+        ] as $legacy_field => $prefix) {
 
-            if (!isset($commerce[$field])) {
+            $mode_key      = $prefix . '_mode';
+            $countries_key = $prefix . '_countries';
+
+            $current_mode      = self::normalize_commerce_country_mode($commerce[$mode_key] ?? '');
+            $current_countries = self::normalize_commerce_country_values($commerce[$countries_key] ?? []);
+            $legacy_value      = $commerce[$legacy_field] ?? null;
+            $legacy_countries  = self::normalize_commerce_country_values($legacy_value);
+            $legacy_worldwide  = self::is_worldwide_country_value($legacy_value);
+
+            if ($current_mode === 'worldwide') {
+                if (($commerce[$countries_key] ?? null) !== ['WORLDWIDE']) {
+                    $commerce[$countries_key] = ['WORLDWIDE'];
+                    $changed = true;
+                }
+
                 continue;
             }
 
-            $value = strtoupper(trim((string) $commerce[$field]));
+            if ($current_mode === 'specific_countries' && !empty($current_countries)) {
+                if (($commerce[$countries_key] ?? null) !== $current_countries) {
+                    $commerce[$countries_key] = $current_countries;
+                    $changed = true;
+                }
 
-            if ($value === 'WORLDWIDE' || $value === 'WORLD WIDE' || $value === '') {
+                continue;
+            }
 
-                $commerce[$prefix . '_mode'] = 'worldwide';
-                $commerce[$prefix . '_countries'] = [];
+            if ($legacy_worldwide) {
+                $commerce[$mode_key]      = 'worldwide';
+                $commerce[$countries_key] = ['WORLDWIDE'];
                 $changed = true;
-
                 continue;
             }
 
-            if (preg_match('/^[A-Z]{2}$/', $value)) {
+            if (!empty($legacy_countries)) {
+                $commerce[$mode_key]      = 'specific_countries';
+                $commerce[$countries_key] = $legacy_countries;
+                $changed = true;
+                continue;
+            }
 
-                $commerce[$prefix . '_mode'] = 'specific_countries';
-                $commerce[$prefix . '_countries'] = [$value];
+            if (!empty($current_countries)) {
+                $commerce[$mode_key]      = 'specific_countries';
+                $commerce[$countries_key] = $current_countries;
                 $changed = true;
             }
         }
@@ -247,6 +272,68 @@ class Activator {
             $settings['commerce'] = $commerce;
             update_option($option_key, $settings, false);
         }
+    }
+
+    /**
+     * Normalize the stored commerce country mode.
+     *
+     * @param mixed $mode
+     * @return string
+     */
+    private static function normalize_commerce_country_mode($mode) {
+        $mode = is_string($mode) ? strtolower(trim($mode)) : '';
+
+        return in_array($mode, ['worldwide', 'specific_countries'], true) ? $mode : '';
+    }
+
+    /**
+     * Normalize legacy or current country values to a clean list.
+     *
+     * @param mixed $value
+     * @return array
+     */
+    private static function normalize_commerce_country_values($value) {
+        if (is_array($value)) {
+            $items = $value;
+        } elseif (is_string($value) || is_numeric($value)) {
+            $items = preg_split('/[|,]/', (string) $value);
+        } else {
+            $items = [];
+        }
+
+        $normalized = [];
+
+        foreach ((array) $items as $item) {
+            $item = strtoupper(trim((string) $item));
+
+            if ($item === '') {
+                continue;
+            }
+
+            if ($item === 'WORLDWIDE' || $item === 'WORLD WIDE' || $item === 'ALL COUNTRIES') {
+                return ['WORLDWIDE'];
+            }
+
+            if (!preg_match('/^[A-Z]{2}$/', $item)) {
+                continue;
+            }
+
+            $normalized[] = $item;
+        }
+
+        return array_values(array_unique($normalized));
+    }
+
+    /**
+     * Determine whether the given value explicitly means worldwide coverage.
+     *
+     * @param mixed $value
+     * @return bool
+     */
+    private static function is_worldwide_country_value($value) {
+        $countries = self::normalize_commerce_country_values($value);
+
+        return count($countries) === 1 && $countries[0] === 'WORLDWIDE';
     }
 
     /**

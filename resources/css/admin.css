@@ -1053,8 +1053,9 @@
 }
 
 .amk-schema-list-shell {
-    max-width: 1180px;
-    margin: 28px auto 0;
+    width: 100%;
+    max-width: none;
+    margin: 28px 0 0;
 }
 
 .amk-schema-list-hero {
@@ -2191,3 +2192,4 @@ button,
 
     font-family: inherit !important;
 }
+

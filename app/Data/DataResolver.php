@@ -1341,6 +1341,77 @@ class DataResolver {
     }
 
     /**
+     * Normalize a list of country values for Schema.org output.
+     *
+     * Accepts arrays and legacy comma/pipe-separated strings, removes the
+     * non-ISO WORLDWIDE sentinel, normalizes supported aliases, and returns
+     * only unique ISO 3166-1 alpha-2 country codes.
+     *
+     * @param mixed $countries
+     * @return array
+     */
+    private function normalize_schema_country_list($countries) {
+
+        if (is_string($countries)) {
+            $countries = preg_split('/[,|]+/', $countries);
+        }
+
+        if (!is_array($countries)) {
+            return [];
+        }
+
+        $normalized_countries = [];
+
+        foreach ($countries as $country) {
+            $raw_country = strtoupper(trim((string) $country));
+
+            if ($raw_country === '' || $raw_country === 'WORLDWIDE' || $raw_country === 'WORLD WIDE') {
+                continue;
+            }
+
+            $normalized_country = $this->normalize_schema_country_code($country);
+
+            if (preg_match('/^[A-Z]{2}$/', $normalized_country)) {
+                $normalized_countries[] = $normalized_country;
+            }
+        }
+
+        return array_values(array_unique($normalized_countries));
+    }
+
+    /**
+     * Build shipping destination regions for OfferShippingDetails.
+     *
+     * The legacy single-country value is used only as a fallback when the new
+     * multi-country setting is empty. No synthetic worldwide country value is
+     * emitted because Schema.org expects real country codes in addressCountry.
+     *
+     * @param mixed  $countries
+     * @param string $fallback_country
+     * @return array
+     */
+    private function build_offer_shipping_destinations($countries, $fallback_country = '') {
+
+        $countries = $this->normalize_schema_country_list($countries);
+        $fallback_country = $this->normalize_schema_country_code($fallback_country);
+
+        if (empty($countries) && preg_match('/^[A-Z]{2}$/', $fallback_country)) {
+            $countries[] = $fallback_country;
+        }
+
+        $destinations = [];
+
+        foreach ($countries as $country) {
+            $destinations[] = [
+                '@type'          => 'DefinedRegion',
+                'addressCountry' => $country,
+            ];
+        }
+
+        return $destinations;
+    }
+
+    /**
      * Normalize country values for schema output.
      *
      * @param mixed $country

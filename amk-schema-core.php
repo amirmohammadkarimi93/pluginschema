@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AMK Schema Core
  * Description: Advanced Schema Engine for WooCommerce (Templates + Rules + Dynamic JSON-LD)
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: AmirMohammad Karimi
  * Text Domain: amk-schema-core
  * Domain Path: /languages
@@ -17,7 +17,7 @@ defined('ABSPATH') || exit;
 */
 
 if (!defined('AMK_SCHEMA_CORE_VERSION')) {
-    define('AMK_SCHEMA_CORE_VERSION', '1.0.2');
+    define('AMK_SCHEMA_CORE_VERSION', '1.0.3');
 }
 
 if (!defined('AMK_SCHEMA_CORE_FILE')) {

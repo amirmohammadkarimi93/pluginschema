@@ -2461,8 +2461,22 @@ private function render_tooltip_styles() {
 
     private function country_selector_field($label, $name, $value = [], $args = []) {
 
+        if (is_string($value)) {
+            $value = preg_split('/[|,]/', $value);
+        }
+
         if (!is_array($value)) {
             $value = [];
+        }
+
+        $value = array_values(array_unique(array_filter(array_map(static function ($country) {
+            return strtoupper(trim((string) $country));
+        }, $value), static function ($country) {
+            return $country !== '';
+        })));
+
+        if (in_array('WORLDWIDE', $value, true)) {
+            $value = ['WORLDWIDE'];
         }
 
         $requires = $args['requires_checkbox'] ?? '';
@@ -2483,6 +2497,12 @@ private function render_tooltip_styles() {
                     <strong><?php echo esc_html($label); ?></strong>
                 </label>
 
+                <input
+                    type="hidden"
+                    name="<?php echo esc_attr($name); ?>"
+                    value=""
+                >
+
                 <select
                     class="amk-country-select"
                     name="<?php echo esc_attr($name); ?>[]"
@@ -2497,7 +2517,7 @@ private function render_tooltip_styles() {
                 </select>
 
                 <p class="description">
-                    <?php esc_html_e('Select countries from the list.', 'amk-schema-core'); ?>
+                    <?php esc_html_e('Select countries from the list. Choose “All countries” for worldwide coverage, or leave the field empty when no countries should be saved.', 'amk-schema-core'); ?>
                 </p>
             </div>
         </div>
