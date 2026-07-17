@@ -687,7 +687,7 @@ class GlobalSettings {
             'currenciesAccepted'        => (($organization['type'] ?? '') === 'LocalBusiness')
                 ? ($organization['currencies_accepted'] ?? '')
                 : '',
-            'acceptedPaymentMethod'     => $organization['payment_accepted'] ?? '',
+            'acceptedPaymentMethod'     => self::build_payment_method($organization),
         ];
 
         $data = self::remove_empty_values($data, true);
@@ -2404,6 +2404,26 @@ class GlobalSettings {
         $value = preg_replace('/[^0-9.\-]/', '', $value);
 
         return $value;
+    }
+
+    /**
+     * Normalize payment methods for Schema.org output.
+     *
+     * @param array $organization
+     * @return array
+     */
+    private static function build_payment_method($organization) {
+
+        $payment = trim((string) ($organization['payment_accepted'] ?? ''));
+
+        if ($payment === '') {
+            return [];
+        }
+
+        return [
+            '@type' => 'PaymentMethod',
+            'name'  => $payment,
+        ];
     }
 
     private static function remove_empty_values($data, $remove_type_only = false) {

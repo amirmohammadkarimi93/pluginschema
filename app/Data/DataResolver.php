@@ -350,7 +350,7 @@ class DataResolver {
         $image          = $this->get_product_image($product);
         $gallery_images = $this->get_product_gallery_images($product);
         $images         = !empty($gallery_images) ? $gallery_images : ($image ? [$image] : '');
-        $offer_data     = $is_variable ? [] : $this->build_product_offer_data($product, $product_url);
+        $offer_data     = $is_variable ? $this->build_variable_product_group_offer_data($product, $product_url) : $this->build_product_offer_data($product, $product_url);
         $description    = $this->get_product_schema_description($product);
         $short_desc     = $this->clean_text($product->get_short_description());
 
@@ -1139,6 +1139,106 @@ class DataResolver {
         return $this->deep_cleanup_array($offer);
     }
 
+
+    /**
+     * Build ProductGroup AggregateOffer when variation offers are not materially different.
+     *
+     * @param mixed $product
+     * @param string $url
+     * @return array
+     */
+    private function build_variable_product_group_offer_data($product, $url = '') {
+
+        if (!$product || !$this->product_is_type($product, 'variable')) {
+            return [];
+        }
+
+        $children = method_exists($product, 'get_children') ? $product->get_children() : [];
+        $offers = [];
+
+        foreach ($children as $child_id) {
+            if (!function_exists('wc_get_product')) {
+                break;
+            }
+
+            $variation = wc_get_product($child_id);
+
+            if (!$variation || !method_exists($variation, 'get_price')) {
+                continue;
+            }
+
+            $variation_offer = $this->build_product_offer_data($variation, $url);
+
+            if (!empty($variation_offer)) {
+                $offers[] = $variation_offer;
+            }
+        }
+
+        if (empty($offers)) {
+            return [];
+        }
+
+        $prices = array_filter(array_map(function ($offer) {
+            return $offer['price'] ?? '';
+        }, $offers));
+
+        return $this->deep_cleanup_array([
+            '@type' => 'AggregateOffer',
+            'url' => $url,
+            'priceCurrency' => $this->get_schema_price_currency(),
+            'lowPrice' => !empty($prices) ? min($prices) : '',
+            'highPrice' => !empty($prices) ? max($prices) : '',
+            'offerCount' => count($offers),
+        ]);
+    }
+
+    /**
+     * Determine whether a variation needs its own Offer.
+     *
+     * @param mixed $variation
+     * @param mixed $parent
+     * @return bool
+     */
+    private function variation_requires_individual_offer($variation, $parent) {
+
+        if (!$variation || !$parent) {
+            return true;
+        }
+
+        $children = method_exists($parent, 'get_children') ? $parent->get_children() : [];
+        $reference = null;
+
+        foreach ($children as $child_id) {
+            if (!function_exists('wc_get_product')) {
+                break;
+            }
+
+            $item = wc_get_product($child_id);
+
+            if (!$item || !method_exists($item, 'get_price')) {
+                continue;
+            }
+
+            $current = [
+                'price' => (string) $item->get_price(),
+                'currency' => $this->get_schema_price_currency(),
+                'availability' => $this->get_product_availability($item),
+                'sale' => method_exists($item, 'get_sale_price') ? (string) $item->get_sale_price() : '',
+            ];
+
+            if ($reference === null) {
+                $reference = $current;
+                continue;
+            }
+
+            if ($reference !== $current) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     /**
      * Return policy for Product > Offer merchant listing markup.
      *
@@ -1565,6 +1665,12 @@ class DataResolver {
 
         $variants = [];
 
+        // Avoid repeating the same image on every variant when variations do not
+        // have meaningful visual differences. Google can use the ProductGroup
+        // image in this case. Keep variant images only when a variation has its
+        // own distinct image.
+        $variant_image_map = $this->prepare_variant_image_map($children, $product);
+
         foreach ($children as $variation_id) {
             $variation_id = absint($variation_id);
 
@@ -1598,13 +1704,16 @@ class DataResolver {
                 'gtin'        => $this->get_product_identifier($variation, 'gtin'),
                 'mpn'         => $this->get_product_identifier($variation, 'mpn'),
                 'url'         => $variant_url,
-                'image'       => $this->get_variation_image($variation, $product),
+                'image'       => $variant_image_map[$variation_id] ?? '',
                 'description' => $this->get_variation_description($variation, $product),
                 'isVariantOf' => [
                     '@id' => $group_id,
                 ],
-                'offers'      => $this->build_product_offer_data($variation, $variant_url),
             ];
+
+            if ($this->variation_requires_individual_offer($variation, $product)) {
+                $variant['offers'] = $this->build_product_offer_data($variation, $variant_url);
+            }
 
             $variant = $this->add_variation_attributes($variant, $variation, $product);
             $variant = $this->deep_cleanup_array($variant);
@@ -1692,6 +1801,51 @@ class DataResolver {
         }
 
         return 'variation-' . absint($variation->get_id());
+    }
+
+    /**
+     * Prepare variation images according to real variation differences.
+     *
+     * If all variations point to the same image, the image belongs to the
+     * ProductGroup and should not be duplicated inside every variant.
+     *
+     * @param array $children
+     * @param mixed $parent_product
+     * @return array
+     */
+    private function prepare_variant_image_map($children, $parent_product) {
+
+        $images = [];
+        $unique = [];
+
+        foreach ($children as $variation_id) {
+            $variation = function_exists('wc_get_product')
+                ? wc_get_product(absint($variation_id))
+                : null;
+
+            if (!$variation) {
+                continue;
+            }
+
+            $image = '';
+
+            if (method_exists($variation, 'get_image_id') && $variation->get_image_id()) {
+                $image = $this->get_product_image($variation);
+            }
+
+            if ($image !== '') {
+                $images[absint($variation_id)] = $image;
+                $unique[$image] = true;
+            }
+        }
+
+        // No variation has a dedicated image or all dedicated images are equal.
+        // The ProductGroup image will represent the product.
+        if (count($unique) <= 1) {
+            return [];
+        }
+
+        return $images;
     }
 
     /**
