@@ -2021,7 +2021,7 @@ class GlobalSettings {
         if (($commerce['free_shipping_threshold'] ?? '') !== '' && is_numeric($commerce['free_shipping_threshold'])) {
             $shipping_conditions['orderValue'] = [
                 '@type'    => 'MonetaryAmount',
-                'value'    => (float) $commerce['free_shipping_threshold'],
+                'minValue' => (float) $commerce['free_shipping_threshold'],
                 'currency' => $currency,
             ];
         }
