@@ -684,7 +684,9 @@ class GlobalSettings {
             'hasMap'                    => $settings['local_business']['has_map'] ?? '',
             'openingHoursSpecification' => self::build_opening_hours_specification($settings),
             'priceRange'                => $organization['price_range'] ?? '',
-            'currenciesAccepted'        => $organization['currencies_accepted'] ?? '',
+            'currenciesAccepted'        => (($organization['type'] ?? '') === 'LocalBusiness')
+                ? ($organization['currencies_accepted'] ?? '')
+                : '',
             'acceptedPaymentMethod'     => $organization['payment_accepted'] ?? '',
         ];
 
@@ -2039,8 +2041,7 @@ class GlobalSettings {
             'name'               => $commerce['shipping_name'] ?? '',
             'description'        => $commerce['shipping_description'] ?? '',
             'fulfillmentType'    => 'https://schema.org/FulfillmentTypeDelivery',
-            'shippingConditions' => $shipping_conditions,
-            'deliveryTime'       => $delivery_time,
+            'shippingConditions' => array_merge($shipping_conditions, $delivery_time ? ['deliveryTime' => $delivery_time] : []),
         ];
 
         return self::remove_empty_values($data, true);
