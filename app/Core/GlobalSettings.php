@@ -71,26 +71,30 @@ class GlobalSettings {
             'social' => array_fill_keys(array_keys(self::social_options()), ''),
 
             'commerce' => [
-                'enabled'                 => 0,
+                'enabled'                   => 0,
 
-                'return_policy_enabled'   => 0,
-                'return_policy_url'       => '',
-                'return_policy_country'   => '',
-                'merchant_return_days'    => '',
-                'return_method'           => 'https://schema.org/ReturnByMail',
-                'return_fees'             => 'https://schema.org/FreeReturn',
-                'refund_type'             => 'https://schema.org/FullRefund',
+                'return_policy_enabled'     => 0,
+                'return_policy_url'         => '',
+                'return_policy_mode'        => 'worldwide',
+                'return_policy_countries'   => [],
+                'return_policy_country'     => '',
+                'merchant_return_days'      => '',
+                'return_method'             => 'https://schema.org/ReturnByMail',
+                'return_fees'               => 'https://schema.org/FreeReturn',
+                'refund_type'               => 'https://schema.org/FullRefund',
 
-                'shipping_enabled'        => 0,
-                'shipping_name'           => '',
-                'shipping_description'    => '',
-                'shipping_country'        => '',
-                'shipping_rate'           => '',
-                'free_shipping_threshold' => '',
-                'handling_min_days'       => '',
-                'handling_max_days'       => '',
-                'transit_min_days'        => '',
-                'transit_max_days'        => '',
+                'shipping_enabled'          => 0,
+                'shipping_name'             => '',
+                'shipping_description'      => '',
+                'shipping_mode'             => 'worldwide',
+                'shipping_countries'        => [],
+                'shipping_country'          => '',
+                'shipping_rate'             => '',
+                'free_shipping_threshold'   => '',
+                'handling_min_days'         => '',
+                'handling_max_days'         => '',
+                'transit_min_days'          => '',
+                'transit_max_days'          => '',
             ],
 
             'local_business' => [
@@ -115,12 +119,12 @@ class GlobalSettings {
         $settings = self::array_merge_recursive_distinct(self::defaults(), $stored);
         $settings = self::migrate_legacy_options($settings, $stored, $has_new_settings);
 
-        return self::sanitize($settings);
+        return self::sanitize($settings, $stored);
     }
 
     public static function update($settings) {
 
-        update_option(self::OPTION_KEY, self::sanitize($settings), false);
+        update_option(self::OPTION_KEY, self::sanitize($settings, $settings), false);
     }
 
 
@@ -198,7 +202,7 @@ class GlobalSettings {
 
     public static function to_resolver_data($settings = null) {
 
-        $settings = is_array($settings) ? self::sanitize($settings) : self::get();
+        $settings = is_array($settings) ? self::sanitize($settings, $settings) : self::get();
 
         $resolved_types       = self::resolve_organization_types($settings);
         $organization_types  = self::resolve_online_organization_types($settings, $resolved_types);
@@ -260,10 +264,27 @@ class GlobalSettings {
         ];
     }
 
-    public static function sanitize($settings) {
+    public static function sanitize($settings, $raw_settings = null) {
 
         $settings = is_array($settings) ? $settings : [];
+        $raw_settings = is_array($raw_settings) ? $raw_settings : $settings;
+        $raw_commerce = isset($raw_settings['commerce']) && is_array($raw_settings['commerce'])
+            ? $raw_settings['commerce']
+            : [];
+
         $settings = self::array_merge_recursive_distinct(self::defaults(), $settings);
+
+        $return_policy_scope = self::sanitize_commerce_country_scope(
+            $raw_commerce,
+            $settings['commerce'],
+            'return_policy'
+        );
+
+        $shipping_scope = self::sanitize_commerce_country_scope(
+            $raw_commerce,
+            $settings['commerce'],
+            'shipping'
+        );
 
         $site_profile = sanitize_key($settings['site_profile'] ?? 'general');
         $allowed_profiles = array_keys(self::profile_options());
@@ -330,32 +351,30 @@ class GlobalSettings {
             'social' => self::sanitize_social_links($settings['social'] ?? [], $settings['social_dynamic'] ?? null),
 
             'commerce' => [
-                'enabled'                 => !empty($settings['commerce']['enabled']) ? 1 : 0,
+                'enabled'                   => !empty($settings['commerce']['enabled']) ? 1 : 0,
 
-                'return_policy_enabled'   => !empty($settings['commerce']['return_policy_enabled']) ? 1 : 0,
-                'return_policy_url'       => esc_url_raw($settings['commerce']['return_policy_url'] ?? ''),
-                'return_policy_countries' => self::normalize_country_list($settings['commerce']['return_policy_countries'] ?? []),
-                'return_policy_mode'      => sanitize_key($settings['commerce']['return_policy_mode'] ?? 'worldwide'),
-                'return_policy_countries' => self::normalize_country_list($settings['commerce']['return_policy_countries'] ?? []),
-                'return_policy_country'   => self::normalize_address_country($settings['commerce']['return_policy_country'] ?? ''),
-                'merchant_return_days'    => self::sanitize_positive_integer_or_empty($settings['commerce']['merchant_return_days'] ?? ''),
-                'return_method'           => self::sanitize_schema_url_option($settings['commerce']['return_method'] ?? '', array_keys(self::return_method_options()), 'https://schema.org/ReturnByMail'),
-                'return_fees'             => self::sanitize_schema_url_option($settings['commerce']['return_fees'] ?? '', array_keys(self::return_fees_options()), 'https://schema.org/FreeReturn'),
-                'refund_type'             => self::sanitize_schema_url_option($settings['commerce']['refund_type'] ?? '', array_keys(self::refund_type_options()), 'https://schema.org/FullRefund'),
+                'return_policy_enabled'     => !empty($settings['commerce']['return_policy_enabled']) ? 1 : 0,
+                'return_policy_url'         => esc_url_raw($settings['commerce']['return_policy_url'] ?? ''),
+                'return_policy_mode'        => $return_policy_scope['mode'],
+                'return_policy_countries'   => $return_policy_scope['selection'],
+                'return_policy_country'     => $return_policy_scope['legacy_country'],
+                'merchant_return_days'      => self::sanitize_positive_integer_or_empty($settings['commerce']['merchant_return_days'] ?? ''),
+                'return_method'             => self::sanitize_schema_url_option($settings['commerce']['return_method'] ?? '', array_keys(self::return_method_options()), 'https://schema.org/ReturnByMail'),
+                'return_fees'               => self::sanitize_schema_url_option($settings['commerce']['return_fees'] ?? '', array_keys(self::return_fees_options()), 'https://schema.org/FreeReturn'),
+                'refund_type'               => self::sanitize_schema_url_option($settings['commerce']['refund_type'] ?? '', array_keys(self::refund_type_options()), 'https://schema.org/FullRefund'),
 
-                'shipping_enabled'        => !empty($settings['commerce']['shipping_enabled']) ? 1 : 0,
-                'shipping_name'           => sanitize_text_field($settings['commerce']['shipping_name'] ?? ''),
-                'shipping_description'    => sanitize_textarea_field($settings['commerce']['shipping_description'] ?? ''),
-                'shipping_countries'      => self::normalize_country_list($settings['commerce']['shipping_countries'] ?? []),
-                'shipping_mode'           => sanitize_key($settings['commerce']['shipping_mode'] ?? 'worldwide'),
-                'shipping_countries'      => self::normalize_country_list($settings['commerce']['shipping_countries'] ?? []),
-                'shipping_country'        => self::normalize_address_country($settings['commerce']['shipping_country'] ?? ''),
-                'shipping_rate'           => self::sanitize_decimal_or_empty($settings['commerce']['shipping_rate'] ?? ''),
-                'free_shipping_threshold' => self::sanitize_decimal_or_empty($settings['commerce']['free_shipping_threshold'] ?? ''),
-                'handling_min_days'       => self::sanitize_positive_integer_or_empty($settings['commerce']['handling_min_days'] ?? ''),
-                'handling_max_days'       => self::sanitize_max_days_or_empty($settings['commerce']['handling_min_days'] ?? '', $settings['commerce']['handling_max_days'] ?? ''),
-                'transit_min_days'        => self::sanitize_positive_integer_or_empty($settings['commerce']['transit_min_days'] ?? ''),
-                'transit_max_days'        => self::sanitize_max_days_or_empty($settings['commerce']['transit_min_days'] ?? '', $settings['commerce']['transit_max_days'] ?? ''),
+                'shipping_enabled'          => !empty($settings['commerce']['shipping_enabled']) ? 1 : 0,
+                'shipping_name'             => sanitize_text_field($settings['commerce']['shipping_name'] ?? ''),
+                'shipping_description'      => sanitize_textarea_field($settings['commerce']['shipping_description'] ?? ''),
+                'shipping_mode'             => $shipping_scope['mode'],
+                'shipping_countries'        => $shipping_scope['selection'],
+                'shipping_country'          => $shipping_scope['legacy_country'],
+                'shipping_rate'             => self::sanitize_decimal_or_empty($settings['commerce']['shipping_rate'] ?? ''),
+                'free_shipping_threshold'   => self::sanitize_decimal_or_empty($settings['commerce']['free_shipping_threshold'] ?? ''),
+                'handling_min_days'         => self::sanitize_positive_integer_or_empty($settings['commerce']['handling_min_days'] ?? ''),
+                'handling_max_days'         => self::sanitize_max_days_or_empty($settings['commerce']['handling_min_days'] ?? '', $settings['commerce']['handling_max_days'] ?? ''),
+                'transit_min_days'          => self::sanitize_positive_integer_or_empty($settings['commerce']['transit_min_days'] ?? ''),
+                'transit_max_days'          => self::sanitize_max_days_or_empty($settings['commerce']['transit_min_days'] ?? '', $settings['commerce']['transit_max_days'] ?? ''),
             ],
 
             'local_business' => [
@@ -906,8 +925,12 @@ class GlobalSettings {
                 'available_language' => self::get_site_language_for_schema(),
             ],
             'commerce' => [
-                'shipping_country'      => $country,
-                'return_policy_country' => $country,
+                'shipping_mode'           => $country !== '' ? 'specific_countries' : 'worldwide',
+                'shipping_countries'      => $country !== '' ? [$country] : ['WORLDWIDE'],
+                'shipping_country'        => $country,
+                'return_policy_mode'      => $country !== '' ? 'specific_countries' : 'worldwide',
+                'return_policy_countries' => $country !== '' ? [$country] : ['WORLDWIDE'],
+                'return_policy_country'   => $country,
             ],
         ];
 
@@ -1750,14 +1773,13 @@ class GlobalSettings {
 
 
     /**
-     * Normalize selected countries from admin selector.
-     *
-     * Stores only ISO country codes.
+     * Normalize a country selector value while preserving the WORLDWIDE UI
+     * sentinel. Real countries are stored as ISO 3166-1 alpha-2 codes.
      *
      * @param mixed $countries
      * @return array
      */
-    private static function normalize_country_list($countries) {
+    private static function normalize_country_selection($countries) {
 
         if (is_string($countries)) {
             $countries = preg_split('/[,|]+/', $countries);
@@ -1767,25 +1789,165 @@ class GlobalSettings {
             return [];
         }
 
-        $result = [];
+        $selection = [];
 
         foreach ($countries as $country) {
+            $country = sanitize_text_field(self::normalize_persian_digits((string) $country));
+            $country = trim($country);
 
-            $country = strtoupper(
-                sanitize_text_field((string) $country)
-            );
-
-            if ($country === 'WORLDWIDE') {
+            if ($country === '') {
                 continue;
             }
 
-            if (preg_match('/^[A-Z]{2}$/', $country)) {
-                $result[] = $country;
+            $upper = strtoupper(str_replace([' ', '-'], ['', '_'], $country));
+
+            if (in_array($upper, ['WORLDWIDE', 'WORLD_WIDE'], true)) {
+                return ['WORLDWIDE'];
             }
 
+            $country_code = self::normalize_address_country($country);
+            $country_code = strtoupper(trim((string) $country_code));
+
+            if (preg_match('/^[A-Z]{2}$/', $country_code)) {
+                $selection[] = $country_code;
+            }
         }
 
-        return array_values(array_unique($result));
+        return array_values(array_unique($selection));
+    }
+
+    /**
+     * Return only real ISO country codes from a selector value.
+     *
+     * @param mixed $countries
+     * @return array
+     */
+    private static function normalize_country_list($countries) {
+
+        $selection = self::normalize_country_selection($countries);
+
+        return array_values(array_filter($selection, static function ($country) {
+            return $country !== 'WORLDWIDE' && preg_match('/^[A-Z]{2}$/', $country);
+        }));
+    }
+
+    /**
+     * Sanitize the shared country-scope model used by return and shipping
+     * settings. This also repairs values saved by older plugin versions where
+     * the selector and mode fields could become inconsistent.
+     *
+     * @param array  $raw_commerce
+     * @param array  $merged_commerce
+     * @param string $prefix
+     * @return array
+     */
+    private static function sanitize_commerce_country_scope($raw_commerce, $merged_commerce, $prefix) {
+
+        $countries_key = $prefix . '_countries';
+        $mode_key      = $prefix . '_mode';
+        $legacy_key    = $prefix . '_country';
+
+        $has_raw_selection = array_key_exists($countries_key, $raw_commerce);
+        $raw_selection     = $has_raw_selection ? $raw_commerce[$countries_key] : [];
+        $selection         = self::normalize_country_selection($raw_selection);
+        $country_codes     = self::normalize_country_list($selection);
+
+        $legacy_country = self::normalize_address_country(
+            $raw_commerce[$legacy_key] ?? ($merged_commerce[$legacy_key] ?? '')
+        );
+
+        if (!preg_match('/^[A-Z]{2}$/', strtoupper((string) $legacy_country))) {
+            $legacy_country = '';
+        } else {
+            $legacy_country = strtoupper((string) $legacy_country);
+        }
+
+        $has_raw_mode = array_key_exists($mode_key, $raw_commerce);
+        $raw_mode = sanitize_key(
+            $has_raw_mode
+                ? $raw_commerce[$mode_key]
+                : (!$has_raw_selection ? ($merged_commerce[$mode_key] ?? '') : '')
+        );
+
+        $mode = in_array($raw_mode, ['worldwide', 'specific_countries'], true)
+            ? $raw_mode
+            : '';
+
+        if (in_array('WORLDWIDE', $selection, true)) {
+            $mode          = 'worldwide';
+            $selection     = ['WORLDWIDE'];
+            $country_codes = [];
+        } elseif (!empty($country_codes)) {
+            $mode      = 'specific_countries';
+            $selection = $country_codes;
+        } elseif (!$has_raw_selection && $legacy_country !== '') {
+            $mode          = 'specific_countries';
+            $selection     = [$legacy_country];
+            $country_codes = [$legacy_country];
+        } elseif ($mode === 'worldwide') {
+            $selection = ['WORLDWIDE'];
+        } else {
+            // An explicitly empty selector must remain empty. Treating it as
+            // worldwide would silently broaden a merchant policy.
+            $mode      = 'specific_countries';
+            $selection = [];
+        }
+
+        if ($legacy_country === '' && count($country_codes) === 1) {
+            $legacy_country = reset($country_codes);
+        }
+
+        return [
+            'mode'           => $mode,
+            'selection'      => array_values($selection),
+            'country_codes'  => array_values($country_codes),
+            'legacy_country' => $legacy_country,
+        ];
+    }
+
+    /**
+     * Resolve real country codes from sanitized commerce settings.
+     *
+     * @param array  $commerce
+     * @param string $prefix
+     * @return array
+     */
+    private static function get_commerce_country_codes($commerce, $prefix) {
+
+        $countries = self::normalize_country_list($commerce[$prefix . '_countries'] ?? []);
+
+        if (!empty($countries)) {
+            return $countries;
+        }
+
+        $legacy_country = self::normalize_address_country($commerce[$prefix . '_country'] ?? '');
+        $legacy_country = strtoupper(trim((string) $legacy_country));
+
+        if (preg_match('/^[A-Z]{2}$/', $legacy_country)) {
+            return [$legacy_country];
+        }
+
+        return [];
+    }
+
+    /**
+     * Build DefinedRegion nodes for shipping destinations.
+     *
+     * @param array $countries
+     * @return array
+     */
+    private static function build_shipping_destinations($countries) {
+
+        $destinations = [];
+
+        foreach (self::normalize_country_list($countries) as $country) {
+            $destinations[] = [
+                '@type'          => 'DefinedRegion',
+                'addressCountry' => $country,
+            ];
+        }
+
+        return $destinations;
     }
 
     private static function build_return_policy($settings) {
@@ -1795,20 +1957,25 @@ class GlobalSettings {
         }
 
         $commerce = isset($settings['commerce']) && is_array($settings['commerce']) ? $settings['commerce'] : [];
-        $country  = self::normalize_address_country($commerce['return_policy_country'] ?? '');
-        $days     = self::sanitize_positive_integer_or_empty($commerce['merchant_return_days'] ?? '');
+        $mode     = sanitize_key($commerce['return_policy_mode'] ?? 'worldwide');
+        $countries = self::get_commerce_country_codes($commerce, 'return_policy');
+        $days      = self::sanitize_positive_integer_or_empty($commerce['merchant_return_days'] ?? '');
 
-        // The current UI models only finite-window returns. Do not emit a weak
-        // MerchantReturnPolicy without country and real return window data.
-        if ($country === '' || $days === '') {
+        // Google requires applicableCountry for MerchantReturnPolicy and only
+        // accepts real ISO country codes. A WORLDWIDE sentinel must therefore
+        // never be printed as a Country value.
+        if ($mode !== 'specific_countries' || empty($countries) || $days === '') {
             return [];
         }
+
+        // Google currently accepts up to 50 applicable countries.
+        $countries = array_slice($countries, 0, 50);
+        $applicable_country = count($countries) === 1 ? reset($countries) : $countries;
 
         $data = [
             '@type'                => 'MerchantReturnPolicy',
             'url'                  => $commerce['return_policy_url'] ?? '',
-            'applicableCountry'    => $country,
-            'returnPolicyCountry'  => $country,
+            'applicableCountry'    => $applicable_country,
             'returnPolicyCategory' => 'https://schema.org/MerchantReturnFiniteReturnWindow',
             'merchantReturnDays'   => (int) $days,
             'returnMethod'         => $commerce['return_method'] ?? '',
@@ -1826,10 +1993,10 @@ class GlobalSettings {
         }
 
         $commerce = isset($settings['commerce']) && is_array($settings['commerce']) ? $settings['commerce'] : [];
-        $country  = self::normalize_address_country($commerce['shipping_country'] ?? '');
+        $mode      = sanitize_key($commerce['shipping_mode'] ?? 'worldwide');
+        $countries = self::get_commerce_country_codes($commerce, 'shipping');
 
-        // Shipping schema is only useful when a destination region is known.
-        if ($country === '') {
+        if ($mode === 'specific_countries' && empty($countries)) {
             return [];
         }
 
@@ -1837,11 +2004,11 @@ class GlobalSettings {
 
         $shipping_conditions = [
             '@type' => 'ShippingConditions',
-            'shippingDestination' => [
-                '@type'          => 'DefinedRegion',
-                'addressCountry' => $country,
-            ],
         ];
+
+        if ($mode === 'specific_countries') {
+            $shipping_conditions['shippingDestination'] = self::build_shipping_destinations($countries);
+        }
 
         if (($commerce['shipping_rate'] ?? '') !== '' && is_numeric($commerce['shipping_rate'])) {
             $shipping_conditions['shippingRate'] = [
@@ -1860,6 +2027,10 @@ class GlobalSettings {
         }
 
         $shipping_conditions = self::remove_empty_values($shipping_conditions, true);
+
+        if (count($shipping_conditions) === 1 && isset($shipping_conditions['@type'])) {
+            $shipping_conditions = [];
+        }
 
         $delivery_time = self::build_shipping_delivery_time($commerce);
 
